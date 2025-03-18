@@ -18,14 +18,18 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void Start()
+    private void OnEnable()
     {
-        
+        EventManager.Instance.OnGameStart += StartGame;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnDisable()
     {
-        
+        EventManager.Instance.OnGameStart -= StartGame;
+    }
+
+    private void StartGame()
+    {
+        SceneManager.Instance.LoadScene("SecondStage");
     }
 }
