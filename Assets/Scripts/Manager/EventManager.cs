@@ -1,16 +1,28 @@
+using System;
 using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static EventManager Instance { get; private set; }
+
+    public event Action OnGameStart;
+    
+    private void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InvokeGameStart()
     {
-        
+        OnGameStart?.Invoke();
     }
+    
 }

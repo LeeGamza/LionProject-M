@@ -1,0 +1,3224 @@
+fileFormatVersion: 2
+guid: c3e97fb75a036394cb51b6950776ae11
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7472176914746722095
+    second: Mmeteorites_0
+  - first:
+      213: -5667956507318754239
+    second: Mmeteorites_1
+  - first:
+      213: -8469858892543128265
+    second: Mmeteorites_2
+  - first:
+      213: 5711814483766267880
+    second: Mmeteorites_3
+  - first:
+      213: 4440630350328697626
+    second: Mmeteorites_4
+  - first:
+      213: -3026603503007393119
+    second: Mmeteorites_5
+  - first:
+      213: -3500322744058739545
+    second: Mmeteorites_6
+  - first:
+      213: 7753315748223777013
+    second: Mmeteorites_7
+  - first:
+      213: -8347796388116714856
+    second: Mmeteorites_8
+  - first:
+      213: -7668687169070762920
+    second: Mmeteorites_9
+  - first:
+      213: -7810978958278610819
+    second: Mmeteorites_10
+  - first:
+      213: 1219598423780147651
+    second: Mmeteorites_11
+  - first:
+      213: 7777675805048233226
+    second: Mmeteorites_12
+  - first:
+      213: 6561140903586191994
+    second: Mmeteorites_13
+  - first:
+      213: -7497166003816170891
+    second: Mmeteorites_14
+  - first:
+      213: -8194477984982967009
+    second: Mmeteorites_15
+  - first:
+      213: -8493480258356129331
+    second: Mmeteorites_16
+  - first:
+      213: 3426217861864484464
+    second: Mmeteorites_17
+  - first:
+      213: 779790001475501664
+    second: Mmeteorites_18
+  - first:
+      213: -9155082008955293514
+    second: Mmeteorites_19
+  - first:
+      213: -7437311596432407446
+    second: Mmeteorites_20
+  - first:
+      213: 7188448365123118292
+    second: Mmeteorites_21
+  - first:
+      213: -5754233536021928092
+    second: Mmeteorites_22
+  - first:
+      213: 4627193105273340755
+    second: Mmeteorites_23
+  - first:
+      213: 1189517392075491561
+    second: Mmeteorites_24
+  - first:
+      213: -1102840452636696393
+    second: Mmeteorites_25
+  - first:
+      213: -2426545636475108134
+    second: Mmeteorites_26
+  - first:
+      213: -61602244122748184
+    second: Mmeteorites_27
+  - first:
+      213: 1807407313578281997
+    second: Mmeteorites_28
+  - first:
+      213: 2887586893611189431
+    second: Mmeteorites_29
+  - first:
+      213: 1095287537224871374
+    second: Mmeteorites_30
+  - first:
+      213: -1319253872673948552
+    second: Mmeteorites_31
+  - first:
+      213: 3482143549328503266
+    second: Mmeteorites_32
+  - first:
+      213: -1530977851915990712
+    second: Mmeteorites_33
+  - first:
+      213: 7849724904250464962
+    second: Mmeteorites_34
+  - first:
+      213: 2377099688454752693
+    second: Mmeteorites_35
+  - first:
+      213: -3173785099287434100
+    second: Mmeteorites_36
+  - first:
+      213: -7233941914067342495
+    second: Mmeteorites_37
+  - first:
+      213: -5923338340143754570
+    second: Mmeteorites_38
+  - first:
+      213: -4427342355925837297
+    second: Mmeteorites_39
+  - first:
+      213: -4841108647462013577
+    second: Mmeteorites_40
+  - first:
+      213: 1738634898761254525
+    second: Mmeteorites_41
+  - first:
+      213: 1491936533987909584
+    second: Mmeteorites_42
+  - first:
+      213: -4971496119905637350
+    second: Mmeteorites_43
+  - first:
+      213: 3980357806408183861
+    second: Mmeteorites_44
+  - first:
+      213: -2993409621881418858
+    second: Mmeteorites_45
+  - first:
+      213: 4040178344465557391
+    second: Mmeteorites_46
+  - first:
+      213: -8360665025608914565
+    second: Mmeteorites_47
+  - first:
+      213: 4906425228225480077
+    second: Mmeteorites_48
+  - first:
+      213: 5886529493252957063
+    second: Mmeteorites_49
+  - first:
+      213: -7274525830251266628
+    second: Mmeteorites_50
+  - first:
+      213: 3320489301436224957
+    second: Mmeteorites_51
+  - first:
+      213: -5322552464039789657
+    second: Mmeteorites_52
+  - first:
+      213: -5558179319347489547
+    second: Mmeteorites_53
+  - first:
+      213: 8029478750308203657
+    second: Mmeteorites_54
+  - first:
+      213: 6930753961844284352
+    second: Mmeteorites_55
+  - first:
+      213: 8464434491727199534
+    second: Mmeteorites_56
+  - first:
+      213: -6991821588412214785
+    second: Mmeteorites_57
+  - first:
+      213: 3424918130344329479
+    second: Mmeteorites_58
+  - first:
+      213: 4590472923849508544
+    second: Mmeteorites_59
+  - first:
+      213: 5540667255098969504
+    second: Mmeteorites_60
+  - first:
+      213: -3643096168785119349
+    second: Mmeteorites_61
+  - first:
+      213: 9103628421509378413
+    second: Mmeteorites_62
+  - first:
+      213: 7685386293865752193
+    second: Mmeteorites_63
+  - first:
+      213: -8996202556219414163
+    second: Mmeteorites_64
+  - first:
+      213: -589881619546879999
+    second: Mmeteorites_65
+  - first:
+      213: 2228315308628528814
+    second: Mmeteorites_66
+  - first:
+      213: -5175407430633971698
+    second: Mmeteorites_67
+  - first:
+      213: -8932502950961547326
+    second: Mmeteorites_68
+  - first:
+      213: -7778387765076079088
+    second: Mmeteorites_69
+  - first:
+      213: 8868386519807947919
+    second: Mmeteorites_70
+  - first:
+      213: 9078566782404448722
+    second: Mmeteorites_71
+  - first:
+      213: 1117695035788087251
+    second: Mmeteorites_72
+  - first:
+      213: 2640475697913228493
+    second: Mmeteorites_73
+  - first:
+      213: 4055139497139612535
+    second: Mmeteorites_74
+  - first:
+      213: -962736730601035097
+    second: Mmeteorites_75
+  - first:
+      213: 2701208518927455187
+    second: Mmeteorites_76
+  - first:
+      213: 1599963168605778784
+    second: Mmeteorites_77
+  - first:
+      213: 4350763771140983647
+    second: Mmeteorites_78
+  - first:
+      213: 928884377272410513
+    second: Mmeteorites_79
+  - first:
+      213: -1570759405055212502
+    second: Mmeteorites_80
+  - first:
+      213: -995880841576971240
+    second: Mmeteorites_81
+  - first:
+      213: 6271022557794120056
+    second: Mmeteorites_82
+  - first:
+      213: -2537708476957538375
+    second: Mmeteorites_83
+  - first:
+      213: -2287819906364719892
+    second: Mmeteorites_84
+  - first:
+      213: 3627890582907153142
+    second: Mmeteorites_85
+  - first:
+      213: -5600727948877758439
+    second: Mmeteorites_86
+  - first:
+      213: 7061091592384275448
+    second: Mmeteorites_87
+  - first:
+      213: -8642505318193289390
+    second: Mmeteorites_88
+  - first:
+      213: -4542227773885986867
+    second: Mmeteorites_89
+  - first:
+      213: -3926192601154623780
+    second: Mmeteorites_90
+  - first:
+      213: 3962846577966844147
+    second: Mmeteorites_91
+  - first:
+      213: 7144886462175411268
+    second: Mmeteorites_92
+  - first:
+      213: -8483796714283292551
+    second: Mmeteorites_93
+  - first:
+      213: -6581249878146031742
+    second: Mmeteorites_94
+  - first:
+      213: -6539627564114487150
+    second: Mmeteorites_95
+  - first:
+      213: -4133492296350219483
+    second: Mmeteorites_96
+  - first:
+      213: 4695182759665554619
+    second: Mmeteorites_97
+  - first:
+      213: 3103899986306145623
+    second: Mmeteorites_98
+  - first:
+      213: -8521552833651650509
+    second: Mmeteorites_99
+  - first:
+      213: -5008724547894744939
+    second: Mmeteorites_100
+  - first:
+      213: 4028015024643138964
+    second: Mmeteorites_101
+  - first:
+      213: 328716493621103711
+    second: Mmeteorites_102
+  - first:
+      213: 2402751565797495520
+    second: Mmeteorites_103
+  - first:
+      213: -2069861280763948043
+    second: Mmeteorites_104
+  - first:
+      213: 7351368666640218834
+    second: Mmeteorites_105
+  - first:
+      213: 4732519849409154211
+    second: Mmeteorites_106
+  - first:
+      213: 6955105312088531523
+    second: Mmeteorites_107
+  - first:
+      213: -1931865325439894484
+    second: Mmeteorites_108
+  - first:
+      213: 800800893165292688
+    second: Mmeteorites_109
+  - first:
+      213: 1099239489987118666
+    second: Mmeteorites_110
+  - first:
+      213: 4346031704041341390
+    second: Mmeteorites_111
+  - first:
+      213: -5436618925702152165
+    second: Mmeteorites_112
+  - first:
+      213: 3433137449219274016
+    second: Mmeteorites_113
+  - first:
+      213: -8501509258287850814
+    second: Mmeteorites_114
+  - first:
+      213: -5434134710716013177
+    second: Mmeteorites_115
+  - first:
+      213: -4450549218301890380
+    second: Mmeteorites_116
+  - first:
+      213: -4771623726274561182
+    second: Mmeteorites_117
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mmeteorites_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 138
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f274a5e805182b760800000000000000
+      internalID: 7472176914746722095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 138
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e6e2369f5751b0800000000000000
+      internalID: -5667956507318754239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_2
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 138
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73d88446634057a80800000000000000
+      internalID: -8469858892543128265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_3
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efc1dfa201744f40800000000000000
+      internalID: 5711814483766267880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_4
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a131922b6c940ad30800000000000000
+      internalID: 4440630350328697626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_5
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aa9a4f46285ff5d0800000000000000
+      internalID: -3026603503007393119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_6
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a48821820b5c6fc0800000000000000
+      internalID: -3500322744058739545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_7
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 138
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f8f15c189f499b60800000000000000
+      internalID: 7753315748223777013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_8
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89aa30dd96ba62c80800000000000000
+      internalID: -8347796388116714856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_9
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 138
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854f0f176a9539590800000000000000
+      internalID: -7668687169070762920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_10
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70b0c39504d99390800000000000000
+      internalID: -7810978958278610819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_11
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c1ca020e42ece010800000000000000
+      internalID: 1219598423780147651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_12
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ddc02dfeadfeb60800000000000000
+      internalID: 7777675805048233226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_13
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a5a8fa3eadd0b50800000000000000
+      internalID: 6561140903586191994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 104
+        width: 33
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57af660cd37b4f790800000000000000
+      internalID: -7497166003816170891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_15
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 104
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1dd45950bd574e80800000000000000
+      internalID: -8194477984982967009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1d3e594b8112a80800000000000000
+      internalID: -8493480258356129331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_17
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 104
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07ee7831efe5c8f20800000000000000
+      internalID: 3426217861864484464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_18
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 104
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06e3955ffde52da00800000000000000
+      internalID: 779790001475501664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 104
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b076a62b6d92f080800000000000000
+      internalID: -9155082008955293514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_20
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a64c0c2f18c59c890800000000000000
+      internalID: -7437311596432407446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_21
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 70
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4a669b3bf72c360800000000000000
+      internalID: 7188448365123118292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_22
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 467e5c2161bd420b0800000000000000
+      internalID: -5754233536021928092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_23
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35344f20d97173040800000000000000
+      internalID: 4627193105273340755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e80fc804c3028010800000000000000
+      internalID: 1189517392075491561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_25
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0a8a0937ce1b0f0800000000000000
+      internalID: -1102840452636696393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_26
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 70
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad480aa999d235ed0800000000000000
+      internalID: -2426545636475108134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_27
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ea52b9d515252ff0800000000000000
+      internalID: -61602244122748184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_28
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 70
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0cc64a2063351910800000000000000
+      internalID: 1807407313578281997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_29
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 70
+        width: 33
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4c4cb0bf4c21820800000000000000
+      internalID: 2887586893611189431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_30
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 36
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd6337463e333f00800000000000000
+      internalID: 1095287537224871374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_31
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87cf5bea79111bde0800000000000000
+      internalID: -1319253872673948552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_32
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 46
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e1b4a2eb1f035030800000000000000
+      internalID: 3482143549328503266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_33
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 46
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8498e8151cfd0cae0800000000000000
+      internalID: -1530977851915990712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_34
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cad266f533dfec60800000000000000
+      internalID: 7849724904250464962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_35
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 46
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b9890e72972df020800000000000000
+      internalID: 2377099688454752693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c6b83844374f3d0800000000000000
+      internalID: -3173785099287434100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16be43ef720eb9b90800000000000000
+      internalID: -7233941914067342495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_38
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b2974fa9231ccda0800000000000000
+      internalID: -5923338340143754570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_39
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0adff7959bee82c0800000000000000
+      internalID: -4427342355925837297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_40
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77574fc955de0dcb0800000000000000
+      internalID: -4841108647462013577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_41
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7603ce8a3fd02810800000000000000
+      internalID: 1738634898761254525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_42
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dfd6cf7f5c64b410800000000000000
+      internalID: 1491936533987909584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1caaca7e92b10bb0800000000000000
+      internalID: -4971496119905637350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_44
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 530b9e906521d3730800000000000000
+      internalID: 3980357806408183861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_45
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 47
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b85840fc54576d0800000000000000
+      internalID: -2993409621881418858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_46
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 36
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87681b6cc8911830800000000000000
+      internalID: 4040178344465557391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_47
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b796c86b473f8fb80800000000000000
+      internalID: -8360665025608914565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_48
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85056defbf171440800000000000000
+      internalID: 4906425228225480077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_49
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783e33dc26721b150800000000000000
+      internalID: 5886529493252957063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_50
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd387aac41bb0b90800000000000000
+      internalID: -7274525830251266628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_51
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5579c4d6fb41e20800000000000000
+      internalID: 3320489301436224957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_52
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 21
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab378aebbe7226b0800000000000000
+      internalID: -5322552464039789657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_53
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f4de588b516dd2b0800000000000000
+      internalID: -5558179319347489547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_54
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98cfaa3a1607e6f60800000000000000
+      internalID: 8029478750308203657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_55
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 21
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb1c51f10cfe2060800000000000000
+      internalID: 6930753961844284352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_56
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2db6ffd256b77570800000000000000
+      internalID: 8464434491727199534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_57
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 21
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff158c14f4f08fe90800000000000000
+      internalID: -6991821588412214785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_58
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70108ffb4e0c78f20800000000000000
+      internalID: 3424918130344329479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_59
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c649198dc2a4bf30800000000000000
+      internalID: 4590472923849508544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_60
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 21
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad00d6438764ec40800000000000000
+      internalID: 5540667255098969504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_61
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 21
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87f9f0265f117dc0800000000000000
+      internalID: -3643096168785119349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_62
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 21
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d617737f0d5965e70800000000000000
+      internalID: 9103628421509378413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_63
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18626878d1af7aa60800000000000000
+      internalID: 7685386293865752193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_64
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69a4156071172380800000000000000
+      internalID: -8996202556219414163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_65
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 21
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1084067dac150d7f0800000000000000
+      internalID: -589881619546879999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_66
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 21
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae4e5297f09cee10800000000000000
+      internalID: 2228315308628528814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_67
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e002521cc524d28b0800000000000000
+      internalID: -5175407430633971698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_68
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7fecc74ef590480800000000000000
+      internalID: -8932502950961547326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_69
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e45611a8d9d0490800000000000000
+      internalID: -7778387765076079088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_70
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 21
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84f3049d86d21b70800000000000000
+      internalID: 8868386519807947919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_71
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 21
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1d0e6636c8dfd70800000000000000
+      internalID: 9078566782404448722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_72
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dfcd5796b9d28f00800000000000000
+      internalID: 1117695035788087251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_73
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 21
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc6b2c48aad4a420800000000000000
+      internalID: 2640475697913228493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_74
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 20
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ba9a933efb64830800000000000000
+      internalID: 4055139497139612535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_75
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 21
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aaed485b0ca3a2f0800000000000000
+      internalID: -962736730601035097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_76
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d31eea16de9c7520800000000000000
+      internalID: 2701208518927455187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_77
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 063b47e5606343610800000000000000
+      internalID: 1599963168605778784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_78
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 21
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b4f783994016c30800000000000000
+      internalID: 4350763771140983647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_79
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1916bb07b6f04ec00800000000000000
+      internalID: 928884377272410513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_80
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 21
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a248412b4aa833ae0800000000000000
+      internalID: -1570759405055212502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_81
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 21
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8140037a6abed22f0800000000000000
+      internalID: -995880841576971240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_82
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 19
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 871b7cf7ac5270750800000000000000
+      internalID: 6271022557794120056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_83
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7c277e59f38ccd0800000000000000
+      internalID: -2537708476957538375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_84
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cec3013aae70040e0800000000000000
+      internalID: -2287819906364719892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_85
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 21
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa6a26834bd85230800000000000000
+      internalID: 3627890582907153142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_86
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9100a8bba973642b0800000000000000
+      internalID: -5600727948877758439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_87
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f3ef8a54690ef160800000000000000
+      internalID: 7061091592384275448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_88
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 7
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2572aabf337af0880800000000000000
+      internalID: -8642505318193289390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_89
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 7
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7cc98c7e3c6f0c0800000000000000
+      internalID: -4542227773885986867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_90
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6696091ac5389c0800000000000000
+      internalID: -3926192601154623780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_91
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 9
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8061377fbdef630800000000000000
+      internalID: 3962846577966844147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_92
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 9
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c7672d16cb72360800000000000000
+      internalID: 7144886462175411268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_93
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978a48266df734a80800000000000000
+      internalID: -8483796714283292551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_94
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fd503da14baa4a0800000000000000
+      internalID: -6581249878146031742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_95
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 9
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2985a9df0639e35a0800000000000000
+      internalID: -6539627564114487150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_96
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 9
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5234b3a18a2e2a6c0800000000000000
+      internalID: -4133492296350219483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_97
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4576108d3a82140800000000000000
+      internalID: 4695182759665554619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_98
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 7
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75d1e16a794431b20800000000000000
+      internalID: 3103899986306145623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_99
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 9
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 330587fc8dc5db980800000000000000
+      internalID: -8521552833651650509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_100
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59864f0af8f6d7ab0800000000000000
+      internalID: -5008724547894744939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_101
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 9
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4956ac5d25266e730800000000000000
+      internalID: 4028015024643138964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_102
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c091ac8e5df8400800000000000000
+      internalID: 328716493621103711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_103
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 9
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e29fda91d9485120800000000000000
+      internalID: 2402751565797495520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_104
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 9
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3dab9b1206643e0800000000000000
+      internalID: -2069861280763948043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_105
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 9
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daf6046ade450660800000000000000
+      internalID: 7351368666640218834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_106
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ac8484aab94da140800000000000000
+      internalID: 4732519849409154211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_107
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342287e7e6f758060800000000000000
+      internalID: 6955105312088531523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_108
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2cb243d8b2a035e0800000000000000
+      internalID: -1931865325439894484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_109
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 9
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ccee46b240d1b00800000000000000
+      internalID: 800800893165292688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_110
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4683cbfd78414f00800000000000000
+      internalID: 1099239489987118666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_111
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec148fdfec4305c30800000000000000
+      internalID: 4346031704041341390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_112
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b108b5a34ef3d84b0800000000000000
+      internalID: -5436618925702152165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_113
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0253ecd0254f4af20800000000000000
+      internalID: 3433137449219274016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_114
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cade0d5f52940a80800000000000000
+      internalID: -8501509258287850814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_115
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 785e62a95431694b0800000000000000
+      internalID: -5434134710716013177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_116
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 9
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b039b3e0197c32c0800000000000000
+      internalID: -4450549218301890380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmeteorites_117
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 7
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26b34998089c7cdb0800000000000000
+      internalID: -4771623726274561182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mmeteorites_0: 7472176914746722095
+      Mmeteorites_1: -5667956507318754239
+      Mmeteorites_10: -7810978958278610819
+      Mmeteorites_100: -5008724547894744939
+      Mmeteorites_101: 4028015024643138964
+      Mmeteorites_102: 328716493621103711
+      Mmeteorites_103: 2402751565797495520
+      Mmeteorites_104: -2069861280763948043
+      Mmeteorites_105: 7351368666640218834
+      Mmeteorites_106: 4732519849409154211
+      Mmeteorites_107: 6955105312088531523
+      Mmeteorites_108: -1931865325439894484
+      Mmeteorites_109: 800800893165292688
+      Mmeteorites_11: 1219598423780147651
+      Mmeteorites_110: 1099239489987118666
+      Mmeteorites_111: 4346031704041341390
+      Mmeteorites_112: -5436618925702152165
+      Mmeteorites_113: 3433137449219274016
+      Mmeteorites_114: -8501509258287850814
+      Mmeteorites_115: -5434134710716013177
+      Mmeteorites_116: -4450549218301890380
+      Mmeteorites_117: -4771623726274561182
+      Mmeteorites_12: 7777675805048233226
+      Mmeteorites_13: 6561140903586191994
+      Mmeteorites_14: -7497166003816170891
+      Mmeteorites_15: -8194477984982967009
+      Mmeteorites_16: -8493480258356129331
+      Mmeteorites_17: 3426217861864484464
+      Mmeteorites_18: 779790001475501664
+      Mmeteorites_19: -9155082008955293514
+      Mmeteorites_2: -8469858892543128265
+      Mmeteorites_20: -7437311596432407446
+      Mmeteorites_21: 7188448365123118292
+      Mmeteorites_22: -5754233536021928092
+      Mmeteorites_23: 4627193105273340755
+      Mmeteorites_24: 1189517392075491561
+      Mmeteorites_25: -1102840452636696393
+      Mmeteorites_26: -2426545636475108134
+      Mmeteorites_27: -61602244122748184
+      Mmeteorites_28: 1807407313578281997
+      Mmeteorites_29: 2887586893611189431
+      Mmeteorites_3: 5711814483766267880
+      Mmeteorites_30: 1095287537224871374
+      Mmeteorites_31: -1319253872673948552
+      Mmeteorites_32: 3482143549328503266
+      Mmeteorites_33: -1530977851915990712
+      Mmeteorites_34: 7849724904250464962
+      Mmeteorites_35: 2377099688454752693
+      Mmeteorites_36: -3173785099287434100
+      Mmeteorites_37: -7233941914067342495
+      Mmeteorites_38: -5923338340143754570
+      Mmeteorites_39: -4427342355925837297
+      Mmeteorites_4: 4440630350328697626
+      Mmeteorites_40: -4841108647462013577
+      Mmeteorites_41: 1738634898761254525
+      Mmeteorites_42: 1491936533987909584
+      Mmeteorites_43: -4971496119905637350
+      Mmeteorites_44: 3980357806408183861
+      Mmeteorites_45: -2993409621881418858
+      Mmeteorites_46: 4040178344465557391
+      Mmeteorites_47: -8360665025608914565
+      Mmeteorites_48: 4906425228225480077
+      Mmeteorites_49: 5886529493252957063
+      Mmeteorites_5: -3026603503007393119
+      Mmeteorites_50: -7274525830251266628
+      Mmeteorites_51: 3320489301436224957
+      Mmeteorites_52: -5322552464039789657
+      Mmeteorites_53: -5558179319347489547
+      Mmeteorites_54: 8029478750308203657
+      Mmeteorites_55: 6930753961844284352
+      Mmeteorites_56: 8464434491727199534
+      Mmeteorites_57: -6991821588412214785
+      Mmeteorites_58: 3424918130344329479
+      Mmeteorites_59: 4590472923849508544
+      Mmeteorites_6: -3500322744058739545
+      Mmeteorites_60: 5540667255098969504
+      Mmeteorites_61: -3643096168785119349
+      Mmeteorites_62: 9103628421509378413
+      Mmeteorites_63: 7685386293865752193
+      Mmeteorites_64: -8996202556219414163
+      Mmeteorites_65: -589881619546879999
+      Mmeteorites_66: 2228315308628528814
+      Mmeteorites_67: -5175407430633971698
+      Mmeteorites_68: -8932502950961547326
+      Mmeteorites_69: -7778387765076079088
+      Mmeteorites_7: 7753315748223777013
+      Mmeteorites_70: 8868386519807947919
+      Mmeteorites_71: 9078566782404448722
+      Mmeteorites_72: 1117695035788087251
+      Mmeteorites_73: 2640475697913228493
+      Mmeteorites_74: 4055139497139612535
+      Mmeteorites_75: -962736730601035097
+      Mmeteorites_76: 2701208518927455187
+      Mmeteorites_77: 1599963168605778784
+      Mmeteorites_78: 4350763771140983647
+      Mmeteorites_79: 928884377272410513
+      Mmeteorites_8: -8347796388116714856
+      Mmeteorites_80: -1570759405055212502
+      Mmeteorites_81: -995880841576971240
+      Mmeteorites_82: 6271022557794120056
+      Mmeteorites_83: -2537708476957538375
+      Mmeteorites_84: -2287819906364719892
+      Mmeteorites_85: 3627890582907153142
+      Mmeteorites_86: -5600727948877758439
+      Mmeteorites_87: 7061091592384275448
+      Mmeteorites_88: -8642505318193289390
+      Mmeteorites_89: -4542227773885986867
+      Mmeteorites_9: -7668687169070762920
+      Mmeteorites_90: -3926192601154623780
+      Mmeteorites_91: 3962846577966844147
+      Mmeteorites_92: 7144886462175411268
+      Mmeteorites_93: -8483796714283292551
+      Mmeteorites_94: -6581249878146031742
+      Mmeteorites_95: -6539627564114487150
+      Mmeteorites_96: -4133492296350219483
+      Mmeteorites_97: 4695182759665554619
+      Mmeteorites_98: 3103899986306145623
+      Mmeteorites_99: -8521552833651650509
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
