@@ -20,12 +20,12 @@ public class GameManager : MonoBehaviour
 
     private void OnEnable()
     {
-        EventManager.Instance.OnGameStart += StartGame;
+        //EventManager.Instance.OnGameStart += StartGame;
     }
 
     private void OnDisable()
     {
-        EventManager.Instance.OnGameStart -= StartGame;
+        //EventManager.Instance.OnGameStart -= StartGame;
     }
 
     private void StartGame()
