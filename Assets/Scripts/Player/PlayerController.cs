@@ -9,12 +9,15 @@ public class PlayerController : MonoBehaviour
     
     public bool isMoving = false;
     public bool isJumping = false;
+    
     private void Awake()
     {
         if (upperAnimator == null)
             upperAnimator = transform.Find("Upper")?.GetComponent<Animator>();
         if (lowerAnimator == null)
             lowerAnimator = transform.Find("Lower")?.GetComponent<Animator>();
+            
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Start()
@@ -39,13 +42,11 @@ public class PlayerController : MonoBehaviour
     {
         if (InputManager.Instance.horizontal < 0f)
         {
-            lowerAnimator.GetComponent<SpriteRenderer>().flipX = true;
-            upperAnimator.GetComponent<SpriteRenderer>().flipX = true;
+            transform.localScale = new Vector3(-Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
         else if (InputManager.Instance.horizontal > 0f)
         {
-            lowerAnimator.GetComponent<SpriteRenderer>().flipX = false;
-            upperAnimator.GetComponent<SpriteRenderer>().flipX = false;
+            transform.localScale = new Vector3(Mathf.Abs(transform.localScale.x), transform.localScale.y, transform.localScale.z);
         }
     }
 
