@@ -1,0 +1,2418 @@
+fileFormatVersion: 2
+guid: c69d9ae5ae6db73459047c86a0a1fb8a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5242476904393834382
+    second: MissionStartpng_0
+  - first:
+      213: -830565833974711610
+    second: MissionStartpng_1
+  - first:
+      213: -4527980857604171320
+    second: MissionStartpng_2
+  - first:
+      213: -5147876493951913089
+    second: MissionStartpng_3
+  - first:
+      213: -9072208432050417713
+    second: MissionStartpng_4
+  - first:
+      213: -5779400264821729574
+    second: MissionStartpng_5
+  - first:
+      213: 3629822540875458285
+    second: MissionStartpng_6
+  - first:
+      213: -1480735174506918212
+    second: MissionStartpng_7
+  - first:
+      213: 6727960218093518573
+    second: MissionStartpng_8
+  - first:
+      213: 8585963793077132689
+    second: MissionStartpng_9
+  - first:
+      213: -2646157493347055762
+    second: MissionStartpng_10
+  - first:
+      213: 1875670473603704103
+    second: MissionStartpng_11
+  - first:
+      213: 352640696242594167
+    second: MissionStartpng_12
+  - first:
+      213: 1067793290005576700
+    second: MissionStartpng_13
+  - first:
+      213: 8038204403387054292
+    second: MissionStartpng_14
+  - first:
+      213: 8636300160381611615
+    second: MissionStartpng_15
+  - first:
+      213: -1464971211037184830
+    second: MissionStartpng_16
+  - first:
+      213: -5623680301029604078
+    second: MissionStartpng_17
+  - first:
+      213: -8095193042088037194
+    second: MissionStartpng_18
+  - first:
+      213: -40433013545280503
+    second: MissionStartpng_19
+  - first:
+      213: -1629317310020224988
+    second: MissionStartpng_20
+  - first:
+      213: 1542913700639858378
+    second: MissionStartpng_21
+  - first:
+      213: 2987805367521193373
+    second: MissionStartpng_22
+  - first:
+      213: -2538897990620630140
+    second: MissionStartpng_23
+  - first:
+      213: -5487698556078355660
+    second: MissionStartpng_24
+  - first:
+      213: -4970840514412900355
+    second: MissionStartpng_25
+  - first:
+      213: 2285867694020469195
+    second: MissionStartpng_26
+  - first:
+      213: -1874849529663304413
+    second: MissionStartpng_27
+  - first:
+      213: 8688957898494451374
+    second: MissionStartpng_28
+  - first:
+      213: -758105870057034321
+    second: MissionStartpng_29
+  - first:
+      213: -5833000885776122891
+    second: MissionStartpng_30
+  - first:
+      213: 8793155922309686350
+    second: MissionStartpng_31
+  - first:
+      213: 2087842540607302464
+    second: MissionStartpng_32
+  - first:
+      213: -5569939763922213801
+    second: MissionStartpng_33
+  - first:
+      213: 4996615250778260143
+    second: MissionStartpng_34
+  - first:
+      213: 6127128201834127781
+    second: MissionStartpng_35
+  - first:
+      213: -5934786531414849844
+    second: MissionStartpng_36
+  - first:
+      213: -2454844806801480426
+    second: MissionStartpng_37
+  - first:
+      213: 3464868864978541503
+    second: MissionStartpng_38
+  - first:
+      213: -4996208112587992727
+    second: MissionStartpng_39
+  - first:
+      213: 5271824036990647162
+    second: MissionStartpng_40
+  - first:
+      213: -1044017050608740448
+    second: MissionStartpng_41
+  - first:
+      213: -1073035222816659834
+    second: MissionStartpng_42
+  - first:
+      213: 8982624797084836009
+    second: MissionStartpng_43
+  - first:
+      213: -5161634164190335309
+    second: MissionStartpng_44
+  - first:
+      213: -7251361266067237914
+    second: MissionStartpng_45
+  - first:
+      213: 2436232583896307772
+    second: MissionStartpng_46
+  - first:
+      213: 444853200456322148
+    second: MissionStartpng_47
+  - first:
+      213: 4114182556446513288
+    second: MissionStartpng_48
+  - first:
+      213: 9112146525006439376
+    second: MissionStartpng_49
+  - first:
+      213: 4390578725824922282
+    second: MissionStartpng_50
+  - first:
+      213: -863802333627521256
+    second: MissionStartpng_51
+  - first:
+      213: 7524634140998543608
+    second: MissionStartpng_52
+  - first:
+      213: 5734119403509195245
+    second: MissionStartpng_53
+  - first:
+      213: -5832690785001860441
+    second: MissionStartpng_54
+  - first:
+      213: -2059217526899675985
+    second: MissionStartpng_55
+  - first:
+      213: -6165875929171114244
+    second: MissionStartpng_56
+  - first:
+      213: -3671761059010804839
+    second: MissionStartpng_57
+  - first:
+      213: 1468085477101219660
+    second: MissionStartpng_58
+  - first:
+      213: 2463476659764103071
+    second: MissionStartpng_59
+  - first:
+      213: -2939705707677090141
+    second: MissionStartpng_60
+  - first:
+      213: 8818164369498832232
+    second: MissionStartpng_61
+  - first:
+      213: -137489448442582415
+    second: MissionStartpng_62
+  - first:
+      213: -7270750533408028739
+    second: MissionStartpng_63
+  - first:
+      213: -1168004978824025233
+    second: MissionStartpng_64
+  - first:
+      213: -7258264334011940888
+    second: MissionStartpng_65
+  - first:
+      213: -4338088438252462602
+    second: MissionStartpng_66
+  - first:
+      213: -263017773537534438
+    second: MissionStartpng_67
+  - first:
+      213: 7499203902552639890
+    second: MissionStartpng_68
+  - first:
+      213: -6080150298581701566
+    second: MissionStartpng_69
+  - first:
+      213: 1851078038435263396
+    second: MissionStartpng_70
+  - first:
+      213: -7298573275587766949
+    second: MissionStartpng_71
+  - first:
+      213: 3350287368541414086
+    second: MissionStartpng_72
+  - first:
+      213: -2188218279016406725
+    second: MissionStartpng_73
+  - first:
+      213: 4710917166418583673
+    second: MissionStartpng_74
+  - first:
+      213: 1887702263520166132
+    second: MissionStartpng_75
+  - first:
+      213: -2675012988545336290
+    second: MissionStartpng_76
+  - first:
+      213: -4402701109056580388
+    second: MissionStartpng_77
+  - first:
+      213: -9144230110820356138
+    second: MissionStartpng_78
+  - first:
+      213: -7162405616564626493
+    second: MissionStartpng_79
+  - first:
+      213: -4333575498017688664
+    second: MissionStartpng_80
+  - first:
+      213: -2687753356775180926
+    second: MissionStartpng_81
+  - first:
+      213: -1917647598018851725
+    second: MissionStartpng_82
+  - first:
+      213: 5434130178011498861
+    second: MissionStartpng_83
+  - first:
+      213: -112405631871369930
+    second: MissionStartpng_84
+  - first:
+      213: -9180641325547699274
+    second: MissionStartpng_85
+  - first:
+      213: 8525413561120031903
+    second: MissionStartpng_86
+  - first:
+      213: -6613560543079536775
+    second: MissionStartpng_87
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MissionStartpng_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8f759df7f401c840800000000000000
+      internalID: 5242476904393834382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca7c5746cc3974f0800000000000000
+      internalID: -830565833974711610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c91cb876616921c0800000000000000
+      internalID: -4527980857604171320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_3
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f73b9667a911f88b0800000000000000
+      internalID: -5147876493951913089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_4
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 71
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcfc4576f7a091280800000000000000
+      internalID: -9072208432050417713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 71
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad6908864127bcfa0800000000000000
+      internalID: -5779400264821729574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_6
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6669a8e58bf5230800000000000000
+      internalID: 3629822540875458285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_7
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 71
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbec61d343f537be0800000000000000
+      internalID: -1480735174506918212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_8
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 71
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee7c6e0c248e5d50800000000000000
+      internalID: 6727960218093518573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_9
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d5ab45498772770800000000000000
+      internalID: 8585963793077132689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e678f4d97c5f64bd0800000000000000
+      internalID: -2646157493347055762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_11
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 71
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72566d6ab58b70a10800000000000000
+      internalID: 1875670473603704103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_12
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771e2e848d4d4e400800000000000000
+      internalID: 352640696242594167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 71
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfbf350075091de00800000000000000
+      internalID: 1067793290005576700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_14
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 71
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8bddf01507d8f60800000000000000
+      internalID: 8038204403387054292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_15
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 71
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5ee1312d3d4ad770800000000000000
+      internalID: 8636300160381611615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_16
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cc64fff1706babe0800000000000000
+      internalID: -1464971211037184830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_17
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 215c4cecf8ca4f1b0800000000000000
+      internalID: -5623680301029604078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_18
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4f02281d818af80800000000000000
+      internalID: -8095193042088037194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 37
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c5f6e636a507ff0800000000000000
+      internalID: -40433013545280503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_20
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42879ddf9808369e0800000000000000
+      internalID: -1629317310020224988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aced8b506d7896510800000000000000
+      internalID: 1542913700639858378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_22
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d2b15d621d67920800000000000000
+      internalID: 2987805367521193373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_23
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483ba1caab504ccd0800000000000000
+      internalID: -2538897990620630140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_24
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b86820d37c7d3b0800000000000000
+      internalID: -5487698556078355660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_25
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 37
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff8c4783e6040bb0800000000000000
+      internalID: -4970840514412900355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_26
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 45
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc1a1a18e8809bf10800000000000000
+      internalID: 2285867694020469195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_27
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 45
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d4c1149423bf5e0800000000000000
+      internalID: -1874849529663304413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_28
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eae16103c21659870800000000000000
+      internalID: 8688957898494451374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_29
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fadac115abaaa75f0800000000000000
+      internalID: -758105870057034321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_30
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 45
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fb76c459940d0fa0800000000000000
+      internalID: -5833000885776122891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_31
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4424e329b0970a70800000000000000
+      internalID: 8793155922309686350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_32
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04be8d39ab189fc10800000000000000
+      internalID: 2087842540607302464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_33
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 45
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 754e717ab4993b2b0800000000000000
+      internalID: -5569939763922213801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa200fde81b875540800000000000000
+      internalID: 4996615250778260143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_35
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1e99bf2aee70550800000000000000
+      internalID: 6127128201834127781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_36
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6ce31f71763ada0800000000000000
+      internalID: -5934786531414849844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_37
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 45
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615a2ef87a3aeedd0800000000000000
+      internalID: -2454844806801480426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_38
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 45
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb5b5200efa51030800000000000000
+      internalID: 3464868864978541503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_39
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96194415137e9aab0800000000000000
+      internalID: -4996208112587992727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_40
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 45
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7b7133c708492940800000000000000
+      internalID: 5271824036990647162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_41
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 45
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a7d30f1608e281f0800000000000000
+      internalID: -1044017050608740448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_42
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e7886620db11f0800000000000000
+      internalID: -1073035222816659834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_43
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a06bd439a1b8ac70800000000000000
+      internalID: 8982624797084836009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_44
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3be2aee33113e58b0800000000000000
+      internalID: -5161634164190335309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_45
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3190e095dfd5b90800000000000000
+      internalID: -7251361266067237914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_46
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c381f5990ac3fc120800000000000000
+      internalID: 2436232583896307772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_47
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c056ef0af6c2600800000000000000
+      internalID: 444853200456322148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_48
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8885a1abc33881930800000000000000
+      internalID: 4114182556446513288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3a15c7cf8d47e70800000000000000
+      internalID: 9112146525006439376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_50
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa28e2fb6187eec30800000000000000
+      internalID: 4390578725824922282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_51
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 3
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8176afbaa582304f0800000000000000
+      internalID: -863802333627521256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_52
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 3
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8aefe42eedc6860800000000000000
+      internalID: 7524634140998543608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_53
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de127d1873fa39f40800000000000000
+      internalID: 5734119403509195245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_54
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 28
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2154b42ae1e0fa0800000000000000
+      internalID: -5832690785001860441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_55
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 28
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: face2e9c1903c63e0800000000000000
+      internalID: -2059217526899675985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_56
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6cf98b2886e6aa0800000000000000
+      internalID: -6165875929171114244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_57
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9938c8945c84b0dc0800000000000000
+      internalID: -3671761059010804839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_58
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 28
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f278296ffaf5410800000000000000
+      internalID: 1468085477101219660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_59
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 28
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9784b158f6003220800000000000000
+      internalID: 2463476659764103071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_60
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 28
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aef7bdeb311437d0800000000000000
+      internalID: -2939705707677090141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_61
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 26
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86dfbfef5c9606a70800000000000000
+      internalID: 8818164369498832232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_62
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a2739331a871ef0800000000000000
+      internalID: -137489448442582415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_63
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 28
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db78bb579ea191b90800000000000000
+      internalID: -7270750533408028739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_64
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 28
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6b6e4df8a96acfe0800000000000000
+      internalID: -1168004978824025233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_65
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 26
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efb45d4b07754b90800000000000000
+      internalID: -7258264334011940888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_66
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd9bb1bc830cc3c0800000000000000
+      internalID: -4338088438252462602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_67
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 28
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e5eae7ab2995cf0800000000000000
+      internalID: -263017773537534438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_68
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 28
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2998fd58736821860800000000000000
+      internalID: 7499203902552639890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_69
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 28
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24c6d087487fe9ba0800000000000000
+      internalID: -6080150298581701566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_70
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a3f5742ba950b910800000000000000
+      internalID: 1851078038435263396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_71
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b559e6d764246ba90800000000000000
+      internalID: -7298573275587766949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_72
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2a3617c9c9e7e20800000000000000
+      internalID: 3350287368541414086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_73
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b31e534a113e1a1e0800000000000000
+      internalID: -2188218279016406725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_74
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 15
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9706bae043a806140800000000000000
+      internalID: 4710917166418583673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_75
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f002da0537723a10800000000000000
+      internalID: 1887702263520166132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_76
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 15
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1cf2381cd170ead0800000000000000
+      internalID: -2675012988545336290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_77
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4d676faa676e2c0800000000000000
+      internalID: -4402701109056580388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_78
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6df2f14992b291180800000000000000
+      internalID: -9144230110820356138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_79
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb176f2a060a9c90800000000000000
+      internalID: -7162405616564626493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_80
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3b1597b0c0cd3c0800000000000000
+      internalID: -4333575498017688664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_81
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 15
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2853d85ff8e23bad0800000000000000
+      internalID: -2687753356775180926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_82
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 15
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c84b37ba52365e0800000000000000
+      internalID: -1917647598018851725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_83
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 13
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d690b9b0b98e96b40800000000000000
+      internalID: 5434130178011498861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_84
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 15
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63dbd816ca7a07ef0800000000000000
+      internalID: -112405631871369930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_85
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 15
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b345740b5fc79080800000000000000
+      internalID: -9180641325547699274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_86
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 15
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f948bd9d67a505670800000000000000
+      internalID: 8525413561120031903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MissionStartpng_87
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 15
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9776439e9b9e734a0800000000000000
+      internalID: -6613560543079536775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MissionStartpng_0: 5242476904393834382
+      MissionStartpng_1: -830565833974711610
+      MissionStartpng_10: -2646157493347055762
+      MissionStartpng_11: 1875670473603704103
+      MissionStartpng_12: 352640696242594167
+      MissionStartpng_13: 1067793290005576700
+      MissionStartpng_14: 8038204403387054292
+      MissionStartpng_15: 8636300160381611615
+      MissionStartpng_16: -1464971211037184830
+      MissionStartpng_17: -5623680301029604078
+      MissionStartpng_18: -8095193042088037194
+      MissionStartpng_19: -40433013545280503
+      MissionStartpng_2: -4527980857604171320
+      MissionStartpng_20: -1629317310020224988
+      MissionStartpng_21: 1542913700639858378
+      MissionStartpng_22: 2987805367521193373
+      MissionStartpng_23: -2538897990620630140
+      MissionStartpng_24: -5487698556078355660
+      MissionStartpng_25: -4970840514412900355
+      MissionStartpng_26: 2285867694020469195
+      MissionStartpng_27: -1874849529663304413
+      MissionStartpng_28: 8688957898494451374
+      MissionStartpng_29: -758105870057034321
+      MissionStartpng_3: -5147876493951913089
+      MissionStartpng_30: -5833000885776122891
+      MissionStartpng_31: 8793155922309686350
+      MissionStartpng_32: 2087842540607302464
+      MissionStartpng_33: -5569939763922213801
+      MissionStartpng_34: 4996615250778260143
+      MissionStartpng_35: 6127128201834127781
+      MissionStartpng_36: -5934786531414849844
+      MissionStartpng_37: -2454844806801480426
+      MissionStartpng_38: 3464868864978541503
+      MissionStartpng_39: -4996208112587992727
+      MissionStartpng_4: -9072208432050417713
+      MissionStartpng_40: 5271824036990647162
+      MissionStartpng_41: -1044017050608740448
+      MissionStartpng_42: -1073035222816659834
+      MissionStartpng_43: 8982624797084836009
+      MissionStartpng_44: -5161634164190335309
+      MissionStartpng_45: -7251361266067237914
+      MissionStartpng_46: 2436232583896307772
+      MissionStartpng_47: 444853200456322148
+      MissionStartpng_48: 4114182556446513288
+      MissionStartpng_49: 9112146525006439376
+      MissionStartpng_5: -5779400264821729574
+      MissionStartpng_50: 4390578725824922282
+      MissionStartpng_51: -863802333627521256
+      MissionStartpng_52: 7524634140998543608
+      MissionStartpng_53: 5734119403509195245
+      MissionStartpng_54: -5832690785001860441
+      MissionStartpng_55: -2059217526899675985
+      MissionStartpng_56: -6165875929171114244
+      MissionStartpng_57: -3671761059010804839
+      MissionStartpng_58: 1468085477101219660
+      MissionStartpng_59: 2463476659764103071
+      MissionStartpng_6: 3629822540875458285
+      MissionStartpng_60: -2939705707677090141
+      MissionStartpng_61: 8818164369498832232
+      MissionStartpng_62: -137489448442582415
+      MissionStartpng_63: -7270750533408028739
+      MissionStartpng_64: -1168004978824025233
+      MissionStartpng_65: -7258264334011940888
+      MissionStartpng_66: -4338088438252462602
+      MissionStartpng_67: -263017773537534438
+      MissionStartpng_68: 7499203902552639890
+      MissionStartpng_69: -6080150298581701566
+      MissionStartpng_7: -1480735174506918212
+      MissionStartpng_70: 1851078038435263396
+      MissionStartpng_71: -7298573275587766949
+      MissionStartpng_72: 3350287368541414086
+      MissionStartpng_73: -2188218279016406725
+      MissionStartpng_74: 4710917166418583673
+      MissionStartpng_75: 1887702263520166132
+      MissionStartpng_76: -2675012988545336290
+      MissionStartpng_77: -4402701109056580388
+      MissionStartpng_78: -9144230110820356138
+      MissionStartpng_79: -7162405616564626493
+      MissionStartpng_8: 6727960218093518573
+      MissionStartpng_80: -4333575498017688664
+      MissionStartpng_81: -2687753356775180926
+      MissionStartpng_82: -1917647598018851725
+      MissionStartpng_83: 5434130178011498861
+      MissionStartpng_84: -112405631871369930
+      MissionStartpng_85: -9180641325547699274
+      MissionStartpng_86: 8525413561120031903
+      MissionStartpng_87: -6613560543079536775
+      MissionStartpng_9: 8585963793077132689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
