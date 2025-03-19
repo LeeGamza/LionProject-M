@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5203863356517390389}
   - component: {fileID: 7120508655048553355}
   - component: {fileID: 4193725104225425408}
-  - component: {fileID: 4126226012848242490}
+  - component: {fileID: 4669455837769526998}
   m_Layer: 0
   m_Name: UFO
   m_TagString: Untagged
@@ -111,7 +111,7 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &4126226012848242490
+--- !u!114 &4669455837769526998
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

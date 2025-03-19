@@ -2,9 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManager : MonoBehaviour
+public class GameSceneManager : MonoBehaviour
 {
-    public static SceneManager Instance { get; private set; }
+    public static GameSceneManager Instance { get; private set; }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
     private void Awake()
