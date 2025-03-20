@@ -14,17 +14,8 @@ public class UFO : Monster
     Animator ani;
 
     protected override void Move()
-    { 
-    
-    }
-    protected void Move(Vector2 MidPos, Vector2 EndPos)
     {
-        StartCoroutine(MoveObject(MidPos, EndPos));
-    }
-
-    protected override void Attack()
-    {
-        
+        StartCoroutine(MoveObject(midPos, endPos));
     }
 
     void Start()
@@ -42,7 +33,7 @@ public class UFO : Monster
         transform.position = startPos;
         ani = GetComponent<Animator>();
 
-        Move(midPos, endPos);
+        Move();
     }
 
     IEnumerator MoveObject(Vector2 MidPos, Vector2 EndPos)
@@ -96,5 +87,4 @@ public class UFO : Monster
 
         return new Vector2(camPos.x + randomX, camPos.y + randomY);
     }
-
 }

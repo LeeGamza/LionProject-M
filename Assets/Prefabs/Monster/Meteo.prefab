@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3890276367844086833}
   - component: {fileID: 5659576336810456344}
   - component: {fileID: 1379919554906274767}
+  - component: {fileID: 2374642065026734927}
   m_Layer: 0
   m_Name: Meteo
   m_TagString: Untagged
@@ -136,3 +137,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a24a2b0cb5f9a5458675d00ca6f3f69, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!58 &2374642065026734927
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4648627136364222824}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0076904893, y: -0.011535734}
+  m_Radius: 0.47357163
