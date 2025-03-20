@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 8deaf350afa26fb4fa2fba46d99667f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8771809766317460666
+    second: DaiManji1_0
+  - first:
+      213: -3764926694602983881
+    second: DaiManji1_1
+  - first:
+      213: 2437634772981318971
+    second: DaiManji1_2
+  - first:
+      213: 157429073596773203
+    second: DaiManji1_3
+  - first:
+      213: 801930263113728195
+    second: DaiManji1_4
+  - first:
+      213: 4228087255624125968
+    second: DaiManji1_5
+  - first:
+      213: -7107579888353300730
+    second: DaiManji1_6
+  - first:
+      213: -3031366371754105960
+    second: DaiManji1_7
+  - first:
+      213: -1343574504589279057
+    second: DaiManji1_8
+  - first:
+      213: -8808364404515532516
+    second: DaiManji1_9
+  - first:
+      213: 2855599149883269099
+    second: DaiManji1_10
+  - first:
+      213: 3486755416841864498
+    second: DaiManji1_11
+  - first:
+      213: -2896323966072389884
+    second: DaiManji1_12
+  - first:
+      213: 1096209933287368673
+    second: DaiManji1_13
+  - first:
+      213: -8149187234282963833
+    second: DaiManji1_14
+  - first:
+      213: -4826912138119034408
+    second: DaiManji1_15
+  - first:
+      213: 1045099084227322654
+    second: DaiManji1_16
+  - first:
+      213: 4760738915429635677
+    second: DaiManji1_17
+  - first:
+      213: 2038989268053176404
+    second: DaiManji1_18
+  - first:
+      213: 4075704647735130616
+    second: DaiManji1_19
+  - first:
+      213: -7647360551067905657
+    second: DaiManji1_20
+  - first:
+      213: 5934753868697099597
+    second: DaiManji1_21
+  - first:
+      213: 2711134669623330021
+    second: DaiManji1_22
+  - first:
+      213: -1935078004305937214
+    second: DaiManji1_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DaiManji1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfc72302dc17fb440a7e034df469a9e2
+      internalID: 1881312429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_1
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c237abcf15ef82b4eabb781873fdbaf6
+      internalID: 1203200204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_2
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fbfa791b4148a48b17683a7fa4b494
+      internalID: -2031155466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_3
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d1bb2dfb87c4df4ebe4d0a5724a2463
+      internalID: 844090738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_4
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c272ee9c92ca4442b231662376d264a
+      internalID: -1950834805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_5
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 382
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddf307c2f91ba244387f233d6ba0b6a1
+      internalID: -941211457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f45e2d19a8dcd419da49832a7aaad7
+      internalID: -1450041001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_7
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aab7a2f535ac8b4b96bcaa89ecaa6fd
+      internalID: -592074310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_8
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5636216a2e26be14897de9bac04d2d81
+      internalID: -1414782977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_9
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a50752383a4d624182ba254b4f05693
+      internalID: 450567086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_10
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4a10279542808044a6b762ea1f0ca7c
+      internalID: 499244023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_11
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 259
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 840e05e772cbbfb46b141da805fa8084
+      internalID: -2006415071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_12
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a1b6ba018f7084f8ad2514eb2a3864
+      internalID: -912280807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_13
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d1244ea2c1ee4e478b328cfa3bb459f
+      internalID: 647672633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_14
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c1231a9c65373e4e879fc6649c39827
+      internalID: -95550934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_15
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec44abb452b4d94abb0354f6df253c4
+      internalID: -1826907279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_16
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec13b5d94784eac4dad5d63e354bf518
+      internalID: 2044606872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_17
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 136
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621ab4a61a5e07b41ba0c4583363ffd1
+      internalID: -1679858247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_18
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e41436c51805408458b0db9fa0577813
+      internalID: 1714231996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_19
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ae8cd6d167bd74d9b8f7aaf376f28b
+      internalID: 2024875223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_20
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6eb3c5e0bb3d414d8788dc872e964c3
+      internalID: 2102158172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_21
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29957535c16143d4faee2bb07d438e61
+      internalID: -1571241398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_22
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f53f445734d677478feb911635bd299
+      internalID: -1011040528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DaiManji1_23
+      rect:
+        serializedVersion: 2
+        x: 859
+        y: 13
+        width: 163
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35765990de3e58444a23902f602be0fd
+      internalID: 483025592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e7c3760a04cead4397c988f09aa51b3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DaiManji1_0: 1881312429
+      DaiManji1_1: 1203200204
+      DaiManji1_10: 499244023
+      DaiManji1_11: -2006415071
+      DaiManji1_12: -912280807
+      DaiManji1_13: 647672633
+      DaiManji1_14: -95550934
+      DaiManji1_15: -1826907279
+      DaiManji1_16: 2044606872
+      DaiManji1_17: -1679858247
+      DaiManji1_18: 1714231996
+      DaiManji1_19: 2024875223
+      DaiManji1_2: -2031155466
+      DaiManji1_20: 2102158172
+      DaiManji1_21: -1571241398
+      DaiManji1_22: -1011040528
+      DaiManji1_23: 483025592
+      DaiManji1_3: 844090738
+      DaiManji1_4: -1950834805
+      DaiManji1_5: -941211457
+      DaiManji1_6: -1450041001
+      DaiManji1_7: -592074310
+      DaiManji1_8: -1414782977
+      DaiManji1_9: 450567086
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

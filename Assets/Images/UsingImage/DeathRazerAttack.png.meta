@@ -1,0 +1,747 @@
+fileFormatVersion: 2
+guid: 5138f575d7a7c064e95fe4a990b3f737
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6626071340925660561
+    second: DeathRazerAttack_0
+  - first:
+      213: 8744188126407900482
+    second: DeathRazerAttack_1
+  - first:
+      213: 6642793569887475193
+    second: DeathRazerAttack_2
+  - first:
+      213: -609801566250050342
+    second: DeathRazerAttack_3
+  - first:
+      213: 2478317528907990116
+    second: DeathRazerAttack_4
+  - first:
+      213: 3538565538664085660
+    second: DeathRazerAttack_5
+  - first:
+      213: -8350986996015682021
+    second: DeathRazerAttack_6
+  - first:
+      213: 6638462088587551942
+    second: DeathRazerAttack_7
+  - first:
+      213: -7065604184430860107
+    second: DeathRazerAttack_8
+  - first:
+      213: -3561169654007984710
+    second: DeathRazerAttack_9
+  - first:
+      213: -87503930848087945
+    second: DeathRazerAttack_10
+  - first:
+      213: 5598088295890984781
+    second: DeathRazerAttack_11
+  - first:
+      213: -8659291405424602967
+    second: DeathRazerAttack_12
+  - first:
+      213: 8383211624845611873
+    second: DeathRazerAttack_13
+  - first:
+      213: -6089459839285852631
+    second: DeathRazerAttack_14
+  - first:
+      213: 5525842274569046427
+    second: DeathRazerAttack_15
+  - first:
+      213: 3290614921373916349
+    second: DeathRazerAttack_16
+  - first:
+      213: -1877416613909157929
+    second: DeathRazerAttack_17
+  - first:
+      213: -5412347869653081160
+    second: DeathRazerAttack_18
+  - first:
+      213: 6855177046032390247
+    second: DeathRazerAttack_19
+  - first:
+      213: 6885239683774340997
+    second: DeathRazerAttack_20
+  - first:
+      213: -3823511946641750971
+    second: DeathRazerAttack_21
+  - first:
+      213: 6371642031558246013
+    second: DeathRazerAttack_22
+  - first:
+      213: -3353974779748475051
+    second: DeathRazerAttack_23
+  - first:
+      213: 5204825353478649875
+    second: DeathRazerAttack_24
+  - first:
+      213: -6796769194855848061
+    second: DeathRazerAttack_25
+  - first:
+      213: -2003713911703551962
+    second: DeathRazerAttack_26
+  - first:
+      213: 5440143427904677475
+    second: DeathRazerAttack_27
+  - first:
+      213: 8178385491447504915
+    second: DeathRazerAttack_28
+  - first:
+      213: 3210507960016860316
+    second: DeathRazerAttack_29
+  - first:
+      213: 1707150335012342123
+    second: DeathRazerAttack_30
+  - first:
+      213: -6456123550475931300
+    second: DeathRazerAttack_31
+  - first:
+      213: 4957914476464073250
+    second: DeathRazerAttack_32
+  - first:
+      213: 3730309093784298886
+    second: DeathRazerAttack_33
+  - first:
+      213: -5884978318530379430
+    second: DeathRazerAttack_34
+  - first:
+      213: -1160314541659616869
+    second: DeathRazerAttack_35
+  - first:
+      213: -5129337509270418514
+    second: DeathRazerAttack_36
+  - first:
+      213: -6386169806656244971
+    second: DeathRazerAttack_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 60
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DeathRazerAttack_7
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 178
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f62dabbc8377b04a0800000000000000
+      internalID: -6626071340925660561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_19
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f554698e81ff2c50800000000000000
+      internalID: 6642793569887475193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_9
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc5034d4bc8987f0800000000000000
+      internalID: -609801566250050342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_10
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4644f2f69a0c46220800000000000000
+      internalID: 2478317528907990116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_11
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 179
+        width: 80
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c98f28afb928b1130800000000000000
+      internalID: 3538565538664085660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1e249292955b1c80800000000000000
+      internalID: -8350986996015682021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_5
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4a825f81e802c50800000000000000
+      internalID: 6638462088587551942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_18
+      rect:
+        serializedVersion: 2
+        x: 628
+        y: 1
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b82c7fed6ee1fd90800000000000000
+      internalID: -7065604184430860107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_4
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abd04fb411f249ec0800000000000000
+      internalID: -3561169654007984710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 770795573af19cef0800000000000000
+      internalID: -87503930848087945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f9ad925a760bd40800000000000000
+      internalID: 5598088295890984781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a0d21d785404d780800000000000000
+      internalID: -8659291405424602967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_12
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16319df7e86275470800000000000000
+      internalID: 8383211624845611873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_13
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9260c5d1a84ed7ba0800000000000000
+      internalID: -6089459839285852631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_14
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b994684854cbfac40800000000000000
+      internalID: 5525842274569046427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_15
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc971926dc9aad20800000000000000
+      internalID: 3290614921373916349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_16
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d72780698312f5e0800000000000000
+      internalID: -1877416613909157929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_6
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b36c74d94a73e4b0800000000000000
+      internalID: -5412347869653081160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_20
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7681c2df33b722f50800000000000000
+      internalID: 6855177046032390247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DeathRazerAttack_8
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 179
+        width: 90
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 179, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40c57701d8d4be44bac55ae77804baf
+      internalID: -321464818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: db6f254e89c5b914992f461d44d9cd61
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DeathRazerAttack_1: -8659291405424602967
+      DeathRazerAttack_10: 2478317528907990116
+      DeathRazerAttack_11: 3538565538664085660
+      DeathRazerAttack_12: 8383211624845611873
+      DeathRazerAttack_13: -6089459839285852631
+      DeathRazerAttack_14: 5525842274569046427
+      DeathRazerAttack_15: 3290614921373916349
+      DeathRazerAttack_16: -1877416613909157929
+      DeathRazerAttack_17: -8350986996015682021
+      DeathRazerAttack_18: -7065604184430860107
+      DeathRazerAttack_19: 6642793569887475193
+      DeathRazerAttack_2: 5598088295890984781
+      DeathRazerAttack_20: 6855177046032390247
+      DeathRazerAttack_21: -3823511946641750971
+      DeathRazerAttack_22: 6371642031558246013
+      DeathRazerAttack_23: -3353974779748475051
+      DeathRazerAttack_24: 5204825353478649875
+      DeathRazerAttack_25: -6796769194855848061
+      DeathRazerAttack_26: -2003713911703551962
+      DeathRazerAttack_27: 5440143427904677475
+      DeathRazerAttack_28: 8178385491447504915
+      DeathRazerAttack_29: 3210507960016860316
+      DeathRazerAttack_3: -87503930848087945
+      DeathRazerAttack_30: 1707150335012342123
+      DeathRazerAttack_31: -6456123550475931300
+      DeathRazerAttack_32: 4957914476464073250
+      DeathRazerAttack_33: 3730309093784298886
+      DeathRazerAttack_34: -5884978318530379430
+      DeathRazerAttack_35: -1160314541659616869
+      DeathRazerAttack_36: -5129337509270418514
+      DeathRazerAttack_37: -6386169806656244971
+      DeathRazerAttack_4: -3561169654007984710
+      DeathRazerAttack_5: 6638462088587551942
+      DeathRazerAttack_6: -5412347869653081160
+      DeathRazerAttack_7: -6626071340925660561
+      DeathRazerAttack_8: -321464818
+      DeathRazerAttack_9: -609801566250050342
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
