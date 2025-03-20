@@ -23,7 +23,7 @@ public class UFOBullet : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            //Destroy(collision.gameObject);
+            //데미지 주고
             Destroy(gameObject);
         }
     }

@@ -15,6 +15,7 @@ public class Monster : MonoBehaviour
 
     protected virtual void Damaged(float damage)
     {
+        //if 플레이어총알에 맞으면
         hp -= damage;
 
         if (hp <= 0)
