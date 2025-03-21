@@ -348,7 +348,15 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      RazerEffect_0: 6150358447661063213
+      RazerEffect_1: -1238371321830449767
+      RazerEffect_2: -1296396515061126092
+      RazerEffect_3: 4785059172631758972
+      RazerEffect_4: 7118426478419501166
+      RazerEffect_5: -4062330384179653192
+      RazerEffect_6: 4025453125428771057
+      RazerEffect_7: -8508715768454717965
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
