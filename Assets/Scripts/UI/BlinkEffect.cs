@@ -15,11 +15,11 @@ public class BlinkEffect : MonoBehaviour
     {
         while (true)
         {
-            panelCanvasGroup.alpha = 0; // 즉시 사라짐
-            yield return new WaitForSeconds(blinkInterval); // 대기
+            panelCanvasGroup.alpha = 0; 
+            yield return new WaitForSeconds(blinkInterval); 
 
-            panelCanvasGroup.alpha = 1; // 즉시 나타남
-            yield return new WaitForSeconds(blinkInterval); // 대기
+            panelCanvasGroup.alpha = 1; 
+            yield return new WaitForSeconds(blinkInterval); 
         }
     }
 
