@@ -752,7 +752,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c51e9eeab0cf8be419c481dcd6062a7c
-      internalID: 1129668879
+      internalID: 7335814117149111459
       vertices: []
       indices: 
       edges: []
@@ -774,7 +774,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a7bc2bd95aaa9db439ff5991752468a9
-      internalID: -322840049
+      internalID: 5839362410730730567
       vertices: []
       indices: 
       edges: []
@@ -796,7 +796,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d26475fa60da2464c8d7b9b2d93a542d
-      internalID: 1821199454
+      internalID: 5552526449224874800
       vertices: []
       indices: 
       edges: []
@@ -818,7 +818,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4cf06eea159537744a8d7fba6ca70074
-      internalID: -799140921
+      internalID: -6222173901302352455
       vertices: []
       indices: 
       edges: []
@@ -840,7 +840,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 42fd72745b2dd044cb1d4c471fd1c7fc
-      internalID: 1019710188
+      internalID: -9218671276688479351
       vertices: []
       indices: 
       edges: []
@@ -862,7 +862,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ba43ab0edfc067e46b63d4cfb3259341
-      internalID: -1461236393
+      internalID: -3359823959341865469
       vertices: []
       indices: 
       edges: []
@@ -884,7 +884,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e61615519f4264c4285a93e3ef286c46
-      internalID: -990272173
+      internalID: -7781141519259302084
       vertices: []
       indices: 
       edges: []
@@ -906,7 +906,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cbea96ea036aad7409f1d7817034bf04
-      internalID: -1146338453
+      internalID: -3773158126232406003
       vertices: []
       indices: 
       edges: []
@@ -928,7 +928,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0c1dd9afe29d30f45a6a62d07dd10cbf
-      internalID: -1350086080
+      internalID: 7063221478801107602
       vertices: []
       indices: 
       edges: []
@@ -950,7 +950,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 80850c2a270e0054494e05ed742b1d01
-      internalID: 353802569
+      internalID: 2051126042527313159
       vertices: []
       indices: 
       edges: []
@@ -972,7 +972,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0a5499979c263e34999afc2311c2724f
-      internalID: -1468693171
+      internalID: -6423171499220045557
       vertices: []
       indices: 
       edges: []
@@ -994,7 +994,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e6dbfcb89a6524a4b8560ba3a1e17421
-      internalID: -1173479486
+      internalID: 6160672456058548862
       vertices: []
       indices: 
       edges: []
@@ -1016,7 +1016,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fb0bc5482aee0684d8ffc5396e786867
-      internalID: 1563733750
+      internalID: -2189925722803469300
       vertices: []
       indices: 
       edges: []
@@ -1038,7 +1038,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f23878e7d49c81047ae9608cb14209c6
-      internalID: -1456868314
+      internalID: 1444159668866626440
       vertices: []
       indices: 
       edges: []
@@ -1060,7 +1060,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 95d08c68459d4144a8f4ee9dc3a4f7dc
-      internalID: -1354352233
+      internalID: 1926131631834379040
       vertices: []
       indices: 
       edges: []
@@ -1082,7 +1082,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e7b6e7cc33decd7429abb7b7248132e4
-      internalID: -2076378203
+      internalID: 7834409357524013106
       vertices: []
       indices: 
       edges: []
@@ -1104,7 +1104,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4a9ed5a3d4ab580429c7a034fb51c82f
-      internalID: 46691412
+      internalID: -3762510254494840552
       vertices: []
       indices: 
       edges: []
@@ -1126,7 +1126,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d4d719df5f6bf124d98b3412efa2054f
-      internalID: 335216835
+      internalID: 1230686422215554983
       vertices: []
       indices: 
       edges: []
@@ -1148,7 +1148,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 3a9bde6daefe02142bc4ea65930d527c
-      internalID: -1342809722
+      internalID: -1653567918521686529
       vertices: []
       indices: 
       edges: []
@@ -1170,7 +1170,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 36187fb8da430994e9dc8ca8125ac2a7
-      internalID: -1929317203
+      internalID: 6198787813707804339
       vertices: []
       indices: 
       edges: []
@@ -1192,95 +1192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0798f10af2721c24b9b4c98bc02ef8e9
-      internalID: 2124167780
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_50
-      rect:
-        serializedVersion: 2
-        x: 498
-        y: 1305
-        width: 54
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 77fe1897f0fe51543801311bb00791af
-      internalID: -1329347264
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_51
-      rect:
-        serializedVersion: 2
-        x: 558
-        y: 1305
-        width: 55
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 825f09bf765ae5b40929de5e7e56f0c9
-      internalID: 2057847920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_52
-      rect:
-        serializedVersion: 2
-        x: 618
-        y: 1305
-        width: 54
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 099884f10e2ca574bb2295b5af4293b0
-      internalID: -901008203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_53
-      rect:
-        serializedVersion: 2
-        x: 677
-        y: 1305
-        width: 55
-        height: 14
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11507d87b8b546a4998a4d00561b400c
-      internalID: -846052226
+      internalID: -5596993625628621073
       vertices: []
       indices: 
       edges: []
@@ -1302,7 +1214,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5f47f51687a41244f8bbcb312b77c95c
-      internalID: 38256128
+      internalID: -2341784405564845652
       vertices: []
       indices: 
       edges: []
@@ -1324,7 +1236,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d04ba5a2b730ace4f958024c6a1c1954
-      internalID: -2096622057
+      internalID: -8776365374103768608
       vertices: []
       indices: 
       edges: []
@@ -1346,7 +1258,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ac0c1c5c5247ae2498342eac9ebfdbe3
-      internalID: 1844619107
+      internalID: 5685974040391827243
       vertices: []
       indices: 
       edges: []
@@ -1368,7 +1280,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1266fb723b342484ca1b844fb86c4548
-      internalID: 303516457
+      internalID: -597948596204434547
       vertices: []
       indices: 
       edges: []
@@ -1390,7 +1302,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 39ad93e351d31ef468b6f3087776fa61
-      internalID: 297560251
+      internalID: -3003949364661383381
       vertices: []
       indices: 
       edges: []
@@ -1412,7 +1324,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2a03fcb950f346e4d969c1c5ff0369b9
-      internalID: -1221497175
+      internalID: -3747248358115658061
       vertices: []
       indices: 
       edges: []
@@ -1434,7 +1346,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c92ae4c610a2d634780916e7ee4ac95d
-      internalID: -392743592
+      internalID: 3559448090108930050
       vertices: []
       indices: 
       edges: []
@@ -1456,7 +1368,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f79306d5ea73f7c4ebfd3398df0365c2
-      internalID: -1942440282
+      internalID: 4094088857639575373
       vertices: []
       indices: 
       edges: []
@@ -1478,7 +1390,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 40a6b55c770bf184cae810050c6ff2af
-      internalID: 408512399
+      internalID: 482250478714619338
       vertices: []
       indices: 
       edges: []
@@ -1500,7 +1412,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bd289b15c18258142a8828e3241da3d9
-      internalID: -1288432893
+      internalID: -1039293652174974269
       vertices: []
       indices: 
       edges: []
@@ -1522,7 +1434,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b81559e7974495048b6ff0dc99df441e
-      internalID: 1918758807
+      internalID: -7515004759479208349
       vertices: []
       indices: 
       edges: []
@@ -1544,205 +1456,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6d9db1405261caf4e8334dd53d51412d
-      internalID: 1397303214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_126
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 764
-        width: 51
-        height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 223efcbc7381ed84b901bb911e1b3f17
-      internalID: -230098069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_127
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 769
-        width: 49
-        height: 76
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 429ec3afb7deb3e4ba15ddc1fc9e7347
-      internalID: -1218373913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_128
-      rect:
-        serializedVersion: 2
-        x: 231
-        y: 751
-        width: 67
-        height: 88
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f788c7cb7da8ad74aaf166a062aad6fc
-      internalID: -134144192
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_129
-      rect:
-        serializedVersion: 2
-        x: 263
-        y: 839
-        width: 8
-        height: 6
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 363e7ca5ff3a7984b9734725d5af3d99
-      internalID: -844835974
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_130
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 755
-        width: 67
-        height: 84
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b113312cbf247344585f4367bdfc8ba8
-      internalID: 2085547078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_131
-      rect:
-        serializedVersion: 2
-        x: 356
-        y: 839
-        width: 15
-        height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 018f6be6df4c9d741b12e423948d130e
-      internalID: -1895040431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_132
-      rect:
-        serializedVersion: 2
-        x: 420
-        y: 733
-        width: 88
-        height: 112
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5281a9fea3c857a498e2402a83fd2249
-      internalID: -267923546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_133
-      rect:
-        serializedVersion: 2
-        x: 520
-        y: 737
-        width: 88
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11a5bb735b0453144939ab12b2272e92
-      internalID: -1286681465
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_134
-      rect:
-        serializedVersion: 2
-        x: 636
-        y: 686
-        width: 80
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 970377bf1fce1d040b71a9a6f6d46f06
-      internalID: -1880837877
+      internalID: -5885615565318820312
       vertices: []
       indices: 
       edges: []
@@ -1764,249 +1478,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8ec5eaee6def2254bb5720a7f5f37b54
-      internalID: -491976762
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_141
-      rect:
-        serializedVersion: 2
-        x: 43
-        y: 513
-        width: 51
-        height: 162
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5c973294168f744ba9756d38ac4da18
-      internalID: -1988050679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_142
-      rect:
-        serializedVersion: 2
-        x: 148
-        y: 513
-        width: 40
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b399ad9a979429343adc5aa8bad840f4
-      internalID: -44766430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_143
-      rect:
-        serializedVersion: 2
-        x: 247
-        y: 513
-        width: 41
-        height: 156
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3c8aa005cc8e7ce4186b387d0205efcd
-      internalID: 145220342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_144
-      rect:
-        serializedVersion: 2
-        x: 345
-        y: 513
-        width: 46
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1bbb0b0e2d1807345b119a2832613f40
-      internalID: -737978371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_145
-      rect:
-        serializedVersion: 2
-        x: 446
-        y: 513
-        width: 46
-        height: 159
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ae3ec449f5e5d549895d77c5f02dc8c
-      internalID: -1946766334
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_146
-      rect:
-        serializedVersion: 2
-        x: 546
-        y: 513
-        width: 39
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6012122d6125e404581c0c58755f9b8f
-      internalID: -1254673394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_147
-      rect:
-        serializedVersion: 2
-        x: 646
-        y: 513
-        width: 39
-        height: 154
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9cc50d1c0dc8bfb4d99be357f74ba3e0
-      internalID: -1454039181
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_148
-      rect:
-        serializedVersion: 2
-        x: 742
-        y: 558
-        width: 52
-        height: 108
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b75b3c3f53d0824fb9e8d127cb85ae9
-      internalID: 1579566546
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_151
-      rect:
-        serializedVersion: 2
-        x: 856
-        y: 558
-        width: 37
-        height: 94
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d2fcd5dbef95a542a74e57435cd0b7f
-      internalID: -1284595454
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_152
-      rect:
-        serializedVersion: 2
-        x: 764
-        y: 513
-        width: 4
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae7d226a5d19c7147a1defae2bff6d5d
-      internalID: 493574734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_153
-      rect:
-        serializedVersion: 2
-        x: 864
-        y: 513
-        width: 4
-        height: 44
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c3df1d414eab544c96f46cba525d4d0
-      internalID: -986781094
+      internalID: 2453145449993059437
       vertices: []
       indices: 
       edges: []
@@ -2028,7 +1500,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f5f982cd36705464aac198342f8e483e
-      internalID: -1268274720
+      internalID: -7340947599928243200
       vertices: []
       indices: 
       edges: []
@@ -2050,7 +1522,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 02b2199185a527742ad0c09f2ed706b2
-      internalID: -115756784
+      internalID: 3710510774218920737
       vertices: []
       indices: 
       edges: []
@@ -2072,7 +1544,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 22cdd17ec02162c438190331e8020bb4
-      internalID: -556026217
+      internalID: 6625694905427247844
       vertices: []
       indices: 
       edges: []
@@ -2094,7 +1566,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: af6332047d3ecc9418a0772885e9d071
-      internalID: -592657416
+      internalID: 4114112466343340048
       vertices: []
       indices: 
       edges: []
@@ -2116,7 +1588,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6ca0d6f8cc219654c97115eb5beace97
-      internalID: -980979141
+      internalID: -4981726834900739564
       vertices: []
       indices: 
       edges: []
@@ -2138,7 +1610,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fdf1cc9e3a714cf41911a36a694c5114
-      internalID: -600979269
+      internalID: -5040807417324343439
       vertices: []
       indices: 
       edges: []
@@ -2160,7 +1632,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4c8117b7c1c95584192a747529af3d6e
-      internalID: -293714793
+      internalID: 2371347208451701362
       vertices: []
       indices: 
       edges: []
@@ -2182,7 +1654,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4ddc3ec44fd009e4faf95497a9d346ac
-      internalID: 486224713
+      internalID: 3829665970322869573
       vertices: []
       indices: 
       edges: []
@@ -2204,7 +1676,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7ff1cc6fb8df5064dbf97f40b3677eed
-      internalID: 668543650
+      internalID: -322873279979106243
       vertices: []
       indices: 
       edges: []
@@ -2226,7 +1698,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0074f664057afdc4085a6cfef701b8d0
-      internalID: -1934477265
+      internalID: -1700869720095785920
       vertices: []
       indices: 
       edges: []
@@ -2248,7 +1720,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9acfacbd5bc635b4abcc45d2282dbbc3
-      internalID: -864892336
+      internalID: 1241773246067227504
       vertices: []
       indices: 
       edges: []
@@ -2270,7 +1742,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7f745fe38c50158469545c5c34518f57
-      internalID: -835502850
+      internalID: 9011247174114769649
       vertices: []
       indices: 
       edges: []
@@ -2292,7 +1764,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d345273b04ea3824da69cc4d80986ee8
-      internalID: 1932130560
+      internalID: 3906602334815430890
       vertices: []
       indices: 
       edges: []
@@ -2314,7 +1786,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: adfdfb3a51e7fa142b53d050fe9de3dc
-      internalID: 30005050
+      internalID: 616506051433594992
       vertices: []
       indices: 
       edges: []
@@ -2336,7 +1808,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bef12e716b8302041a7337001fbceb81
-      internalID: 1871259685
+      internalID: -321440012887678486
       vertices: []
       indices: 
       edges: []
@@ -2358,7 +1830,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4ee814e70c2f15c47b82ba8d09b13d05
-      internalID: -1068590009
+      internalID: 4043698156286671779
       vertices: []
       indices: 
       edges: []
@@ -2380,7 +1852,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d4b7fbeb577f8fe4ca1b680e6ab555f0
-      internalID: -55409306
+      internalID: 2784711754043640743
       vertices: []
       indices: 
       edges: []
@@ -2402,7 +1874,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2a0bf70d722bcb94caec0a3f4c77ceab
-      internalID: 1946779925
+      internalID: -4913172780671621912
       vertices: []
       indices: 
       edges: []
@@ -2424,7 +1896,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7937b27545984574cb155b9a89eed9f0
-      internalID: -361792229
+      internalID: -7494296986413043261
       vertices: []
       indices: 
       edges: []
@@ -2446,7 +1918,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2fea2bbae89bdbe4180099583bb74613
-      internalID: -1960388670
+      internalID: -7968670079860635158
       vertices: []
       indices: 
       edges: []
@@ -2468,7 +1940,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b57b9a8f222d05c4cb5589d13529ca9f
-      internalID: 1935538226
+      internalID: -7011621552995161137
       vertices: []
       indices: 
       edges: []
@@ -2490,7 +1962,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e1caa66ca8fea8a4583c0fb1972beca6
-      internalID: -1076411204
+      internalID: 275042231667540669
       vertices: []
       indices: 
       edges: []
@@ -2512,7 +1984,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: bc1b090bc04b89d45b32cae9ac2e519b
-      internalID: -262987424
+      internalID: 1807359888280020738
       vertices: []
       indices: 
       edges: []
@@ -2534,7 +2006,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d95d33edf65f875448efb134b526e04f
-      internalID: -125552247
+      internalID: -6834922835086002329
       vertices: []
       indices: 
       edges: []
@@ -2556,7 +2028,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f1d2af4c904cfd1489bf81efe8e02a02
-      internalID: -43833908
+      internalID: -8799127016322834049
       vertices: []
       indices: 
       edges: []
@@ -2578,7 +2050,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9695765e629d98b479f0ea2358414bfd
-      internalID: -640772923
+      internalID: -8952308073988045433
       vertices: []
       indices: 
       edges: []
@@ -2600,7 +2072,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8e04bb772875dd948ba7250f47fbd618
-      internalID: -845542842
+      internalID: -2379448113113813242
       vertices: []
       indices: 
       edges: []
@@ -2622,7 +2094,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4d50b74815a741b47baca8653fa67751
-      internalID: -1808068707
+      internalID: 7144035289079883949
       vertices: []
       indices: 
       edges: []
@@ -2644,7 +2116,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 40b2dccbcdde96d44bb42617b9a84b20
-      internalID: -1169699113
+      internalID: -6351077899455493731
       vertices: []
       indices: 
       edges: []
@@ -2666,7 +2138,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e7e30aa854e93e047864af40e4fc4bbc
-      internalID: 1374112654
+      internalID: -3550284987836816111
       vertices: []
       indices: 
       edges: []
@@ -2688,7 +2160,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 237f4220951877946bdeb10d1b0b416a
-      internalID: -649247300
+      internalID: -7210823788223683202
       vertices: []
       indices: 
       edges: []
@@ -2710,7 +2182,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 942d94df3d62f9242ae20d39ab0c5473
-      internalID: 264997158
+      internalID: 8747126488582758947
       vertices: []
       indices: 
       edges: []
@@ -2732,7 +2204,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9c77216cd6f1af042be829cbb9757f4d
-      internalID: 169914457
+      internalID: -7496630704444446500
       vertices: []
       indices: 
       edges: []
@@ -2754,7 +2226,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0cbca46bb7162f04f802e3b6634c54dd
-      internalID: 1626734470
+      internalID: -4331457390329258360
       vertices: []
       indices: 
       edges: []
@@ -2776,7 +2248,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2410fb33df9790a4daf99ac941eca234
-      internalID: 1851730506
+      internalID: 5842520023849279379
       vertices: []
       indices: 
       edges: []
@@ -2798,7 +2270,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 16f4e8b9da2577546ad18a6d6881685f
-      internalID: 868886440
+      internalID: 8954109842748111120
       vertices: []
       indices: 
       edges: []
@@ -2820,7 +2292,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 994308eae62728746b18aa520a152d5b
-      internalID: -274915483
+      internalID: -1157805044901039346
       vertices: []
       indices: 
       edges: []
@@ -2842,7 +2314,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b91ab9af3f5fcd74c9bf4ce010a8a562
-      internalID: -1612985183
+      internalID: -7534578966143383552
       vertices: []
       indices: 
       edges: []
@@ -2864,7 +2336,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a348e94ea69e59c4d8c3fffc24855c8b
-      internalID: -59874957
+      internalID: 5828200948545498515
       vertices: []
       indices: 
       edges: []
@@ -2886,7 +2358,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6bf7103d867446647ac75420930e1559
-      internalID: 1385952371
+      internalID: 2273483141939340531
       vertices: []
       indices: 
       edges: []
@@ -2908,7 +2380,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8ddea82d4a6c59040a7e4a177cf48bee
-      internalID: 144485232
+      internalID: 5932430753131741290
       vertices: []
       indices: 
       edges: []
@@ -2930,7 +2402,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: a4610c91eac307e45b9cac0d40faf293
-      internalID: -1409587940
+      internalID: 4990534454313891785
       vertices: []
       indices: 
       edges: []
@@ -2952,7 +2424,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 260c49610688d034b8ae482f26ab16b8
-      internalID: -1230478261
+      internalID: 6545976114673431500
       vertices: []
       indices: 
       edges: []
@@ -2974,7 +2446,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e33ee220b629c89438d5d43cd69c07aa
-      internalID: -653003651
+      internalID: -508052802925738359
       vertices: []
       indices: 
       edges: []
@@ -2996,7 +2468,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8820b292b22f00541b8af96fd09404b7
-      internalID: 608389399
+      internalID: 5991853537320436233
       vertices: []
       indices: 
       edges: []
@@ -3018,7 +2490,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 763bed229cc83b34489b54e939b1dc2d
-      internalID: -832233318
+      internalID: 5916746869129583766
       vertices: []
       indices: 
       edges: []
@@ -3040,7 +2512,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d613fd745d1bc3f4c869cd5bb671f963
-      internalID: 1195034536
+      internalID: -2570562353025793493
       vertices: []
       indices: 
       edges: []
@@ -3062,7 +2534,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 27ba3c9ff0620b5489a9b8253543e250
-      internalID: 72862343
+      internalID: 712846734187056590
       vertices: []
       indices: 
       edges: []
@@ -3084,7 +2556,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 576c83241a9ac6c488950a5633db576d
-      internalID: 1025342649
+      internalID: -9179075719631411826
       vertices: []
       indices: 
       edges: []
@@ -3106,7 +2578,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0e7cdb011f958cf4988d07a9fe3e87cb
-      internalID: 372977025
+      internalID: -8418856283116859207
       vertices: []
       indices: 
       edges: []
@@ -3128,7 +2600,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0edb300892edac049a434eaa630167b2
-      internalID: -1208288853
+      internalID: 8407733819902856718
       vertices: []
       indices: 
       edges: []
@@ -3150,7 +2622,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 22a8cfb5aef24344199b59d0474adb47
-      internalID: -1393166637
+      internalID: 5195889825050013909
       vertices: []
       indices: 
       edges: []
@@ -3172,7 +2644,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cd658e86cc9a8f042ac737985f33cdf6
-      internalID: -2107209767
+      internalID: -1844720742395704247
       vertices: []
       indices: 
       edges: []
@@ -3194,7 +2666,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: be41a78f31f3dc947b8ad4ffb4772e52
-      internalID: 2065087062
+      internalID: 1979278712815188848
       vertices: []
       indices: 
       edges: []
@@ -3216,7 +2688,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b6b51ed384b9d1c40a710dd19f5f8345
-      internalID: -635551082
+      internalID: 4552448108596143637
       vertices: []
       indices: 
       edges: []
@@ -3238,7 +2710,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e3eb68ad8b1fa9b4ba0ab334f3911d9d
-      internalID: 1815570860
+      internalID: 4490892913455406082
       vertices: []
       indices: 
       edges: []
@@ -3260,7 +2732,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e8b69835a89a9ba468f86343ac5c8239
-      internalID: -340460459
+      internalID: -431256231700499123
       vertices: []
       indices: 
       edges: []
@@ -3282,7 +2754,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 03bc9216fa872fc4abb1e839988accb6
-      internalID: -1447750605
+      internalID: 5196954050926131442
       vertices: []
       indices: 
       edges: []
@@ -3304,7 +2776,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4d9050dc37cf07147989dc4a781130f9
-      internalID: -366216483
+      internalID: 2849256724047129060
       vertices: []
       indices: 
       edges: []
@@ -3326,7 +2798,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2ba981357c2c8eb4eacd0fa88b8eb968
-      internalID: -1612837461
+      internalID: -9005825142296020237
       vertices: []
       indices: 
       edges: []
@@ -3348,7 +2820,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 95b5f80e389dc3a4ab2b86ee29baf625
-      internalID: -1378535049
+      internalID: 650784242016695845
       vertices: []
       indices: 
       edges: []
@@ -3370,7 +2842,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 944049819c17cc14886986bdff1a05d2
-      internalID: 31463424
+      internalID: 9066507669378601564
       vertices: []
       indices: 
       edges: []
@@ -3392,7 +2864,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2e0740328f03e2f49acbfea5f5e29789
-      internalID: 927026133
+      internalID: -6011038597812055033
       vertices: []
       indices: 
       edges: []
@@ -3414,7 +2886,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 82639ba238562dd4c8226da1f71fa086
-      internalID: 695174560
+      internalID: -2949537560087024031
       vertices: []
       indices: 
       edges: []
@@ -3436,7 +2908,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fac8cd801f6ce7241806d7e4cfd0903b
-      internalID: -1008613334
+      internalID: 362763663669301280
       vertices: []
       indices: 
       edges: []
@@ -3458,7 +2930,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1b3bf0eec7b457b4986e2f2cb5c769f0
-      internalID: 2102686628
+      internalID: -8839043049112881457
       vertices: []
       indices: 
       edges: []
@@ -3480,7 +2952,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9bdc793f33debe74db69f99c54e299b1
-      internalID: -1423027763
+      internalID: -8812508297062843577
       vertices: []
       indices: 
       edges: []
@@ -3502,7 +2974,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8d1f460696297de46824156fa0d56356
-      internalID: -1215756291
+      internalID: 8639898116276354888
       vertices: []
       indices: 
       edges: []
@@ -3524,7 +2996,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: db167e44acf368a4e8e148c93e58154f
-      internalID: -1292976581
+      internalID: 3179866453604058191
       vertices: []
       indices: 
       edges: []
@@ -3546,7 +3018,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 75647c49385baec4e8cfac6f4e7cab12
-      internalID: -634162751
+      internalID: -194460818708043976
       vertices: []
       indices: 
       edges: []
@@ -3568,7 +3040,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 66049eebb1f661c41a4af3505780a2be
-      internalID: 456120862
+      internalID: 2693271251338550916
       vertices: []
       indices: 
       edges: []
@@ -3590,7 +3062,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8aed2af21c8cc05419f822f835685813
-      internalID: 1648702471
+      internalID: 1956805533708539348
       vertices: []
       indices: 
       edges: []
@@ -3612,95 +3084,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e36119270071c3142b64c683e5d98b4b
-      internalID: -1205379342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_135
-      rect:
-        serializedVersion: 2
-        x: 736
-        y: 686
-        width: 80
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d99393e1937c52418f7f32a08166bba
-      internalID: -1856805499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_136
-      rect:
-        serializedVersion: 2
-        x: 836
-        y: 686
-        width: 80
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 991470ff393e9764eba5bf42f6349220
-      internalID: -1630648004
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_137
-      rect:
-        serializedVersion: 2
-        x: 936
-        y: 686
-        width: 80
-        height: 160
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cf318f23ca3322149965c75e1937ca37
-      internalID: -1144683992
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: DaiManji_138
-      rect:
-        serializedVersion: 2
-        x: 1028
-        y: 677
-        width: 80
-        height: 170
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c1b5b88c473847418df18de8fedaf4a
-      internalID: -1403620687
+      internalID: 3633234894862771531
       vertices: []
       indices: 
       edges: []
@@ -3721,8 +3105,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f143431b10e007e4eab80b3c7ea75f4b
-      internalID: 1841999251
+      spriteID: 1d0bd996595d17220800000000000000
+      internalID: 2481999707356639441
       vertices: []
       indices: 
       edges: []
@@ -3743,8 +3127,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a10682d641ff0794f9d28eab345b2b96
-      internalID: -1118234338
+      spriteID: 03356babeb620d74083dbcfc0c84a837
+      internalID: 1582897854
       vertices: []
       indices: 
       edges: []
@@ -3765,8 +3149,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d96a5bbcd9b5a94b8caa018da5d009c
-      internalID: -697836132
+      spriteID: e3f7e46443730814e812ef50938e2514
+      internalID: 1173928237
       vertices: []
       indices: 
       edges: []
@@ -3787,8 +3171,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7477c005b478c0a4a992626f8a1b47eb
-      internalID: 1416413806
+      spriteID: b720ed1dd06fe4743b39a1acc70a6cf1
+      internalID: -1288772711
       vertices: []
       indices: 
       edges: []
@@ -3809,8 +3193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5f5b99f2d2856749ab5aa143c49a6bf
-      internalID: 911123305
+      spriteID: ba319fc90305f9043addb8b1563efdce
+      internalID: -1030690155
       vertices: []
       indices: 
       edges: []
@@ -3831,8 +3215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be1ef518c08f5044191844201010c3f1
-      internalID: -1251934533
+      spriteID: 229aa9e77c290464c8d20a52097f6cf0
+      internalID: -671802559
       vertices: []
       indices: 
       edges: []
@@ -3853,8 +3237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8237644d45d7547a4f0cd5aaa82a4e
-      internalID: -1481812134
+      spriteID: d13bbaa2c15943745b7101532378131a
+      internalID: 1695237302
       vertices: []
       indices: 
       edges: []
@@ -3875,8 +3259,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e281e993ee651740afcb5e6b9c1abfa
-      internalID: 871090697
+      spriteID: b473a0a2aee27924695d52e9855158f5
+      internalID: 952613075
       vertices: []
       indices: 
       edges: []
@@ -3885,7 +3269,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 8b3e53e0f49b4f34e96cec052f03819f
+    spriteID: 79a521850b490a646873374847b898df
     internalID: 0
     vertices: []
     indices: 
@@ -3895,207 +3279,150 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DaiManji: -340460459
-      DaiManji_1: 1815570860
-      DaiManji_10: 1195034536
-      DaiManji_100: -1612837461
-      DaiManji_101: -1946114960
-      DaiManji_102: 1728253252
-      DaiManji_103: 1136631138
-      DaiManji_104: 166626979
-      DaiManji_105: -1448362802
-      DaiManji_106: 616414448
-      DaiManji_107: 840297911
-      DaiManji_109: -1013233157
-      DaiManji_11: -832233318
-      DaiManji_110: 1502947499
-      DaiManji_111: 1954458018
-      DaiManji_112: -1232094679
-      DaiManji_113: -1910142657
-      DaiManji_114: 592264824
-      DaiManji_115: 144485232
-      DaiManji_116: -1409587940
-      DaiManji_117: -1230478261
-      DaiManji_118: 297560251
-      DaiManji_119: -1221497175
-      DaiManji_12: 608389399
-      DaiManji_120: -392743592
-      DaiManji_121: -1942440282
-      DaiManji_122: 408512399
-      DaiManji_123: -1288432893
-      DaiManji_124: 1918758807
-      DaiManji_125: 1397303214
-      DaiManji_126: -230098069
-      DaiManji_127: -1218373913
-      DaiManji_128: -134144192
-      DaiManji_129: -844835974
-      DaiManji_13: 38256128
-      DaiManji_130: 2085547078
-      DaiManji_131: -1895040431
-      DaiManji_132: -267923546
-      DaiManji_133: -1286681465
-      DaiManji_134: -1880837877
-      DaiManji_135: -1856805499
-      DaiManji_136: -1630648004
-      DaiManji_137: -1144683992
-      DaiManji_138: -1403620687
-      DaiManji_139: -491976762
-      DaiManji_14: -653003651
-      DaiManji_140: -2055630946
-      DaiManji_141: -1988050679
-      DaiManji_142: -44766430
-      DaiManji_143: 145220342
-      DaiManji_144: -737978371
-      DaiManji_145: -1946766334
-      DaiManji_146: -1254673394
-      DaiManji_147: -1454039181
-      DaiManji_148: 1579566546
-      DaiManji_149: 2004567191
-      DaiManji_150: 715831600
-      DaiManji_151: -1284595454
-      DaiManji_152: 493574734
-      DaiManji_153: -986781094
-      DaiManji_154: -1268274720
-      DaiManji_155: -115756784
-      DaiManji_156: -556026217
-      DaiManji_157: -592657416
-      DaiManji_158: -980979141
-      DaiManji_159: -600979269
-      DaiManji_160: -293714793
-      DaiManji_161: 486224713
-      DaiManji_162: 668543650
-      DaiManji_163: -1934477265
-      DaiManji_164: -864892336
-      DaiManji_165: -835502850
-      DaiManji_166: 1932130560
-      DaiManji_167: 30005050
-      DaiManji_168: 1871259685
-      DaiManji_169: -1068590009
-      DaiManji_170: -55409306
-      DaiManji_171: 1946779925
-      DaiManji_172: -361792229
-      DaiManji_173: -1960388670
-      DaiManji_174: 1935538226
-      DaiManji_175: -1076411204
-      DaiManji_176: -262987424
-      DaiManji_177: -125552247
-      DaiManji_178: -43833908
-      DaiManji_179: -640772923
-      DaiManji_180: -845542842
-      DaiManji_181: -1808068707
-      DaiManji_182: -1169699113
-      DaiManji_183: 1374112654
-      DaiManji_184: -1266994233
-      DaiManji_185: 270676566
-      DaiManji_186: -120746082
-      DaiManji_187: -649247300
-      DaiManji_188: 264997158
-      DaiManji_189: 169914457
-      DaiManji_190: -341544169
-      DaiManji_191: -2087425572
-      DaiManji_192: -1725847230
-      DaiManji_193: 1835218483
-      DaiManji_194: 1626734470
-      DaiManji_195: 1851730506
-      DaiManji_196: 868886440
-      DaiManji_197: -274915483
-      DaiManji_198: -1612985183
-      DaiManji_199: -59874957
-      DaiManji_2: -635551082
-      DaiManji_200: -2130081191
-      DaiManji_201: 1236338630
-      DaiManji_202: -759813913
-      DaiManji_203: -1466427953
-      DaiManji_204: 1825487612
-      DaiManji_205: -710864731
-      DaiManji_206: 2006477632
-      DaiManji_22: 358413005
-      DaiManji_23: 1359819556
-      DaiManji_24: -70907886
-      DaiManji_25: 652772874
-      DaiManji_26: 103167204
-      DaiManji_27: -1483737033
-      DaiManji_28: 1129668879
-      DaiManji_29: -322840049
-      DaiManji_3: 2065087062
-      DaiManji_30: 1821199454
-      DaiManji_31: -799140921
-      DaiManji_32: 1019710188
-      DaiManji_33: -1461236393
-      DaiManji_34: -990272173
-      DaiManji_35: 1385952371
-      DaiManji_36: -1146338453
-      DaiManji_37: -1350086080
-      DaiManji_38: 353802569
-      DaiManji_39: -1468693171
-      DaiManji_4: -2107209767
-      DaiManji_40: -1173479486
-      DaiManji_41: 1563733750
-      DaiManji_42: -1456868314
-      DaiManji_43: -1354352233
-      DaiManji_44: -2076378203
-      DaiManji_45: 46691412
-      DaiManji_46: 335216835
-      DaiManji_47: -1342809722
-      DaiManji_48: -1929317203
-      DaiManji_49: 2124167780
-      DaiManji_5: -1393166637
-      DaiManji_50: -1329347264
-      DaiManji_51: 2057847920
-      DaiManji_52: -901008203
-      DaiManji_53: -846052226
-      DaiManji_54: 486999390
-      DaiManji_55: 1171906811
-      DaiManji_56: -898719722
-      DaiManji_57: 1805744885
-      DaiManji_58: -1297764525
-      DaiManji_59: 734492147
-      DaiManji_6: -1208288853
-      DaiManji_60: -1711246479
-      DaiManji_61: -669895142
-      DaiManji_62: 40654402
-      DaiManji_63: 1943994724
-      DaiManji_64: 2063156603
-      DaiManji_65: 232119489
-      DaiManji_66: -2099080808
-      DaiManji_67: -495980196
-      DaiManji_68: -653472269
-      DaiManji_69: -912164962
-      DaiManji_7: 372977025
-      DaiManji_70: -1808353192
-      DaiManji_71: -365286111
-      DaiManji_72: 466252901
-      DaiManji_74: 871090697
-      DaiManji_75: -1481812134
-      DaiManji_76: -1251934533
-      DaiManji_77: 911123305
-      DaiManji_78: 1416413806
-      DaiManji_79: -697836132
-      DaiManji_8: 1025342649
-      DaiManji_80: -1118234338
-      DaiManji_81: 1841999251
-      DaiManji_82: -2096622057
-      DaiManji_83: -1506672852
-      DaiManji_84: -1473808116
-      DaiManji_85: -1792627401
-      DaiManji_86: 456120862
-      DaiManji_87: -634162751
-      DaiManji_88: -1292976581
-      DaiManji_89: -1215756291
-      DaiManji_9: 72862343
-      DaiManji_90: -1423027763
-      DaiManji_91: 2102686628
-      DaiManji_92: 695174560
-      DaiManji_93: -1008613334
-      DaiManji_94: 927026133
-      DaiManji_95: 31463424
-      DaiManji_96: -1378535049
-      DaiManji_97: 1844619107
-      DaiManji_98: 656804538
-      DaiManji_99: -366216483
-      DeathRazerHead: 303516457
-      DetahRazerHead_1: 1648702471
-      DetahRazerHead_2: 453553300
+      7: -1030690155
+      DaiManji: -431256231700499123
+      DaiManji_1: 4490892913455406082
+      DaiManji_10: -2570562353025793493
+      DaiManji_100: -9005825142296020237
+      DaiManji_11: 5916746869129583766
+      DaiManji_115: 5932430753131741290
+      DaiManji_116: 4990534454313891785
+      DaiManji_117: 6545976114673431500
+      DaiManji_118: -3003949364661383381
+      DaiManji_119: -3747248358115658061
+      DaiManji_12: 5991853537320436233
+      DaiManji_120: 3559448090108930050
+      DaiManji_121: 4094088857639575373
+      DaiManji_122: 482250478714619338
+      DaiManji_123: -1039293652174974269
+      DaiManji_124: -7515004759479208349
+      DaiManji_125: -5885615565318820312
+      DaiManji_126: -2018914957698003725
+      DaiManji_127: -2336800483711083202
+      DaiManji_128: -3696208634252067441
+      DaiManji_129: 4942232259147030322
+      DaiManji_13: -2341784405564845652
+      DaiManji_130: -8073232506761186919
+      DaiManji_131: -9185772085715994977
+      DaiManji_132: -8448628322593401349
+      DaiManji_133: 9054474492455034282
+      DaiManji_134: -2061654807913208694
+      DaiManji_135: -1384447893775395011
+      DaiManji_136: 8826204186093677325
+      DaiManji_137: -2799174410899769031
+      DaiManji_138: -2547486676935209137
+      DaiManji_139: 2453145449993059437
+      DaiManji_14: -508052802925738359
+      DaiManji_141: -829955386836956134
+      DaiManji_142: -8257159785160936998
+      DaiManji_143: 4681497913670599644
+      DaiManji_144: 2546502424297348531
+      DaiManji_145: -4973645133999490697
+      DaiManji_146: 7786942665525611682
+      DaiManji_147: -7503856460507455888
+      DaiManji_148: -66588951528092139
+      DaiManji_151: 419119911370504656
+      DaiManji_152: 2650744963215584590
+      DaiManji_153: 2165953709937562084
+      DaiManji_154: -7340947599928243200
+      DaiManji_155: 3710510774218920737
+      DaiManji_156: 6625694905427247844
+      DaiManji_157: 4114112466343340048
+      DaiManji_158: -4981726834900739564
+      DaiManji_159: -5040807417324343439
+      DaiManji_160: 2371347208451701362
+      DaiManji_161: 3829665970322869573
+      DaiManji_162: -322873279979106243
+      DaiManji_163: -1700869720095785920
+      DaiManji_164: 1241773246067227504
+      DaiManji_165: 9011247174114769649
+      DaiManji_166: 3906602334815430890
+      DaiManji_167: 616506051433594992
+      DaiManji_168: -321440012887678486
+      DaiManji_169: 4043698156286671779
+      DaiManji_170: 2784711754043640743
+      DaiManji_171: -4913172780671621912
+      DaiManji_172: -7494296986413043261
+      DaiManji_173: -7968670079860635158
+      DaiManji_174: -7011621552995161137
+      DaiManji_175: 275042231667540669
+      DaiManji_176: 1807359888280020738
+      DaiManji_177: -6834922835086002329
+      DaiManji_178: -8799127016322834049
+      DaiManji_179: -8952308073988045433
+      DaiManji_180: -2379448113113813242
+      DaiManji_181: 7144035289079883949
+      DaiManji_182: -6351077899455493731
+      DaiManji_183: -3550284987836816111
+      DaiManji_187: -7210823788223683202
+      DaiManji_188: 8747126488582758947
+      DaiManji_189: -7496630704444446500
+      DaiManji_194: -4331457390329258360
+      DaiManji_195: 5842520023849279379
+      DaiManji_196: 8954109842748111120
+      DaiManji_197: -1157805044901039346
+      DaiManji_198: -7534578966143383552
+      DaiManji_199: 5828200948545498515
+      DaiManji_2: 4552448108596143637
+      DaiManji_28: 7335814117149111459
+      DaiManji_29: 5839362410730730567
+      DaiManji_3: 1979278712815188848
+      DaiManji_30: 5552526449224874800
+      DaiManji_31: -6222173901302352455
+      DaiManji_32: -9218671276688479351
+      DaiManji_33: -3359823959341865469
+      DaiManji_34: -7781141519259302084
+      DaiManji_35: 2273483141939340531
+      DaiManji_36: -3773158126232406003
+      DaiManji_37: 7063221478801107602
+      DaiManji_38: 2051126042527313159
+      DaiManji_39: -6423171499220045557
+      DaiManji_4: -1844720742395704247
+      DaiManji_40: 6160672456058548862
+      DaiManji_41: -2189925722803469300
+      DaiManji_42: 1444159668866626440
+      DaiManji_43: 1926131631834379040
+      DaiManji_44: 7834409357524013106
+      DaiManji_45: -3762510254494840552
+      DaiManji_46: 1230686422215554983
+      DaiManji_47: -1653567918521686529
+      DaiManji_48: 6198787813707804339
+      DaiManji_49: -5596993625628621073
+      DaiManji_5: 5195889825050013909
+      DaiManji_50: 2003493969720408293
+      DaiManji_51: 8204006601138495737
+      DaiManji_52: -3020882844110921369
+      DaiManji_53: -3350362639868863679
+      DaiManji_6: 8407733819902856718
+      DaiManji_7: -8418856283116859207
+      DaiManji_74: 952613075
+      DaiManji_75: 1695237302
+      DaiManji_76: -671802559
+      DaiManji_77: -1030690155
+      DaiManji_78: -1288772711
+      DaiManji_79: 1173928237
+      DaiManji_8: -9179075719631411826
+      DaiManji_80: 1582897854
+      DaiManji_81: 2481999707356639441
+      DaiManji_82: -8776365374103768608
+      DaiManji_86: 2693271251338550916
+      DaiManji_87: -194460818708043976
+      DaiManji_88: 3179866453604058191
+      DaiManji_89: 8639898116276354888
+      DaiManji_9: 712846734187056590
+      DaiManji_90: -8812508297062843577
+      DaiManji_91: -8839043049112881457
+      DaiManji_92: -2949537560087024031
+      DaiManji_93: 362763663669301280
+      DaiManji_94: -6011038597812055033
+      DaiManji_95: 9066507669378601564
+      DaiManji_96: 650784242016695845
+      DaiManji_97: 5685974040391827243
+      DaiManji_98: 5196954050926131442
+      DaiManji_99: 2849256724047129060
+      DeathRazerHead: -597948596204434547
+      DetahRazerHead_1: 1956805533708539348
+      DetahRazerHead_2: 3633234894862771531
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
