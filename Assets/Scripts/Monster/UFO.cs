@@ -3,15 +3,14 @@ using UnityEngine;
 
 public class UFO : Monster
 {
+    public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
+    public GameObject bullet;
+
     private Vector2 startPos;
     private Vector2 midPos;
     private Vector2 endPos;
     private Camera mainCamera;
-
-    public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
-    public GameObject bullet;
-
-    Animator ani;
+    private Animator ani;
 
     protected override void Move()
     {
