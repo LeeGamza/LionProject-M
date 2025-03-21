@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
         EventManager.Instance.OnPlayerMove+= PlayerMove;
         EventManager.Instance.OnUpMove += UpMove;
         EventManager.Instance.OnDownMove += DownMove;
-        EventManager.Instance.OnJump += JumpMove;
+        EventManager.Instance.OnAttack += Attack;
     }
 
     private void OnDisable()
@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
         EventManager.Instance.OnPlayerMove -= PlayerMove;
         EventManager.Instance.OnUpMove -= UpMove;
         EventManager.Instance.OnDownMove -= DownMove;
-        EventManager.Instance.OnJump -= JumpMove;
+        EventManager.Instance.OnAttack -= Attack;
     }
      
     
@@ -54,6 +54,10 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
         }
+    }
+
+    private void Attack()
+    {
     }
 }
     
