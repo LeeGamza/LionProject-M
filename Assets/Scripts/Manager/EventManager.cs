@@ -1,16 +1,43 @@
+using System;
 using UnityEngine;
 
 public class EventManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static EventManager Instance { get; private set; }
+
+    public event Action<float, float> OnPlayerMove;
+    public event Action OnUpMove;
+    public event Action OnDownMove;
+    public event Action OnJump;
+    
+    private void Awake()
     {
-        
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+    
+    public void InvokeUpMove()
+    {
+        OnUpMove?.Invoke();
+    }
+    public void InvokePlayerMove(float horizontal, float vertical)
+    {
+        OnPlayerMove?.Invoke(horizontal, vertical);
+    }
+    public void InvokeDownMove()
+    {
+        OnDownMove?.Invoke();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void InvokeJump()
     {
-        
+        OnJump?.Invoke();
     }
 }

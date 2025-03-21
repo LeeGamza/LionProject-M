@@ -1,0 +1,4694 @@
+fileFormatVersion: 2
+guid: bb1c26ad02766fc4dbb5d7bf37310f0c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7062286366074809327
+    second: Mmini-ufo_0
+  - first:
+      213: -8472203206345961481
+    second: Mmini-ufo_1
+  - first:
+      213: 8269153518839658679
+    second: Mmini-ufo_2
+  - first:
+      213: 4823485945241436317
+    second: Mmini-ufo_3
+  - first:
+      213: 5514682358437854329
+    second: Mmini-ufo_4
+  - first:
+      213: 7250918092682225286
+    second: Mmini-ufo_5
+  - first:
+      213: -1440956269695928785
+    second: Mmini-ufo_6
+  - first:
+      213: 2159310409318124186
+    second: Mmini-ufo_7
+  - first:
+      213: 7907141268139335526
+    second: Mmini-ufo_8
+  - first:
+      213: 180596484295545040
+    second: Mmini-ufo_9
+  - first:
+      213: -4926848271599370554
+    second: Mmini-ufo_10
+  - first:
+      213: -6421326251085059302
+    second: Mmini-ufo_11
+  - first:
+      213: 4103828478223490840
+    second: Mmini-ufo_12
+  - first:
+      213: -2391335186324865244
+    second: Mmini-ufo_13
+  - first:
+      213: -3765746401192725829
+    second: Mmini-ufo_14
+  - first:
+      213: 6370116359618543973
+    second: Mmini-ufo_15
+  - first:
+      213: -5238092545622775034
+    second: Mmini-ufo_16
+  - first:
+      213: -3686778230470563147
+    second: Mmini-ufo_17
+  - first:
+      213: -4874194507660094750
+    second: Mmini-ufo_18
+  - first:
+      213: 7047353504686532594
+    second: Mmini-ufo_19
+  - first:
+      213: 6795295685369623857
+    second: Mmini-ufo_20
+  - first:
+      213: 5266609272618166127
+    second: Mmini-ufo_21
+  - first:
+      213: -4078345971583487171
+    second: Mmini-ufo_22
+  - first:
+      213: 4530249965036153543
+    second: Mmini-ufo_23
+  - first:
+      213: -4269480198032420271
+    second: Mmini-ufo_24
+  - first:
+      213: -5332977265215903787
+    second: Mmini-ufo_25
+  - first:
+      213: 4898679450899498207
+    second: Mmini-ufo_26
+  - first:
+      213: -167285823166831525
+    second: Mmini-ufo_27
+  - first:
+      213: 7343911699761585380
+    second: Mmini-ufo_28
+  - first:
+      213: 3111059486153499945
+    second: Mmini-ufo_29
+  - first:
+      213: -1370703338852184376
+    second: Mmini-ufo_30
+  - first:
+      213: 7999643665233790797
+    second: Mmini-ufo_31
+  - first:
+      213: -2352277074496480412
+    second: Mmini-ufo_32
+  - first:
+      213: -4804836591080230588
+    second: Mmini-ufo_33
+  - first:
+      213: -5073085200879923311
+    second: Mmini-ufo_34
+  - first:
+      213: 5999239291902119576
+    second: Mmini-ufo_35
+  - first:
+      213: -5051035596780352262
+    second: Mmini-ufo_36
+  - first:
+      213: -6677436062597625945
+    second: Mmini-ufo_37
+  - first:
+      213: -4852541886142453609
+    second: Mmini-ufo_38
+  - first:
+      213: 6570378822846795805
+    second: Mmini-ufo_39
+  - first:
+      213: -1928888720755175608
+    second: Mmini-ufo_40
+  - first:
+      213: -2406966678951968447
+    second: Mmini-ufo_41
+  - first:
+      213: 8491546354986726897
+    second: Mmini-ufo_42
+  - first:
+      213: 8871787622967524024
+    second: Mmini-ufo_43
+  - first:
+      213: 7660485695848711748
+    second: Mmini-ufo_44
+  - first:
+      213: 3649409276919504648
+    second: Mmini-ufo_45
+  - first:
+      213: 7659000110983344338
+    second: Mmini-ufo_46
+  - first:
+      213: -4019758300963939062
+    second: Mmini-ufo_47
+  - first:
+      213: -3933979278015390914
+    second: Mmini-ufo_48
+  - first:
+      213: -8954341481787402608
+    second: Mmini-ufo_49
+  - first:
+      213: -1451492842193195807
+    second: Mmini-ufo_50
+  - first:
+      213: 5816810115275330988
+    second: Mmini-ufo_51
+  - first:
+      213: -981185896995132909
+    second: Mmini-ufo_52
+  - first:
+      213: -2248685686657287405
+    second: Mmini-ufo_53
+  - first:
+      213: -7011508329087545471
+    second: Mmini-ufo_54
+  - first:
+      213: 617785596172394094
+    second: Mmini-ufo_55
+  - first:
+      213: 7352611339368557466
+    second: Mmini-ufo_56
+  - first:
+      213: -3602152665809513890
+    second: Mmini-ufo_57
+  - first:
+      213: 7454606376458054920
+    second: Mmini-ufo_58
+  - first:
+      213: -6826714274057592077
+    second: Mmini-ufo_59
+  - first:
+      213: 3991728608880391046
+    second: Mmini-ufo_60
+  - first:
+      213: -4614005065430034092
+    second: Mmini-ufo_61
+  - first:
+      213: -7973419050146844494
+    second: Mmini-ufo_62
+  - first:
+      213: 4750046327432809852
+    second: Mmini-ufo_63
+  - first:
+      213: -6480403046663033722
+    second: Mmini-ufo_64
+  - first:
+      213: -1079375327731813846
+    second: Mmini-ufo_65
+  - first:
+      213: -5567407442489031092
+    second: Mmini-ufo_66
+  - first:
+      213: -5228208165083263246
+    second: Mmini-ufo_67
+  - first:
+      213: 3540238481230038638
+    second: Mmini-ufo_68
+  - first:
+      213: 8219119387517066061
+    second: Mmini-ufo_69
+  - first:
+      213: -4556502892920767611
+    second: Mmini-ufo_70
+  - first:
+      213: 8552846585422287256
+    second: Mmini-ufo_71
+  - first:
+      213: 3198861838894948193
+    second: Mmini-ufo_72
+  - first:
+      213: -776264553649930884
+    second: Mmini-ufo_73
+  - first:
+      213: -3001310769922906859
+    second: Mmini-ufo_74
+  - first:
+      213: -6991550551970740599
+    second: Mmini-ufo_75
+  - first:
+      213: 7382395630731725798
+    second: Mmini-ufo_76
+  - first:
+      213: 7634312312870113967
+    second: Mmini-ufo_77
+  - first:
+      213: 8724806999428793928
+    second: Mmini-ufo_78
+  - first:
+      213: 1634709172339129764
+    second: Mmini-ufo_79
+  - first:
+      213: -6376930290494891911
+    second: Mmini-ufo_80
+  - first:
+      213: 4493551469501670167
+    second: Mmini-ufo_81
+  - first:
+      213: 4402222435753293798
+    second: Mmini-ufo_82
+  - first:
+      213: 5753691543554113394
+    second: Mmini-ufo_83
+  - first:
+      213: -3002354809736058559
+    second: Mmini-ufo_84
+  - first:
+      213: -4205763711375410739
+    second: Mmini-ufo_85
+  - first:
+      213: -1157565058609769579
+    second: Mmini-ufo_86
+  - first:
+      213: 7441781321151740733
+    second: Mmini-ufo_87
+  - first:
+      213: 3766474260908764525
+    second: Mmini-ufo_88
+  - first:
+      213: -2425752508640886976
+    second: Mmini-ufo_89
+  - first:
+      213: 7933367891993272844
+    second: Mmini-ufo_90
+  - first:
+      213: 8756896459397803624
+    second: Mmini-ufo_91
+  - first:
+      213: -7099816837315657936
+    second: Mmini-ufo_92
+  - first:
+      213: -4598040282175639077
+    second: Mmini-ufo_93
+  - first:
+      213: -8649425164255795608
+    second: Mmini-ufo_94
+  - first:
+      213: -4661315875851013919
+    second: Mmini-ufo_95
+  - first:
+      213: 6536058287442959862
+    second: Mmini-ufo_96
+  - first:
+      213: -7250862464184125510
+    second: Mmini-ufo_97
+  - first:
+      213: -3888219141913367188
+    second: Mmini-ufo_98
+  - first:
+      213: -5172880733515425564
+    second: Mmini-ufo_99
+  - first:
+      213: -7147228063185675219
+    second: Mmini-ufo_100
+  - first:
+      213: 9094916740256120739
+    second: Mmini-ufo_101
+  - first:
+      213: -3586833584308633074
+    second: Mmini-ufo_102
+  - first:
+      213: 97669988523284872
+    second: Mmini-ufo_103
+  - first:
+      213: -5001950696634299016
+    second: Mmini-ufo_104
+  - first:
+      213: -6385499641134207873
+    second: Mmini-ufo_105
+  - first:
+      213: 515076025579037795
+    second: Mmini-ufo_106
+  - first:
+      213: 6794514599444990240
+    second: Mmini-ufo_107
+  - first:
+      213: 8914589052716043965
+    second: Mmini-ufo_108
+  - first:
+      213: -1210475067387042031
+    second: Mmini-ufo_109
+  - first:
+      213: 6308299389236068810
+    second: Mmini-ufo_110
+  - first:
+      213: -7838591006003791335
+    second: Mmini-ufo_111
+  - first:
+      213: -8126889475882930926
+    second: Mmini-ufo_112
+  - first:
+      213: -1965731300539234997
+    second: Mmini-ufo_113
+  - first:
+      213: -297086570662059186
+    second: Mmini-ufo_114
+  - first:
+      213: -8617598109315227825
+    second: Mmini-ufo_115
+  - first:
+      213: -1006378456675141411
+    second: Mmini-ufo_116
+  - first:
+      213: -192331738306020331
+    second: Mmini-ufo_117
+  - first:
+      213: 627871325136394808
+    second: Mmini-ufo_118
+  - first:
+      213: -5899144749236276078
+    second: Mmini-ufo_119
+  - first:
+      213: 3993107092288783355
+    second: Mmini-ufo_120
+  - first:
+      213: 124991870757352560
+    second: Mmini-ufo_121
+  - first:
+      213: 2600360553043801311
+    second: Mmini-ufo_122
+  - first:
+      213: -6587682503158822375
+    second: Mmini-ufo_123
+  - first:
+      213: 8569494902570122500
+    second: Mmini-ufo_124
+  - first:
+      213: -3380998590368667199
+    second: Mmini-ufo_125
+  - first:
+      213: 2849438473425209326
+    second: Mmini-ufo_126
+  - first:
+      213: -3648567085283815144
+    second: Mmini-ufo_127
+  - first:
+      213: -6787177781071468630
+    second: Mmini-ufo_128
+  - first:
+      213: 4036097116235387540
+    second: Mmini-ufo_129
+  - first:
+      213: -1567829417408917723
+    second: Mmini-ufo_130
+  - first:
+      213: -5582881644823417881
+    second: Mmini-ufo_131
+  - first:
+      213: 5965637051605310863
+    second: Mmini-ufo_132
+  - first:
+      213: 3599982286214269300
+    second: Mmini-ufo_133
+  - first:
+      213: -2144477238691685293
+    second: Mmini-ufo_134
+  - first:
+      213: -5530696616716505857
+    second: Mmini-ufo_135
+  - first:
+      213: -8863727949721789601
+    second: Mmini-ufo_136
+  - first:
+      213: 7773657529261643461
+    second: Mmini-ufo_137
+  - first:
+      213: 5237468732907839788
+    second: Mmini-ufo_138
+  - first:
+      213: 5919436880067578064
+    second: Mmini-ufo_139
+  - first:
+      213: 8858285504568947755
+    second: Mmini-ufo_140
+  - first:
+      213: -8706346483611579264
+    second: Mmini-ufo_141
+  - first:
+      213: 3272177398016048375
+    second: Mmini-ufo_142
+  - first:
+      213: -174022218294714256
+    second: Mmini-ufo_143
+  - first:
+      213: -6869935854748660736
+    second: Mmini-ufo_144
+  - first:
+      213: -7502561113327418670
+    second: Mmini-ufo_145
+  - first:
+      213: 3132036404254523923
+    second: Mmini-ufo_146
+  - first:
+      213: -4447545148613985866
+    second: Mmini-ufo_147
+  - first:
+      213: -177356892805278944
+    second: Mmini-ufo_148
+  - first:
+      213: 6394713099491984297
+    second: Mmini-ufo_149
+  - first:
+      213: 8414878663899622921
+    second: Mmini-ufo_150
+  - first:
+      213: -2914597366012494102
+    second: Mmini-ufo_151
+  - first:
+      213: 1263808858240259384
+    second: Mmini-ufo_152
+  - first:
+      213: -2471854516139447292
+    second: Mmini-ufo_153
+  - first:
+      213: -8865845554602200083
+    second: Mmini-ufo_154
+  - first:
+      213: -2150853358210234910
+    second: Mmini-ufo_155
+  - first:
+      213: 5687031886111265288
+    second: Mmini-ufo_156
+  - first:
+      213: -4375795723068594458
+    second: Mmini-ufo_157
+  - first:
+      213: 4870011474546255745
+    second: Mmini-ufo_158
+  - first:
+      213: -6054179024156662877
+    second: Mmini-ufo_159
+  - first:
+      213: 841382212174761986
+    second: Mmini-ufo_160
+  - first:
+      213: 7025925888866348730
+    second: Mmini-ufo_161
+  - first:
+      213: 2852323353187375485
+    second: Mmini-ufo_162
+  - first:
+      213: 408552393724815976
+    second: Mmini-ufo_163
+  - first:
+      213: 1663405397112379146
+    second: Mmini-ufo_164
+  - first:
+      213: 4420767031709133129
+    second: Mmini-ufo_165
+  - first:
+      213: 1697500884370118625
+    second: Mmini-ufo_166
+  - first:
+      213: -4428155374471685189
+    second: Mmini-ufo_167
+  - first:
+      213: -2218415303009152763
+    second: Mmini-ufo_168
+  - first:
+      213: -6036106063341356661
+    second: Mmini-ufo_169
+  - first:
+      213: -8679428883686540630
+    second: Mmini-ufo_170
+  - first:
+      213: -5115592778811583926
+    second: Mmini-ufo_171
+  - first:
+      213: 6924415661465096145
+    second: Mmini-ufo_172
+  - first:
+      213: 5526142315200179048
+    second: Mmini-ufo_173
+  - first:
+      213: 4672968854441973694
+    second: Mmini-ufo_174
+  - first:
+      213: 852232636066250699
+    second: Mmini-ufo_175
+  - first:
+      213: -1149959790606852697
+    second: Mmini-ufo_176
+  - first:
+      213: 769460557181730928
+    second: Mmini-ufo_177
+  - first:
+      213: 7697035470759125643
+    second: Mmini-ufo_178
+  - first:
+      213: -4684297558342339025
+    second: Mmini-ufo_179
+  - first:
+      213: -4934086664454081508
+    second: Mmini-ufo_180
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mmini-ufo_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 482
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb29f74808420260800000000000000
+      internalID: 7062286366074809327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_1
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 480
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffc2dc4210bc6a80800000000000000
+      internalID: -8472203206345961481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 482
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8fb93405fe1c270800000000000000
+      internalID: 8269153518839658679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 482
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90843949e670f240800000000000000
+      internalID: 4823485945241436317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 482
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97c3dcf0366188c40800000000000000
+      internalID: 5514682358437854329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 482
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686e6c9969f60a460800000000000000
+      internalID: 7250918092682225286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 441
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26f6ef38e1b00ce0800000000000000
+      internalID: -1440956269695928785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 482
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ac533706967fd10800000000000000
+      internalID: 2159310409318124186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 482
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fd64ce61fcbbd60800000000000000
+      internalID: 7907141268139335526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 441
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d0de1eab8b918200800000000000000
+      internalID: 180596484295545040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_8
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 441
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce721db99150abb0800000000000000
+      internalID: -4926848271599370554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 441
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1b2f29dbcdd2e6a0800000000000000
+      internalID: -6421326251085059302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_10
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 441
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f94a7024ab3f830800000000000000
+      internalID: 4103828478223490840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_11
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 441
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fb630615540ded0800000000000000
+      internalID: -2391335186324865244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_12
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 441
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb2b3b299916dbbc0800000000000000
+      internalID: -3765746401192725829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 442
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 561c7f82413376850800000000000000
+      internalID: 6370116359618543973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_16
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 400
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60b6885159e8e47b0800000000000000
+      internalID: -5238092545622775034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 400
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5baa8279bbee5dcc0800000000000000
+      internalID: -3686778230470563147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_18
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 400
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e292cc7be16b5cb0800000000000000
+      internalID: -4874194507660094750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 400
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7e17d8caa3dc160800000000000000
+      internalID: 7047353504686532594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_20
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 400
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 135733e3c6dbd4e50800000000000000
+      internalID: 6795295685369623857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_21
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 400
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f672f21da31c61940800000000000000
+      internalID: 5266609272618166127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_22
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 359
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d33fe9462fdc667c0800000000000000
+      internalID: -4078345971583487171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_23
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 400
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7caa4b5475eaede30800000000000000
+      internalID: 4530249965036153543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_24
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 400
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15296bc6162cfb4c0800000000000000
+      internalID: -4269480198032420271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 359
+        width: 46
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d7629fbe657df5b0800000000000000
+      internalID: -5332977265215903787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_26
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 359
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4ce5b910b9bf340800000000000000
+      internalID: 4898679450899498207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_27
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 359
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b54ae2e1e6eadadf0800000000000000
+      internalID: -167285823166831525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_28
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 359
+        width: 45
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ecdf1ef7c0dae560800000000000000
+      internalID: 7343911699761585380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 359
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 925e94b9e14bc2b20800000000000000
+      internalID: 3111059486153499945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 359
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ce064b53984afce0800000000000000
+      internalID: -1370703338852184376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_31
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 359
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d47c6f39781740f60800000000000000
+      internalID: 7999643665233790797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_32
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 349
+        width: 73
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46b9751b6780b5fd0800000000000000
+      internalID: -2352277074496480412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_33
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 346
+        width: 40
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4413dd8d39ac15db0800000000000000
+      internalID: -4804836591080230588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_34
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 340
+        width: 47
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fc24e53e7c899b0800000000000000
+      internalID: -5073085200879923311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_35
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 334
+        width: 46
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e4464c954914350800000000000000
+      internalID: 5999239291902119576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_36
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 328
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afccd02e2ed17e9b0800000000000000
+      internalID: -5051035596780352262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_37
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 283
+        width: 58
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a74c76974bf453a0800000000000000
+      internalID: -6677436062597625945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_38
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 318
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79866ca4dde48acb0800000000000000
+      internalID: -4852541886142453609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_39
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 292
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10588f5abcae2b50800000000000000
+      internalID: 6570378822846795805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_40
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 292
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f412c9de53b35e0800000000000000
+      internalID: -1928888720755175608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_41
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 292
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 141cdd2ee8cb89ed0800000000000000
+      internalID: -2406966678951968447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 292
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f53fb27b6808d570800000000000000
+      internalID: 8491546354986726897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_43
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 294
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8babfad96dbee1b70800000000000000
+      internalID: 8871787622967524024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_44
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 295
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 446060447238f4a60800000000000000
+      internalID: 7660485695848711748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_45
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 297
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f5dc6e66e45a230800000000000000
+      internalID: 3649409276919504648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_46
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 291
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0f6d5950c3a4a60800000000000000
+      internalID: 7659000110983344338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_47
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 288
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ddd147f13f638c0800000000000000
+      internalID: -4019758300963939062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_48
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 286
+        width: 28
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b152490b2b769c0800000000000000
+      internalID: -3933979278015390914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_49
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 285
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 096548c4dd9cbb380800000000000000
+      internalID: -8954341481787402608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_50
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 284
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec6d0b43f24bdbe0800000000000000
+      internalID: -1451492842193195807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_51
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 296
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca592e62bf579b050800000000000000
+      internalID: 5816810115275330988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_52
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 297
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31a6bfe00a02262f0800000000000000
+      internalID: -981185896995132909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_53
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 283
+        width: 7
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b794338401bc0e0800000000000000
+      internalID: -2248685686657287405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_54
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 283
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f4b01c25e12be90800000000000000
+      internalID: -7011508329087545471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_55
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 256
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e553ff9b0d29800800000000000000
+      internalID: 617785596172394094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_56
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 256
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b629eae09b90660800000000000000
+      internalID: 7352611339368557466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_57
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 256
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5292b74c35920ec0800000000000000
+      internalID: -3602152665809513890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_58
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 256
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80de421d005147760800000000000000
+      internalID: 7454606376458054920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_59
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 256
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f265b78983a241a0800000000000000
+      internalID: -6826714274057592077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_60
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 256
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683741c4508756730800000000000000
+      internalID: 3991728608880391046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_61
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 256
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459903bc6d2c7ffb0800000000000000
+      internalID: -4614005065430034092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_62
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 256
+        width: 31
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b03aae6e99b85190800000000000000
+      internalID: -7973419050146844494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_63
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 256
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d084dc7fd8be140800000000000000
+      internalID: 4750046327432809852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_64
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 241
+        width: 68
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68c6a4283cbf016a0800000000000000
+      internalID: -6480403046663033722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_65
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 256
+        width: 33
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a227933bbd94501f0800000000000000
+      internalID: -1079375327731813846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_66
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 196
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c46439ead689cb2b0800000000000000
+      internalID: -5567407442489031092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_67
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 196
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe4a64cf5ca177b0800000000000000
+      internalID: -5228208165083263246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_68
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 196
+        width: 56
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6682e54424712130800000000000000
+      internalID: 3540238481230038638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 238
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4b1b73498d201270800000000000000
+      internalID: 8219119387517066061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_70
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 233
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58bfa61a2cc04c0c0800000000000000
+      internalID: -4556502892920767611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_71
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 196
+        width: 57
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891128e87a0d1b670800000000000000
+      internalID: 8552846585422287256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_72
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 236
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16fd2e8e4e3a46c20800000000000000
+      internalID: 3198861838894948193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_73
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 196
+        width: 65
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7df7f350872a35f0800000000000000
+      internalID: -776264553649930884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_74
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 196
+        width: 66
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515e032a1c33956d0800000000000000
+      internalID: -3001310769922906859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_75
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 228
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9860998d0d509fe90800000000000000
+      internalID: -6991550551970740599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_76
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 133
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eb092966b9837660800000000000000
+      internalID: 7382395630731725798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_77
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 133
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa29309a99682f960800000000000000
+      internalID: 7634312312870113967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_78
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 174
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8468bce6dbdb41970800000000000000
+      internalID: 8724806999428793928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_79
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 133
+        width: 52
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4adb858c457afa610800000000000000
+      internalID: 1634709172339129764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_80
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 133
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9789f9defa79087a0800000000000000
+      internalID: -6376930290494891911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_81
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 133
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713e49fe04d4c5e30800000000000000
+      internalID: 4493551469501670167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_82
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 133
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e774593bf5d71d30800000000000000
+      internalID: 4402222435753293798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_83
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 133
+        width: 47
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27f36b879f739df40800000000000000
+      internalID: 5753691543554113394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_84
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 154
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1492ffb253e7556d0800000000000000
+      internalID: -3002354809736058559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_85
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 165
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc97d36003022a5c0800000000000000
+      internalID: -4205763711375410739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_86
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 71
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 593192556b08fefe0800000000000000
+      internalID: -1157565058609769579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_87
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 71
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3bf26feea4864760800000000000000
+      internalID: 7441781321151740733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_88
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 71
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6d6e197264354430800000000000000
+      internalID: 3766474260908764525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_89
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 71
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f727112fef55ed0800000000000000
+      internalID: -2425752508640886976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_90
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 71
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c02afb2a01cf81e60800000000000000
+      internalID: 7933367891993272844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_91
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 111
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e284d0feeb68970800000000000000
+      internalID: 8756896459397803624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_92
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 71
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03f7671f332687d90800000000000000
+      internalID: -7099816837315657936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_93
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 114
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1fbfd89ba7030c0800000000000000
+      internalID: -4598040282175639077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_94
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 115
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8666535c3a117f780800000000000000
+      internalID: -8649425164255795608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_95
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 77
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0f20a58edaf4fb0800000000000000
+      internalID: -4661315875851013919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_96
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 97
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd1946026eb4ba50800000000000000
+      internalID: 6536058287442959862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_97
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 81
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab7771b6103cf5b90800000000000000
+      internalID: -7250862464184125510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_98
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 82
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d21658a454a0ac0800000000000000
+      internalID: -3888219141913367188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_99
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 38
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8d955416c3638b0800000000000000
+      internalID: -5172880733515425564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_100
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 53
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c5d15b1f1ffcc90800000000000000
+      internalID: -7147228063185675219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_101
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 53
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af38bc9692a73e70800000000000000
+      internalID: 9094916740256120739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_102
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 51
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02c7d2ebd1093ec0800000000000000
+      internalID: -3586833584308633074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_103
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889952b465efa5100800000000000000
+      internalID: 97669988523284872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_104
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 53
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d4817c750859ab0800000000000000
+      internalID: -5001950696634299016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_105
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 53
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7cafc088e52267a0800000000000000
+      internalID: -6385499641134207873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_106
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 53
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36465f09aeae52700800000000000000
+      internalID: 515076025579037795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_107
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 46
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 029cf118707fa4e50800000000000000
+      internalID: 6794514599444990240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_108
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 46
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbec9bd038bf6bb70800000000000000
+      internalID: 8914589052716043965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_109
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 46
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117adeee657833fe0800000000000000
+      internalID: -1210475067387042031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_110
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1ca382fd49b8750800000000000000
+      internalID: 6308299389236068810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_111
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a729bb20bb73390800000000000000
+      internalID: -7838591006003791335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_112
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 46
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d232d641d773f80800000000000000
+      internalID: -8126889475882930926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_113
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b450e7b0cc158b4e0800000000000000
+      internalID: -1965731300539234997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_114
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 46
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e432628865980ebf0800000000000000
+      internalID: -297086570662059186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_115
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 46
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f10357d24286880800000000000000
+      internalID: -8617598109315227825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd8b54c2020a802f0800000000000000
+      internalID: -1006378456675141411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_117
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 46
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c7c339d43b45df0800000000000000
+      internalID: -192331738306020331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_118
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 46
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83a9863c4a5a6b800800000000000000
+      internalID: 627871325136394808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_119
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 46
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29439270b17022ea0800000000000000
+      internalID: -5899144749236276078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_120
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 46
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf347f97ebd5a6730800000000000000
+      internalID: 3993107092288783355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_121
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 44
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074bd48b17f0cb100800000000000000
+      internalID: 124991870757352560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_122
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43d1c4526561420800000000000000
+      internalID: 2600360553043801311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_123
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 45
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a892a9aa9d394a0800000000000000
+      internalID: -6587682503158822375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_124
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d7634f536fce670800000000000000
+      internalID: 8569494902570122500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 45
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9aaf202b74411d0800000000000000
+      internalID: -3380998590368667199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_126
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 46
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee747d1d13d3b8720800000000000000
+      internalID: 2849438473425209326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_127
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 31
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 811d97e119fad5dc0800000000000000
+      internalID: -3648567085283815144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_128
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 8
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7afc3a4c91fc1a0800000000000000
+      internalID: -6787177781071468630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_129
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 34
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 492503c61f8130830800000000000000
+      internalID: 4036097116235387540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_130
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f0fea9373fd3ae0800000000000000
+      internalID: -1567829417408917723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_131
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb604139be9582b0800000000000000
+      internalID: -5582881644823417881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_132
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8dd7d78a433ac250800000000000000
+      internalID: 5965637051605310863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_133
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 34
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4790087d0d4b5f130800000000000000
+      internalID: 3599982286214269300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_134
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 34
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35c1fd630594d32e0800000000000000
+      internalID: -2144477238691685293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_135
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc6820eab40f33b0800000000000000
+      internalID: -5530696616716505857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_136
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 34
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5b912b4466bdf480800000000000000
+      internalID: -8863727949721789601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_137
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 33
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c65e25165491eb60800000000000000
+      internalID: 7773657529261643461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_138
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 34
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21ef23301a3fa840800000000000000
+      internalID: 5237468732907839788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_139
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d846cada70162250800000000000000
+      internalID: 5919436880067578064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_140
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b24f2d2bbb3feea70800000000000000
+      internalID: 8858285504568947755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_141
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 34
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c4cd85008dc2780800000000000000
+      internalID: -8706346483611579264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_142
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fcfecab10c196d20800000000000000
+      internalID: 3272177398016048375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_143
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 34
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a487e6bfb59df0800000000000000
+      internalID: -174022218294714256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_144
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 34
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c8cf31db519a0a0800000000000000
+      internalID: -6869935854748660736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_145
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 32
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d2c57eea6c81e790800000000000000
+      internalID: -7502561113327418670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_146
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312ce23f38a377b20800000000000000
+      internalID: 3132036404254523923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_147
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b9f95e50452742c0800000000000000
+      internalID: -4447545148613985866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_148
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 34
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023dfdd78d6e98df0800000000000000
+      internalID: -177356892805278944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_149
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 22
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3c1cfeea59eb850800000000000000
+      internalID: 6394713099491984297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_150
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e20c59f87a7c470800000000000000
+      internalID: 8414878663899622921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_151
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 20
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee398743254d87d0800000000000000
+      internalID: -2914597366012494102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_152
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 20
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835176be573f98110800000000000000
+      internalID: 1263808858240259384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_153
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 20
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c201df96532bdd0800000000000000
+      internalID: -2471854516139447292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_154
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 22
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3b57cf07036f480800000000000000
+      internalID: -8865845554602200083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_155
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 22
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e54ce33442a622e0800000000000000
+      internalID: -2150853358210234910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_156
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 22
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8025bf58e556cee40800000000000000
+      internalID: 5687031886111265288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_157
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 22
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e6a2dc49fc0643c0800000000000000
+      internalID: -4375795723068594458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_158
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 22
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187e76832a1c59340800000000000000
+      internalID: 4870011474546255745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_159
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a36582014c3bfba0800000000000000
+      internalID: -6054179024156662877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_160
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20052050aa03dab00800000000000000
+      internalID: 841382212174761986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_161
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 20
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe6918fe5a118160800000000000000
+      internalID: 7025925888866348730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_162
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 22
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d79d84b3afc759720800000000000000
+      internalID: 2852323353187375485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_163
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 22
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a6a1ccc387ba500800000000000000
+      internalID: 408552393724815976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_164
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 22
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07d954456a951710800000000000000
+      internalID: 1663405397112379146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_165
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 949e7cf6138b95d30800000000000000
+      internalID: 4420767031709133129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_166
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 10
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e7dac28f0cbe8710800000000000000
+      internalID: 1697500884370118625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_167
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 10
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbd066f5280c82c0800000000000000
+      internalID: -4428155374471685189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_168
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 10
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50159db190b9631e0800000000000000
+      internalID: -2218415303009152763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_169
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89f4fb14817b3ca0800000000000000
+      internalID: -6036106063341356661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_170
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa39967a697c8780800000000000000
+      internalID: -8679428883686540630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_171
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42d163a873c109b0800000000000000
+      internalID: -5115592778811583926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_172
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 10
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1df47c26b57781060800000000000000
+      internalID: 6924415661465096145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_173
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86be2cb282dc0bc40800000000000000
+      internalID: 5526142315200179048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_174
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb75a772a68b9d040800000000000000
+      internalID: 4672968854441973694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_175
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf39b2311db3db00800000000000000
+      internalID: 852232636066250699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_176
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad55e6c9a58a00f0800000000000000
+      internalID: -1149959790606852697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_177
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070cd7bcc4cadaa00800000000000000
+      internalID: 769460557181730928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_178
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b82ed22eafc51da60800000000000000
+      internalID: 7697035470759125643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_179
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 10
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2676cc60380efeb0800000000000000
+      internalID: -4684297558342339025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mmini-ufo_180
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 8
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14f832125a968bb0800000000000000
+      internalID: -4934086664454081508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5a2ab5b5d07645b4891e9c4674c18d1f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      1: -1440956269695928785
+      6: 2159310409318124186
+      Mmini-ufo1: -1440956269695928785
+      Mmini-ufo_10: 4103828478223490840
+      Mmini-ufo_11: -2391335186324865244
+      Mmini-ufo_12: -3765746401192725829
+      Mmini-ufo_13: -1440956269695928785
+      Mmini-ufo_14: 6370116359618543973
+      Mmini-ufo_15: 180596484295545040
+      Mmini-ufo_6: 2159310409318124186
+      Mmini-ufo_7: 7907141268139335526
+      Mmini-ufo_8: -4926848271599370554
+      Mmini-ufo_9: -6421326251085059302
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
