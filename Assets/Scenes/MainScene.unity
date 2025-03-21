@@ -149,6 +149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   horizontal: 0
+  vertical: 0
 --- !u!4 &6635902
 Transform:
   m_ObjectHideFlags: 0
