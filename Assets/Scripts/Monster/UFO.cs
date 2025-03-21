@@ -3,41 +3,24 @@ using UnityEngine;
 
 public class UFO : Monster
 {
+    public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
+    public GameObject bullet;
+
     private Vector2 startPos;
     private Vector2 midPos;
     private Vector2 endPos;
-    public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
-
     private Camera mainCamera;
+    private Animator ani;
 
     protected override void Move()
-    { 
-    
-    }
-    protected void Move(Vector2 MidPos, Vector2 EndPos)
     {
-        StartCoroutine(MoveObject(MidPos, EndPos));
-    }
-
-    protected override void Attack()
-    {
-        
-    }
-
-    protected override void Damaged(float damage)
-    {
-        
-    }
-
-    protected override void Die()
-    {
-        
+        StartCoroutine(MoveObject(midPos, endPos));
     }
 
     void Start()
     {
         //  hp
-        //  stack
+        //  attack
         moveSpeed = 1.5f;
 
         // 생성은 스폰매니져에서?
@@ -47,16 +30,21 @@ public class UFO : Monster
         endPos = GetPosOutside();
 
         transform.position = startPos;
+        ani = GetComponent<Animator>();
 
-        Move(midPos, endPos);
+        Move();
     }
 
     IEnumerator MoveObject(Vector2 MidPos, Vector2 EndPos)
     {
         yield return StartCoroutine(MoveObjectRoutine(MidPos));
 
-        yield return new WaitForSeconds(1f);
         //Atack()
+        ani.SetBool("attack", true);
+        Transform pos = gameObject.GetComponent<Transform>();
+        yield return new WaitForSeconds(0.6f);
+        Instantiate(bullet, pos.position, Quaternion.identity);
+        ani.SetBool("attack", false);
 
         yield return StartCoroutine(MoveObjectRoutine(EndPos));
 
@@ -98,5 +86,4 @@ public class UFO : Monster
 
         return new Vector2(camPos.x + randomX, camPos.y + randomY);
     }
-
 }
