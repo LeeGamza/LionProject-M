@@ -8,7 +8,7 @@ public class EventManager : MonoBehaviour
     public event Action<float, float> OnPlayerMove;
     public event Action OnUpMove;
     public event Action OnDownMove;
-    public event Action OnJump;
+    public event Action OnAttack;
     
     private void Awake()
     {
@@ -36,8 +36,8 @@ public class EventManager : MonoBehaviour
         OnDownMove?.Invoke();
     }
 
-    public void InvokeJump()
+    public void InvokeAttack()
     {
-        OnJump?.Invoke();
+        OnAttack?.Invoke();
     }
 }
