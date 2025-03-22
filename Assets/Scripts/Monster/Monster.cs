@@ -13,9 +13,9 @@ public class Monster : MonoBehaviour
     protected virtual void Attack()
     { }
 
-    protected virtual void Damaged(float damage)
+    public virtual void Damaged(float damage)
     {
-        //if 플레이어총알에 맞으면
+        Debug.Log("몬스터가 데미지를 받음: " + damage + ", 현재 HP: " + hp);
         hp -= damage;
 
         if (hp <= 0)
@@ -24,6 +24,7 @@ public class Monster : MonoBehaviour
 
     protected virtual void Die()
     {
+        EventManager.Instance.InvokeDrop(transform.position);
         Destroy(gameObject);
     }
 

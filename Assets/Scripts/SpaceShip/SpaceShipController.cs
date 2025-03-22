@@ -43,6 +43,11 @@ public class SpaceShipController : MonoBehaviour
             boosterL?.SetActive(false);
             boosterR?.SetActive(false);
         }
+        
+        Vector3 viewPos = Camera.main.WorldToViewportPoint(transform.position);
+        viewPos.x = Mathf.Clamp01(viewPos.x);
+        viewPos.y = Mathf.Clamp01(viewPos.y);
+        transform.position = Camera.main.ViewportToWorldPoint(viewPos);
     }
 
     private void Attack()
