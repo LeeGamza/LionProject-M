@@ -28,5 +28,10 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.W)) EventManager.Instance?.InvokeUpMove();
         if (Input.GetKeyDown(KeyCode.S)) EventManager.Instance?.InvokeDownMove();
         if (Input.GetKeyDown(KeyCode.Space)) EventManager.Instance?.InvokeAttack();
+
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            EventManager.Instance.InvokeStartGame();
+        }
     }
 }
