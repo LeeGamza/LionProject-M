@@ -5,10 +5,12 @@ public class EventManager : MonoBehaviour
 {
     public static EventManager Instance { get; private set; }
 
+    public event Action OnGameStart;
     public event Action<float, float> OnPlayerMove;
     public event Action OnUpMove;
     public event Action OnDownMove;
-    public event Action OnJump;
+    public event Action OnAttack;
+    public event Action<Vector3> OnDrop;
     
     private void Awake()
     {
@@ -22,7 +24,11 @@ public class EventManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-    
+
+    public void InvokeStartGame()
+    {
+        OnGameStart?.Invoke();
+    }
     public void InvokeUpMove()
     {
         OnUpMove?.Invoke();
@@ -36,8 +42,13 @@ public class EventManager : MonoBehaviour
         OnDownMove?.Invoke();
     }
 
-    public void InvokeJump()
+    public void InvokeAttack()
     {
-        OnJump?.Invoke();
+        OnAttack?.Invoke();
+    }
+
+    public void InvokeDrop(Vector3 position)
+    {
+        OnDrop?.Invoke(position);
     }
 }

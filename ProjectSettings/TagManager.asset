@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - Item
+  - Monster
   layers:
   - Default
   - TransparentFX
@@ -11,11 +13,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - BackGround
+  - Player
+  - Monster
+  - Bullet
+  - Item
   - 
   - 
   - 
@@ -40,9 +42,6 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Boss
-    uniqueID: 3218902161
     locked: 0
   m_RenderingLayers:
   - Default

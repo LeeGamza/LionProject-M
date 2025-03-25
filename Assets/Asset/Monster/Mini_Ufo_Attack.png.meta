@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 92e36ffe5fc9b8d45936094877a32618
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5152922211977733994
+    second: Mini_Ufo_Attack_0
+  - first:
+      213: 21740196015367468
+    second: Mini_Ufo_Attack_1
+  - first:
+      213: 9179894359850915023
+    second: Mini_Ufo_Attack_2
+  - first:
+      213: 8170643459878049654
+    second: Mini_Ufo_Attack_3
+  - first:
+      213: -7642608254897620983
+    second: Mini_Ufo_Attack_4
+  - first:
+      213: 8467482817532578600
+    second: Mini_Ufo_Attack_5
+  - first:
+      213: 7746436168313422272
+    second: Mini_Ufo_Attack_6
+  - first:
+      213: -5211291567772690835
+    second: Mini_Ufo_Attack_7
+  - first:
+      213: 2474274045831185664
+    second: Mini_Ufo_Attack_8
+  - first:
+      213: -269571789801633490
+    second: Mini_Ufo_Attack_9
+  - first:
+      213: 1055608173893302960
+    second: Mini_Ufo_Attack_10
+  - first:
+      213: 2696452358972301203
+    second: Mini_Ufo_Attack_11
+  - first:
+      213: 4677497589298917793
+    second: Mini_Ufo_Attack_12
+  - first:
+      213: -2815553452312118719
+    second: Mini_Ufo_Attack_13
+  - first:
+      213: 155998321993259846
+    second: Mini_Ufo_Attack_14
+  - first:
+      213: 8222457078147262061
+    second: Mini_Ufo_Attack_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 472
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 698d8dfac842d78b0800000000000000
+      internalID: -5152922211977733994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 473
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25e7d4d79c3d4000800000000000000
+      internalID: 21740196015367468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 473
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc4968a7849856f70800000000000000
+      internalID: 9179894359850915023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 473
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6775664dfe4f36170800000000000000
+      internalID: 8170643459878049654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 475
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908fb51d84000f590800000000000000
+      internalID: -7642608254897620983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_5
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 477
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82bc0c882ca828570800000000000000
+      internalID: 8467482817532578600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_6
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 479
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c14f8717aed08b60800000000000000
+      internalID: 7746436168313422272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_7
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 472
+        width: 46
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d669be10ee5cda7b0800000000000000
+      internalID: -5211291567772690835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_8
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 357
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0058cbaa223665220800000000000000
+      internalID: 2474274045831185664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_9
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 354
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29486ba2e9424cf0800000000000000
+      internalID: -269571789801633490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_10
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 352
+        width: 45
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bab8e29a0646ae00800000000000000
+      internalID: 1055608173893302960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_11
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 352
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39fde425229bb6520800000000000000
+      internalID: 2696452358972301203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 46
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a178e7664fc9e040800000000000000
+      internalID: 4677497589298917793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_13
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 367
+        width: 46
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14abfc47d052de8d0800000000000000
+      internalID: -2815553452312118719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_14
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 371
+        width: 47
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64b17f7b5a73a2200800000000000000
+      internalID: 155998321993259846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_Ufo_Attack_15
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 371
+        width: 47
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d662ddbe5290c1270800000000000000
+      internalID: 8222457078147262061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 74096761ee26d15449c2ca143440f581
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mini_Ufo_Attack_0: -5152922211977733994
+      Mini_Ufo_Attack_1: 21740196015367468
+      Mini_Ufo_Attack_10: 1055608173893302960
+      Mini_Ufo_Attack_11: 2696452358972301203
+      Mini_Ufo_Attack_12: 4677497589298917793
+      Mini_Ufo_Attack_13: -2815553452312118719
+      Mini_Ufo_Attack_14: 155998321993259846
+      Mini_Ufo_Attack_15: 8222457078147262061
+      Mini_Ufo_Attack_2: 9179894359850915023
+      Mini_Ufo_Attack_3: 8170643459878049654
+      Mini_Ufo_Attack_4: -7642608254897620983
+      Mini_Ufo_Attack_5: 8467482817532578600
+      Mini_Ufo_Attack_6: 7746436168313422272
+      Mini_Ufo_Attack_7: -5211291567772690835
+      Mini_Ufo_Attack_8: 2474274045831185664
+      Mini_Ufo_Attack_9: -269571789801633490
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
