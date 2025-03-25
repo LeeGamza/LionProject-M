@@ -1,0 +1,2214 @@
+fileFormatVersion: 2
+guid: 9977ba77c6de5944999269117498ac21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2587479255761936411
+    second: rugname_0
+  - first:
+      213: -1285405587192735858
+    second: rugname_1
+  - first:
+      213: 4913358834740282908
+    second: rugname_2
+  - first:
+      213: 5840154695876076069
+    second: rugname_3
+  - first:
+      213: -3424105090668768122
+    second: rugname_4
+  - first:
+      213: -4638473037914997687
+    second: rugname_5
+  - first:
+      213: 4228431739175903919
+    second: rugname_6
+  - first:
+      213: -4985103675386653292
+    second: rugname_7
+  - first:
+      213: -7263801860778656148
+    second: rugname_8
+  - first:
+      213: 6914463977430288548
+    second: rugname_9
+  - first:
+      213: -2051334261707440763
+    second: rugname_10
+  - first:
+      213: -6173239586410176185
+    second: rugname_11
+  - first:
+      213: -1162101884852067988
+    second: rugname_12
+  - first:
+      213: -6187740964358655710
+    second: rugname_13
+  - first:
+      213: -3254301487660312967
+    second: rugname_14
+  - first:
+      213: 584337082303704002
+    second: rugname_15
+  - first:
+      213: -1770635321015355065
+    second: rugname_16
+  - first:
+      213: -437941122791276660
+    second: rugname_17
+  - first:
+      213: -1536815616737444968
+    second: rugname_18
+  - first:
+      213: 8411780542053348902
+    second: rugname_19
+  - first:
+      213: -2738346124479831478
+    second: rugname_20
+  - first:
+      213: -1917732683451277947
+    second: rugname_21
+  - first:
+      213: -7331250113186855933
+    second: rugname_22
+  - first:
+      213: -4022992467701458419
+    second: rugname_23
+  - first:
+      213: -5389471665881714564
+    second: rugname_24
+  - first:
+      213: -704697722344711816
+    second: rugname_25
+  - first:
+      213: -3689448076460028075
+    second: rugname_26
+  - first:
+      213: 4124129604612366944
+    second: rugname_27
+  - first:
+      213: 4931328975713731337
+    second: rugname_28
+  - first:
+      213: 8077067523337677949
+    second: rugname_29
+  - first:
+      213: -4512432859980506351
+    second: rugname_30
+  - first:
+      213: -4682567907438451361
+    second: rugname_31
+  - first:
+      213: 8890443233978586973
+    second: rugname_32
+  - first:
+      213: -3524569400229056479
+    second: rugname_33
+  - first:
+      213: 1304567590740618058
+    second: rugname_34
+  - first:
+      213: 1036523696495850376
+    second: rugname_35
+  - first:
+      213: -6201336836328801676
+    second: rugname_36
+  - first:
+      213: -3698486103475340475
+    second: rugname_37
+  - first:
+      213: -3785371683515907142
+    second: rugname_38
+  - first:
+      213: -6434966019901055834
+    second: rugname_39
+  - first:
+      213: 3518392558804576140
+    second: rugname_40
+  - first:
+      213: -3756405746162631177
+    second: rugname_41
+  - first:
+      213: -6986502667384359619
+    second: rugname_42
+  - first:
+      213: -5006789252517635089
+    second: rugname_43
+  - first:
+      213: -3536187721584318092
+    second: rugname_44
+  - first:
+      213: -3300690967510374277
+    second: rugname_45
+  - first:
+      213: -397754677932056766
+    second: rugname_46
+  - first:
+      213: 1316377219573585486
+    second: rugname_47
+  - first:
+      213: 8090057706546910404
+    second: rugname_48
+  - first:
+      213: -8362469882134623061
+    second: rugname_49
+  - first:
+      213: 5804904407844801477
+    second: rugname_50
+  - first:
+      213: -8972865335173042720
+    second: rugname_51
+  - first:
+      213: 7561146962799144642
+    second: rugname_52
+  - first:
+      213: 7684205095807101475
+    second: rugname_53
+  - first:
+      213: -7512457199532170399
+    second: rugname_54
+  - first:
+      213: 5496157741394840720
+    second: rugname_55
+  - first:
+      213: -6708631120652762790
+    second: rugname_56
+  - first:
+      213: 7699552062271863117
+    second: rugname_57
+  - first:
+      213: 3180468178167051642
+    second: rugname_58
+  - first:
+      213: 7293381796095351063
+    second: rugname_59
+  - first:
+      213: -4251377860523028597
+    second: rugname_60
+  - first:
+      213: -2767255377362638793
+    second: rugname_61
+  - first:
+      213: 7990171670110290415
+    second: rugname_62
+  - first:
+      213: -1891780087211651031
+    second: rugname_63
+  - first:
+      213: 7824547364003968300
+    second: rugname_64
+  - first:
+      213: 6772159843466778578
+    second: rugname_65
+  - first:
+      213: -303950298328102338
+    second: rugname_66
+  - first:
+      213: 7253959823954595365
+    second: rugname_67
+  - first:
+      213: 82163284581031895
+    second: rugname_68
+  - first:
+      213: -7302066357478091464
+    second: rugname_69
+  - first:
+      213: -4299568034700494873
+    second: rugname_70
+  - first:
+      213: -5184069103560493764
+    second: rugname_71
+  - first:
+      213: 1624353240391427524
+    second: rugname_72
+  - first:
+      213: 2218716750801656794
+    second: rugname_73
+  - first:
+      213: -7808491870066560141
+    second: rugname_74
+  - first:
+      213: -8881411525701927361
+    second: rugname_75
+  - first:
+      213: 2135438303805995266
+    second: rugname_76
+  - first:
+      213: 1979924094899869251
+    second: rugname_77
+  - first:
+      213: -6072985557214584738
+    second: rugname_78
+  - first:
+      213: 1574904656861257525
+    second: rugname_79
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 54
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rugname_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1002
+        width: 304
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e871317cd62592ee0800000000000000
+      internalID: -1285405587192735858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_2
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 1002
+        width: 304
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c16c8bef3d1cf2440800000000000000
+      internalID: 4913358834740282908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_3
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1002
+        width: 304
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 522e501e0c56c0150800000000000000
+      internalID: 5840154695876076069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 949
+        width: 256
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684d41dcf822b70d0800000000000000
+      internalID: -3424105090668768122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 949
+        width: 256
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c79d20955d0afb0800000000000000
+      internalID: -4638473037914997687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_6
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 949
+        width: 256
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2219a73486eaa30800000000000000
+      internalID: 4228431739175903919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 844
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a887f26a5c15ff50800000000000000
+      internalID: 6914463977430288548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_10
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 822
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58df65f7b523883e0800000000000000
+      internalID: -2051334261707440763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_11
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 844
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74164aaad4f345aa0800000000000000
+      internalID: -6173239586410176185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_12
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 814
+        width: 56
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61a4982e726fdfe0800000000000000
+      internalID: -1162101884852067988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_13
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 842
+        width: 60
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221f441806ab02aa0800000000000000
+      internalID: -6187740964358655710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_14
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 803
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9765bfbf90666d2d0800000000000000
+      internalID: -3254301487660312967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 787
+        width: 167
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbeccbfa7bfb1800800000000000000
+      internalID: 584337082303704002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_16
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 783
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749be188e807d67e0800000000000000
+      internalID: -1770635321015355065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_17
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 787
+        width: 180
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f7d7f7ede1ce9f0800000000000000
+      internalID: -437941122791276660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_22
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 691
+        width: 57
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30484fb5dda224a90800000000000000
+      internalID: -7331250113186855933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_23
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 669
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a15945aa57b28c0800000000000000
+      internalID: -4022992467701458419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 691
+        width: 62
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7076141310c435b0800000000000000
+      internalID: -5389471665881714564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 662
+        width: 59
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879dd99b7296836f0800000000000000
+      internalID: -704697722344711816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_26
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 689
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f0a51a5827cccc0800000000000000
+      internalID: -3689448076460028075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_27
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 650
+        width: 52
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062a79a560adb3930800000000000000
+      internalID: 4124129604612366944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_28
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 570
+        width: 52
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 903020c73999f6440800000000000000
+      internalID: 4931328975713731337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_29
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 594
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce26b4e12871070800000000000000
+      internalID: 8077067523337677949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_30
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 594
+        width: 62
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bdf04c83e9061c0800000000000000
+      internalID: -4512432859980506351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_31
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 594
+        width: 62
+        height: 154
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f55ac782c4d240fb0800000000000000
+      internalID: -4682567907438451361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_32
+      rect:
+        serializedVersion: 2
+        x: 726
+        y: 594
+        width: 58
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5791198403316b70800000000000000
+      internalID: 8890443233978586973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_33
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 594
+        width: 52
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 120b221fdc6361fc0800000000000000
+      internalID: -3524569400229056479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_34
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 594
+        width: 50
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4be497df41ca1210800000000000000
+      internalID: 1304567590740618058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_35
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 594
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883f8ea6fc8726e00800000000000000
+      internalID: 1036523696495850376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_36
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 594
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ab312e00d60f9a0800000000000000
+      internalID: -6201336836328801676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_37
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 594
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b32abfb765cacc0800000000000000
+      internalID: -3698486103475340475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_38
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 594
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab346357288a77bc0800000000000000
+      internalID: -3785371683515907142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_39
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 594
+        width: 50
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac9612bf7862b6a0800000000000000
+      internalID: -6434966019901055834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_40
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 594
+        width: 49
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c87ace71467d3d030800000000000000
+      internalID: 3518392558804576140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_41
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 596
+        width: 49
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd7dbb40e09edbc0800000000000000
+      internalID: -3756405746162631177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_42
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 597
+        width: 49
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d357c3017d4fa0f90800000000000000
+      internalID: -6986502667384359619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_43
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 581
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feb5172b3bf448ab0800000000000000
+      internalID: -5006789252517635089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_44
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 577
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4796ed3b000fceec0800000000000000
+      internalID: -3536187721584318092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_45
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 581
+        width: 111
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7824388d079132d0800000000000000
+      internalID: -3300690967510374277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_47
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 476
+        width: 93
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4699135b16b44210800000000000000
+      internalID: 1316377219573585486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_48
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 476
+        width: 100
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4d3230f98a54070800000000000000
+      internalID: 8090057706546910404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_49
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 508
+        width: 81
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac867ec2f982fb80800000000000000
+      internalID: -8362469882134623061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_50
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 505
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb40b0adc92f8050800000000000000
+      internalID: 5804904407844801477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_51
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 503
+        width: 90
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed2897948af97380800000000000000
+      internalID: -8972865335173042720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_52
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 501
+        width: 92
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ceaa2c1a179ee860800000000000000
+      internalID: 7561146962799144642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 499
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a24dc62d7c3aa60800000000000000
+      internalID: 7684205095807101475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_54
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 497
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1632f8fcaf36eb790800000000000000
+      internalID: -7512457199532170399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_55
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 502
+        width: 78
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c4a5d8856464c40800000000000000
+      internalID: 5496157741394840720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_56
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 501
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a518c542a8726e2a0800000000000000
+      internalID: -6708631120652762790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_57
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 499
+        width: 92
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4937518ecd4ada60800000000000000
+      internalID: 7699552062271863117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_58
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 499
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a75b41b05fa432c20800000000000000
+      internalID: 3180468178167051642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_59
+      rect:
+        serializedVersion: 2
+        x: 1109
+        y: 503
+        width: 88
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 719509ff91c473560800000000000000
+      internalID: 7293381796095351063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_60
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 502
+        width: 90
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f80915c521005c0800000000000000
+      internalID: -4251377860523028597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_61
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 499
+        width: 94
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738a28555ebb899d0800000000000000
+      internalID: -2767255377362638793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_62
+      rect:
+        serializedVersion: 2
+        x: 1522
+        y: 499
+        width: 96
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1405bdccac2ee60800000000000000
+      internalID: 7990171670110290415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_63
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 476
+        width: 314
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9209794a80c0fb5e0800000000000000
+      internalID: -1891780087211651031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_64
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 472
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c25fcaf0f50669c60800000000000000
+      internalID: 7824547364003968300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_65
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 476
+        width: 314
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d790084f7b8bfd50800000000000000
+      internalID: 6772159843466778578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_66
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 476
+        width: 167
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3a87c660d628cbf0800000000000000
+      internalID: -303950298328102338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_67
+      rect:
+        serializedVersion: 2
+        x: 988
+        y: 472
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52ec4c9d60e3ba460800000000000000
+      internalID: 7253959823954595365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_68
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 476
+        width: 180
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df180f6217e32100800000000000000
+      internalID: 82163284581031895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_69
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 420
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835103cf559d9aa90800000000000000
+      internalID: -7302066357478091464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_70
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 290
+        width: 304
+        height: 108
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e77d0c07add454c0800000000000000
+      internalID: -4299568034700494873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_71
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 136
+        width: 304
+        height: 262
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c35f23fdd9c7e08b0800000000000000
+      internalID: -5184069103560493764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_72
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 269
+        width: 415
+        height: 123
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5294b7aacda8610800000000000000
+      internalID: 1624353240391427524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 919
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7e3f6306a421b40957338df39c8e51
+      internalID: -889245035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_8
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 919
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a66720ea170e754fa836ef3ca840fef
+      internalID: 1210351253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_18
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 764
+        width: 69
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f5cef5044d02c41af82c88f6c83203
+      internalID: 1594992337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_19
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 764
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9efda67884601f04c9e0beee7d36ec21
+      internalID: -602140810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 764
+        width: 29
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87639032031e8014b9a0eaccff90d3fc
+      internalID: -807120632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_21
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 764
+        width: 42
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99723fed172652498456904a88860a9
+      internalID: 1381940409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 546
+        width: 72
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c94fcbe31dfa5b47b36b4535e40636d
+      internalID: -142750875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_73
+      rect:
+        serializedVersion: 2
+        x: 1193
+        y: 67
+        width: 253
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b7b901c2b76bcd4e8c81a0d6631386d
+      internalID: 281787810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_74
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 25
+        width: 45
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fd79e512925544886caff9d86da1a1
+      internalID: -576216859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_75
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 25
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca2f4cc16ef74c428f83564af93f602
+      internalID: -1399949914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_76
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 25
+        width: 58
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 014f24e87696dbe44b0f03f88c290a42
+      internalID: -1254235589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_77
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 13
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2cc1001c64c8774b89b25cbd905ea44
+      internalID: 1667316223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_78
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 13
+        width: 44
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f1ff34ac8ae3c4e9e8b5df56bcf220
+      internalID: 1173702708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rugname_79
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 13
+        width: 48
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec9ffb08cb0ac87419c293c7de3f4949
+      internalID: -977262630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 853b4cc1ae781a04fb52bc19f8dbb3c2
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rugname_0: 156016821
+      rugname_1: -1285405587192735858
+      rugname_10: -2051334261707440763
+      rugname_11: -6173239586410176185
+      rugname_12: -1162101884852067988
+      rugname_13: -6187740964358655710
+      rugname_14: -3254301487660312967
+      rugname_15: 584337082303704002
+      rugname_16: -1770635321015355065
+      rugname_17: -437941122791276660
+      rugname_18: 1594992337
+      rugname_19: -602140810
+      rugname_2: 4913358834740282908
+      rugname_20: -807120632
+      rugname_21: 1381940409
+      rugname_22: -7331250113186855933
+      rugname_23: -4022992467701458419
+      rugname_24: -5389471665881714564
+      rugname_25: -704697722344711816
+      rugname_26: -3689448076460028075
+      rugname_27: 4124129604612366944
+      rugname_28: 4931328975713731337
+      rugname_29: 8077067523337677949
+      rugname_3: 5840154695876076069
+      rugname_30: -4512432859980506351
+      rugname_31: -4682567907438451361
+      rugname_32: 8890443233978586973
+      rugname_33: -3524569400229056479
+      rugname_34: 1304567590740618058
+      rugname_35: 1036523696495850376
+      rugname_36: -6201336836328801676
+      rugname_37: -3698486103475340475
+      rugname_38: -3785371683515907142
+      rugname_39: -6434966019901055834
+      rugname_4: -3424105090668768122
+      rugname_40: 3518392558804576140
+      rugname_41: -3756405746162631177
+      rugname_42: -6986502667384359619
+      rugname_43: -5006789252517635089
+      rugname_44: -3536187721584318092
+      rugname_45: -3300690967510374277
+      rugname_46: -142750875
+      rugname_47: 1316377219573585486
+      rugname_48: 8090057706546910404
+      rugname_49: -8362469882134623061
+      rugname_5: -4638473037914997687
+      rugname_50: 5804904407844801477
+      rugname_51: -8972865335173042720
+      rugname_52: 7561146962799144642
+      rugname_53: 7684205095807101475
+      rugname_54: -7512457199532170399
+      rugname_55: 5496157741394840720
+      rugname_56: -6708631120652762790
+      rugname_57: 7699552062271863117
+      rugname_58: 3180468178167051642
+      rugname_59: 7293381796095351063
+      rugname_6: 4228431739175903919
+      rugname_60: -4251377860523028597
+      rugname_61: -2767255377362638793
+      rugname_62: 7990171670110290415
+      rugname_63: -1891780087211651031
+      rugname_64: 7824547364003968300
+      rugname_65: 6772159843466778578
+      rugname_66: -303950298328102338
+      rugname_67: 7253959823954595365
+      rugname_68: 82163284581031895
+      rugname_69: -7302066357478091464
+      rugname_7: -889245035
+      rugname_70: -4299568034700494873
+      rugname_71: -5184069103560493764
+      rugname_72: 1624353240391427524
+      rugname_73: 281787810
+      rugname_74: -576216859
+      rugname_75: -1399949914
+      rugname_76: -1254235589
+      rugname_77: 1667316223
+      rugname_78: 1173702708
+      rugname_79: -977262630
+      rugname_8: 1210351253
+      rugname_9: 6914463977430288548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
