@@ -1,34 +1,40 @@
 fileFormatVersion: 2
-guid: 39bb12531bafa9d48b7257cb0fd0ba68
+guid: a764a44791fa64749b94fe896e1c5748
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8711869603552841658
-    second: Ufo_attack_0
+      213: 2834275689070650941
+    second: Ufo_attack2_0
   - first:
-      213: 3822868741969576293
-    second: Ufo_attack_1
+      213: 611813674289373588
+    second: Ufo_attack2_1
   - first:
-      213: -796283108930455161
-    second: Ufo_attack_2
+      213: -5158279808070906199
+    second: Ufo_attack2_2
   - first:
-      213: -2677977697786873406
-    second: Ufo_attack_3
+      213: 4611642341700515496
+    second: Ufo_attack2_3
   - first:
-      213: -7533014490152582252
-    second: Ufo_attack_4
+      213: 65977762980133602
+    second: Ufo_attack2_4
   - first:
-      213: -4739787896498304331
-    second: Ufo_attack_5
+      213: -3674410300080705277
+    second: Ufo_attack2_5
   - first:
-      213: 5151325513372314962
-    second: Ufo_attack_6
+      213: 3027201627894108152
+    second: Ufo_attack2_6
   - first:
-      213: -6786319283255266908
-    second: Ufo_attack_7
+      213: -8364265855733750810
+    second: Ufo_attack2_7
   - first:
-      213: -6781161080474491140
-    second: Ufo_attack_8
+      213: -2767240675607554419
+    second: Ufo_attack2_8
+  - first:
+      213: 3791229347189477912
+    second: Ufo_attack2_9
+  - first:
+      213: -7649987726792052395
+    second: Ufo_attack2_10
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -163,13 +169,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ufo_attack_0
+      name: Ufo_attack2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 146
-        width: 55
-        height: 100
+        x: 101
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 640b5b6c0c8391780800000000000000
-      internalID: -8711869603552841658
+      spriteID: d36e49af8be555720800000000000000
+      internalID: 2834275689070650941
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ufo_attack_1
+      name: Ufo_attack2_1
       rect:
         serializedVersion: 2
-        x: 62
-        y: 146
-        width: 55
-        height: 100
+        x: 138
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5618a0ccdde8d0530800000000000000
-      internalID: 3822868741969576293
+      spriteID: 491aeb49b499d7800800000000000000
+      internalID: 611813674289373588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ufo_attack_2
+      name: Ufo_attack2_2
       rect:
         serializedVersion: 2
-        x: 118
-        y: 146
-        width: 55
-        height: 100
+        x: 176
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +228,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7897e873bb803f4f0800000000000000
-      internalID: -796283108930455161
+      spriteID: 9ae0dd328db1a68b0800000000000000
+      internalID: -5158279808070906199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ufo_attack_3
+      name: Ufo_attack2_3
       rect:
         serializedVersion: 2
-        x: 174
-        y: 146
-        width: 55
-        height: 100
+        x: 218
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,20 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c9befee879e5dad0800000000000000
-      internalID: -2677977697786873406
+      spriteID: 8a6b538b648dfff30800000000000000
+      internalID: 4611642341700515496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ufo_attack_4
+      name: Ufo_attack2_4
       rect:
         serializedVersion: 2
-        x: 231
-        y: 146
-        width: 55
-        height: 100
+        x: 257
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 493c59a9b3b557790800000000000000
-      internalID: -7533014490152582252
+      spriteID: 2ea71850d666ae000800000000000000
+      internalID: 65977762980133602
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ufo_attack_5
+      name: Ufo_attack2_5
       rect:
         serializedVersion: 2
-        x: 288
-        y: 146
-        width: 55
-        height: 100
+        x: 301
+        y: 94
+        width: 40
+        height: 73
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,8 +294,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5bac5864504e83eb0800000000000000
-      internalID: -4739787896498304331
+      spriteID: 30137a8cc4fd10dc0800000000000000
+      internalID: -3674410300080705277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ufo_attack2_6
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 17
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffcc1e77d7c20a20800000000000000
+      internalID: 3027201627894108152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ufo_attack2_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 17
+        width: 40
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e3af0e15882ceb80800000000000000
+      internalID: -8364265855733750810
       vertices: []
       indices: 
       edges: []
@@ -298,7 +348,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: c3e191f888c42b6439119a1ef29345ad
+    spriteID: 5215fe0d7cf78404892efd48baef7aa3
     internalID: 0
     vertices: []
     indices: 
@@ -308,15 +358,17 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Ufo_attack_0: -8711869603552841658
-      Ufo_attack_1: 3822868741969576293
-      Ufo_attack_2: -796283108930455161
-      Ufo_attack_3: -2677977697786873406
-      Ufo_attack_4: -7533014490152582252
-      Ufo_attack_5: -4739787896498304331
-      Ufo_attack_6: 5151325513372314962
-      Ufo_attack_7: -6786319283255266908
-      Ufo_attack_8: -6781161080474491140
+      Ufo_attack2_0: 2834275689070650941
+      Ufo_attack2_1: 611813674289373588
+      Ufo_attack2_10: -7649987726792052395
+      Ufo_attack2_2: -5158279808070906199
+      Ufo_attack2_3: 4611642341700515496
+      Ufo_attack2_4: 65977762980133602
+      Ufo_attack2_5: -3674410300080705277
+      Ufo_attack2_6: 3027201627894108152
+      Ufo_attack2_7: -8364265855733750810
+      Ufo_attack2_8: -2767240675607554419
+      Ufo_attack2_9: 3791229347189477912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -4,13 +4,11 @@ using UnityEngine;
 public class UFO : Monster
 {
     public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
-    public GameObject bullet;
 
     private Vector2 startPos;
     private Vector2 midPos;
     private Vector2 endPos;
     private Camera mainCamera;
-    private Animator ani;
 
     protected override void Move()
     {
@@ -19,34 +17,28 @@ public class UFO : Monster
 
     void Start()
     {
-        //  hp
-        //  attack
         moveSpeed = 1.5f;
 
-        // 생성은 스폰매니져에서?
         mainCamera = Camera.main;
         startPos = GetPosOutside();
         midPos = GetPosInside();
         endPos = GetPosOutside();
 
         transform.position = startPos;
-        ani = GetComponent<Animator>();
 
         Move();
     }
 
     IEnumerator MoveObject(Vector2 MidPos, Vector2 EndPos)
     {
-        yield return StartCoroutine(MoveObjectRoutine(MidPos));
+        yield return MoveObjectRoutine(MidPos);
 
-        //Atack()
-        ani.SetBool("attack", true);
-        Transform pos = gameObject.GetComponent<Transform>();
-        yield return new WaitForSeconds(0.6f);
-        Instantiate(bullet, pos.position, Quaternion.identity);
-        ani.SetBool("attack", false);
+        ToggleChildObject("UFO_Attack", true);
+        yield return new WaitForSeconds(0.667f);
 
-        yield return StartCoroutine(MoveObjectRoutine(EndPos));
+        ToggleChildObject("UFO_Attack", false);        
+
+        yield return MoveObjectRoutine(EndPos);
 
         Destroy(gameObject);
     }
@@ -85,5 +77,28 @@ public class UFO : Monster
         float randomY = Random.Range(-camSize * 0.1f, camSize * 0.1f);
 
         return new Vector2(camPos.x + randomX, camPos.y + randomY);
+    }
+
+    void ToggleChildObject(string childName, bool state)
+    {
+        Transform childPrefab = FindChildByName(gameObject, childName);
+
+        if (childPrefab != null)
+        {
+            childPrefab.gameObject.SetActive(state); // 상태 전환
+        }
+    }
+
+    private Transform FindChildByName(GameObject parent, string childName)
+    {
+        Transform[] children = parent.GetComponentsInChildren<Transform>(true);
+        foreach (Transform child in children)
+        {
+            if (child.name == childName)
+            {
+                return child;
+            }
+        }
+        return null;
     }
 }
