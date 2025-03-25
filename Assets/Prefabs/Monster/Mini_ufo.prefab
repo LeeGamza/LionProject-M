@@ -127,6 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   outsideOffset: 2
   bullet: {fileID: 7242902674855038982, guid: 439f69accb63d0347baa84ee94cb2a75, type: 3}
+  die: {fileID: 9109573931234562858, guid: 63424be64bca8304aad8f0662611ce10, type: 3}
   attackDuration: 0.8
   waitAfterAttack: 1.5
 --- !u!114 &5908336000200043995
