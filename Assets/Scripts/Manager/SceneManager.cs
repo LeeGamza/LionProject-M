@@ -58,22 +58,22 @@ public class SceneManager : MonoBehaviour
 #if !UNITY_EDITOR
         if (targetScene == "SecondStage")
         {
-            Screen.SetResolution(720, 960, false); // 3:4 비율
+            Screen.SetResolution(800, 600, false); // 3:4 비율
         }
         else
         {
-            Screen.SetResolution(1280, 720, false); // 16:9
+            Screen.SetResolution(800, 600, false); // 16:9
         }
 #endif
 
         if (targetScene == "SecondStage")
         {
-            Camera.main.aspect = 3f / 4f; // 720:960 = 3:4
+            Camera.main.aspect = 4f / 3f; // 720:960 = 3:4
             Debug.Log("[SceneManager] SecondStage: 3:4 비율 설정됨");
         }
         else
         {
-            Camera.main.aspect = 16f / 9f;
+            Camera.main.aspect = 4f / 3f;
             Debug.Log("[SceneManager] Default: 16:9 비율 설정됨");
         }
     }
