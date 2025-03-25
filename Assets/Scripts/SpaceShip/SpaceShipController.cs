@@ -28,6 +28,9 @@ public class SpaceShipController : MonoBehaviour
 
     private void Update()
     {
+        Camera cam = Camera.main;
+        if (cam == null) return;
+        
         if (InputManager.Instance.horizontal > 0f)
         {
             boosterL?.SetActive(true);

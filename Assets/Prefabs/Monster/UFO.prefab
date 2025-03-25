@@ -104,7 +104,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: a80149475af5c5748a739079290074ad, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_AnimatePhysics: 0
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9442da37a62124c8d95921da164f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outsideOffset: 2
+  outsideOffset: 0
   bullet: {fileID: 6061421375549690368, guid: a440cbeacb90f3e468e64a535f106652, type: 3}
 --- !u!61 &5747426992989277542
 BoxCollider2D:
@@ -183,5 +183,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.71875, y: 1}
+  m_Size: {x: 1.4276406, y: 0.7088907}
   m_EdgeRadius: 0
