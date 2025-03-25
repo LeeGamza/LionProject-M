@@ -30,6 +30,6 @@ public class GameManager : MonoBehaviour
 
     private void StartGame()
     {
-        GameSceneManager.Instance.LoadScene("SecondStage");
+        SceneManager.Instance.LoadScene("SecondStage");
     }
 }

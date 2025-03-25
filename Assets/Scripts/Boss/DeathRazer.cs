@@ -1,6 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class DeathRazer : MonoBehaviour
@@ -8,42 +6,42 @@ public class DeathRazer : MonoBehaviour
     Transform playerTransform;
     BoxCollider2D boxCollider;
 
-    private float duration = 2.0f; // È®Àå¿¡ °É¸®´Â ½Ã°£
-    private float maxHeight = 5.0f; // box collider size ÃÖ´ë y ±æÀÌ
+    private float duration = 2.0f; // È®ï¿½å¿¡ ï¿½É¸ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
+    private float maxHeight = 5.0f; // box collider size ï¿½Ö´ï¿½ y ï¿½ï¿½ï¿½ï¿½
     private float lifeTime = 4.0f; 
 
-    private Vector2 originalSize; // ¿ø·¡ Å©±â ÀúÀå
-    private Vector2 originalOffset; // ¿ø·¡ ¿ÀÇÁ¼Â ÀúÀå...¹Ú½ºÄÝ¸®´õ¸¦ ´Ã¸± ¶§ Áß¾Ó¿¡¼­ºÎÅÍ À§ ¾Æ·¡·Î ´Ã·ÁÁö´Â°É À§¿¡¼­ºÎÅÍ ¾Æ·¡·Î¸¸ ´Ã·ÁÁö°Ô Á¶Á¤ÇÏµµ·Ï... 
+    private Vector2 originalSize; // ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
+    private Vector2 originalOffset; // ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½...ï¿½Ú½ï¿½ï¿½Ý¸ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ ï¿½ï¿½ ï¿½ß¾Ó¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ï¿½Â°ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½Î¸ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½ï¿½ï¿½... 
     void Start()
     {
         playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
         boxCollider = GetComponent<BoxCollider2D>();
-        // ¿ø·¡ Å©±â, À§Ä¡ ÀúÀå
+        // ï¿½ï¿½ï¿½ï¿½ Å©ï¿½ï¿½, ï¿½ï¿½Ä¡ ï¿½ï¿½ï¿½ï¿½
         originalSize = boxCollider.size;
         originalOffset = boxCollider.offset;
 
         lifeTime = 4.0f;
 
-        //ÇÃ·¹ÀÌ¾î ¹æÇâÀ¸·Î ·¹ÀÌÀú È¸Àü (0~50µµ, 310~360µµ °¢µµ Á¦ÇÑ) 
+        //ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ È¸ï¿½ï¿½ (0~50ï¿½ï¿½, 310~360ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½) 
         InitRotating(); 
-        // »ý¼º½Ã ÀÚ¿¬½º·´°Ô ÄÝ¶óÀÌ´õ¸¦ ´Ã¸®´Â ÄÚ·çÆ¾
+        // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ý¶ï¿½ï¿½Ì´ï¿½ï¿½ï¿½ ï¿½Ã¸ï¿½ï¿½ï¿½ ï¿½Ú·ï¿½Æ¾
         StartCoroutine(IncreaseColliderY());
-        //Áö¼Ó½Ã°£ÀÌ ³¡³ª¸é ÀÌ ¿ÀºêÁ§Æ®¸¦ »èÁ¦ÇØÁÖ´Â ÄÚ·çÆ¾
+        //ï¿½ï¿½ï¿½Ó½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ®ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½Ú·ï¿½Æ¾
         StartCoroutine(LifeTime());
     }
     
-    // È£¹Ö ·¹ÀÌÀú°¡ »ý¼º ÈÄ collider°¡ ÀÚ¿¬½º·´°Ô ´Ã·ÁÁöµµ·Ï ¸¸µé¾îÁÖ´Â ÄÚ·çÆ¾
+    // È£ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ colliderï¿½ï¿½ ï¿½Ú¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ ï¿½Ú·ï¿½Æ¾
     IEnumerator IncreaseColliderY()
     {
-        float elapsedTime = 0f; //°æ°ú ½Ã°£
+        float elapsedTime = 0f; //ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½
 
         while (elapsedTime < duration)
         {
-            //°æ°ú ½Ã°£¿¡ µû¶ó y ±æÀÌ¸¦ Á¶Àý
+            //ï¿½ï¿½ï¿½ ï¿½Ã°ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ y ï¿½ï¿½ï¿½Ì¸ï¿½ ï¿½ï¿½ï¿½ï¿½
             float newHeight = Mathf.Lerp(0, maxHeight, elapsedTime / duration);
             boxCollider.size = new Vector2(originalSize.x, newHeight);
 
-            //ÄÝ¶óÀÌ´õ offsetÀÌ À§ÂÊ¿¡¼­ºÎÅÍ ¾Æ·¡·Î È®ÀåµÇµµ·Ï... ´Ù½Ã º¸´Ï±î ½ºÇÁ¶óÀÌÆ® ÀÚ¸¦ ¶§ ÇÇ¹þÀ» À§ÂÊ¿¡ µÎ¸é ÀÌ·¸°Ô ÇÒ ÇÊ¿ä ¾øÀÌ size·Î Á¶Àý°¡´ÉÇÒ °Í °°À½
+            //ï¿½Ý¶ï¿½ï¿½Ì´ï¿½ offsetï¿½ï¿½ ï¿½ï¿½ï¿½Ê¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Æ·ï¿½ï¿½ï¿½ È®ï¿½ï¿½Çµï¿½ï¿½ï¿½... ï¿½Ù½ï¿½ ï¿½ï¿½ï¿½Ï±ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ® ï¿½Ú¸ï¿½ ï¿½ï¿½ ï¿½Ç¹ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½Ê¿ï¿½ ï¿½Î¸ï¿½ ï¿½Ì·ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½Ê¿ï¿½ ï¿½ï¿½ï¿½ï¿½ sizeï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
             boxCollider.offset = new Vector2(originalOffset.x, originalOffset.y - newHeight / 2);
 
             elapsedTime += Time.deltaTime;
@@ -60,13 +58,13 @@ public class DeathRazer : MonoBehaviour
 
     void InitRotating()
     {
-        Vector3 dir = (playerTransform.position - this.transform.position); //º¸½º¿¡¼­ ÇÃ·¹ÀÌ¾î¸¦ ¹Ù¶óº¸´Â ¹æÇâº¤ÅÍ
-        dir.Normalize(); //Å©±â 1 ¹æÇâº¤ÅÍ·Î Á¤±ÔÈ­
+        Vector3 dir = (playerTransform.position - this.transform.position); //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ã·ï¿½ï¿½Ì¾î¸¦ ï¿½Ù¶óº¸´ï¿½ ï¿½ï¿½ï¿½âº¤ï¿½ï¿½
+        dir.Normalize(); //Å©ï¿½ï¿½ 1 ï¿½ï¿½ï¿½âº¤ï¿½Í·ï¿½ ï¿½ï¿½ï¿½ï¿½È­
 
         float angle = 180.0f - Mathf.Atan2(dir.x, dir.y) * Mathf.Rad2Deg;
 
-        //Debug.Log($"ÃÊ±â °¢µµ : {angle}");
-        //¾ç ¿· °¢µµ 50µµ ÀÌ»ó ¸ø³Ñ¾î°¡°Ô angle Á¶°Ç ¼³Á¤
+        //Debug.Log($"ï¿½Ê±ï¿½ ï¿½ï¿½ï¿½ï¿½ : {angle}");
+        //ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ 50ï¿½ï¿½ ï¿½Ì»ï¿½ ï¿½ï¿½ï¿½Ñ¾î°¡ï¿½ï¿½ angle ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
         if (angle > 50.0f && angle < 180.0f)
         {
             angle = 50.0f;
@@ -75,18 +73,18 @@ public class DeathRazer : MonoBehaviour
         {
             angle = 310.0f;
         }
-        //Debug.Log($"º¸Á¤ °¢µµ : {angle}");
+        //Debug.Log($"ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ : {angle}");
 
-        transform.Rotate(Vector3.forward, angle); //ZÃàÀ» ±âÁØÀ¸·Î angle¸¸Å­ È¸Àü (ÇÃ·¹ÀÌ¾î¸¦ ¹Ù¶óº¸´Â ¹æÇâ)
+        transform.Rotate(Vector3.forward, angle); //Zï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ angleï¿½ï¿½Å­ È¸ï¿½ï¿½ (ï¿½Ã·ï¿½ï¿½Ì¾î¸¦ ï¿½Ù¶óº¸´ï¿½ ï¿½ï¿½ï¿½ï¿½)
     }
 
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag("Player")) //ÇÃ·¹ÀÌ¾î¿Í Ãæµ¹Çß´Ù¸é
+        if (other.gameObject.CompareTag("Player")) //ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ï¿½ ï¿½æµ¹ï¿½ß´Ù¸ï¿½
         {
-            //ÇÃ·¹ÀÌ¾î Á×À½ Ã³¸®
-            Destroy(other.gameObject); //ÀÓ½Ã·Î »èÁ¦ Å×½ºÆ®
+            //ï¿½Ã·ï¿½ï¿½Ì¾ï¿½ ï¿½ï¿½ï¿½ï¿½ Ã³ï¿½ï¿½
+            Destroy(other.gameObject); //ï¿½Ó½Ã·ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½×½ï¿½Æ®
         }
     }
 }
