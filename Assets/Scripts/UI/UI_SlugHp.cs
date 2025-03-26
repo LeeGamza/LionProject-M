@@ -6,12 +6,13 @@ public class UI_SlugHp : MonoBehaviour
 {
     public Transform parentContainer;
     public Sprite[] HpSprites; 
+
     public int SlugHp;        
     public int MaxHp = 100;    
 
     public float fontSize = 50f;
 
-    private const int totalSlots = 6;  // HP 바 내부 칸 개수
+    private const int totalSlots = 7;  // HP 바 내부 칸 개수
     private const int spriteSteps = 9; // 한 칸당 9개의 스프라이트
     private const int totalSteps = totalSlots * spriteSteps; 
 
