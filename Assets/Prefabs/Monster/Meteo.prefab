@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5659576336810456344}
   - component: {fileID: 1379919554906274767}
   - component: {fileID: 2374642065026734927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Meteo
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -125,6 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455d385330ed9f54ab01ffd54521582b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  die: {fileID: 218400942108646562, guid: 9fb20b359d9e7254db04cb2e5208ed05, type: 3}
 --- !u!114 &1379919554906274767
 MonoBehaviour:
   m_ObjectHideFlags: 0

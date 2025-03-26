@@ -1468,11 +1468,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - startTime: 1
-    enemyPrefab: {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
-    enemyCount: 20
+    enemyPrefab: {fileID: 4648627136364222824, guid: 6162b8f6e814ef5469d7f0c8d4603688, type: 3}
+    enemyCount: 10
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 1}
-    spawnInterval: 0.5
+    spawnInterval: 1
+  - startTime: 12
+    enemyPrefab: {fileID: 5901543284200072010, guid: 0d9eeaca8d71f1d4aa5c2bd17b42fc48, type: 3}
+    enemyCount: 10
+    useRandomSpawn: 1
+    spawnPosition: {x: 0, y: 1}
+    spawnInterval: 1
+  - startTime: 24
+    enemyPrefab: {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
+    enemyCount: 10
+    useRandomSpawn: 1
+    spawnPosition: {x: 0, y: 1}
+    spawnInterval: 1
 --- !u!4 &1618698513
 Transform:
   m_ObjectHideFlags: 0

@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 533442115646699973}
   - component: {fileID: 6018818769712262132}
   - component: {fileID: 308802660217299998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: UFO_Attack
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

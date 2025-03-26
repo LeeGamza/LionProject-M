@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 1754556865917149202}
   - component: {fileID: 5908336000200043995}
   - component: {fileID: 3178722213530104660}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Mini_ufo
   m_TagString: Monster
   m_Icon: {fileID: 0}
@@ -125,9 +125,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc79cd3c4e492db408d1b7ea0db67c9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  die: {fileID: 9109573931234562858, guid: 63424be64bca8304aad8f0662611ce10, type: 3}
   outsideOffset: 2
   bullet: {fileID: 7242902674855038982, guid: 439f69accb63d0347baa84ee94cb2a75, type: 3}
-  die: {fileID: 9109573931234562858, guid: 63424be64bca8304aad8f0662611ce10, type: 3}
   attackDuration: 0.8
   waitAfterAttack: 1.5
 --- !u!114 &5908336000200043995
@@ -142,6 +142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 455d385330ed9f54ab01ffd54521582b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  die: {fileID: 9109573931234562858, guid: 63424be64bca8304aad8f0662611ce10, type: 3}
 --- !u!70 &3178722213530104660
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

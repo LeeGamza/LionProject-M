@@ -4,7 +4,6 @@ using UnityEngine;
 public class UFO : Monster
 {
     public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
-    public GameObject die;
 
     private Vector2 startPos;
     private Vector2 midPos;
@@ -29,13 +28,6 @@ public class UFO : Monster
 
         Move();
     }
-
-    private void OnDestroy()
-    {
-        GameObject go = Instantiate(die, gameObject.transform.position, Quaternion.identity);
-        Destroy(go, 1f);
-    }
-
 
     IEnumerator MoveObject(Vector2 MidPos, Vector2 EndPos)
     {

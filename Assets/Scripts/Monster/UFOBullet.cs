@@ -18,13 +18,12 @@ public class UFOBullet : MonoBehaviour
         Destroy(gameObject);
     }
 
-    /*플레이어와 상호작용
+    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
-            //데미지 주고
-            Destroy(gameObject);
+            //player.Damaged(attack);
         }
     }
     */
