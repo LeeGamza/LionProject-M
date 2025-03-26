@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -33,13 +34,17 @@ public class FontRender_highscore : MonoBehaviour
             }
             else if (c >= 'A' && c <= 'Z') // 알파벳 처리
             {
-                int index = c - 'A'; 
+                int index = c - 'A';
                 CreateLetterImage(letterSprites, index, c.ToString());
             }
             else if (c >= '0' && c <= '9') // 숫자 처리
             {
                 int index = (c - '0') + 26;
                 CreateLetterImage(numberSprites, index - 26, c.ToString());
+            }
+            else if (c == '!')
+            {
+                CreateLetterImage(numberSprites, 10, c.ToString());
             }
         }
     }
