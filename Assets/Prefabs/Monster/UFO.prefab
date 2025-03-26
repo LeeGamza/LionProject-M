@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6157844830615062325}
   - component: {fileID: 7555679104490310682}
   - component: {fileID: 6813229000200644518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -196,6 +196,10 @@ PrefabInstance:
     - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_Name
       value: UFO_Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7562418804124006685, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_LocalPosition.x
