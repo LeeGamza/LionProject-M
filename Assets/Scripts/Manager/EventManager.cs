@@ -10,6 +10,7 @@ public class EventManager : MonoBehaviour
     public event Action OnUpMove;
     public event Action OnDownMove;
     public event Action OnAttack;
+    public event Action<SpriteRenderer, Color> OnHitEffect;
     public event Action<Vector3> OnDrop;
     
     private void Awake()
@@ -50,5 +51,10 @@ public class EventManager : MonoBehaviour
     public void InvokeDrop(Vector3 position)
     {
         OnDrop?.Invoke(position);
+    }
+
+    public void InvokeHitEffect(SpriteRenderer sr, Color hitColor)
+    {
+        OnHitEffect?.Invoke(sr, hitColor);
     }
 }
