@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6151743664468581873}
   - component: {fileID: 2338736022618509131}
   - component: {fileID: 6157844830615062325}
+  - component: {fileID: -1549549603313001027}
   - component: {fileID: 7555679104490310682}
   - component: {fileID: 6813229000200644518}
   m_Layer: 8
@@ -113,6 +114,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1549549603313001027
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1313343644581240366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 455d385330ed9f54ab01ffd54521582b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  die: {fileID: 5490423954295000596, guid: 9159f5be69fbb734aad273d108974dba, type: 3}
 --- !u!114 &7555679104490310682
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125,8 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9442da37a62124c8d95921da164f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  outsideOffset: 2
   die: {fileID: 5490423954295000596, guid: 9159f5be69fbb734aad273d108974dba, type: 3}
+  outsideOffset: 2
 --- !u!61 &6813229000200644518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -200,6 +214,10 @@ PrefabInstance:
     - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_Layer
       value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
+      propertyPath: m_TagString
+      value: Monster
       objectReference: {fileID: 0}
     - target: {fileID: 7562418804124006685, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_LocalPosition.x

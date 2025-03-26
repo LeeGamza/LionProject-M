@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Meteo : Monster
 {
-    public GameObject die;
-
     private Vector2 startPos;
     private Vector2 endPos;
     private Camera mainCamera;
@@ -30,19 +28,12 @@ public class Meteo : Monster
         }
     }
 
-    private void OnDestroy()
-    {
-        GameObject go = Instantiate(die, gameObject.transform.position, Quaternion.identity);
-        Destroy(go, 1f);
-    }
-
-    /*플레이어와 상호작용
+    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
-            //데미지 주고
-            Destroy(gameObject);
+            //player.Damaged(attack);
         }
     }
     */
