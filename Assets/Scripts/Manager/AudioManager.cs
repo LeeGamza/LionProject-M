@@ -1,15 +1,22 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
+    [Header("Audio Source")] 
     public AudioSource bgmSource;
+    public AudioSource sfxSource;
 
     [Header("BGM Clips")] 
     public AudioClip mainBGM;
-
     public AudioClip secondSceneBGM;
+
+    [Header("SFX Clips")] 
+    public AudioClip pickup_machineGun;
+
+    public AudioClip hitSound;
     private void Awake()
     {
         if (Instance == null)
@@ -54,5 +61,10 @@ public class AudioManager : MonoBehaviour
             bgmSource.clip = nextClip;
             bgmSource.Play();
         }
+    }
+
+    public void PlaySFX(AudioClip clip)
+    {
+        sfxSource.PlayOneShot(clip);
     }
 }
