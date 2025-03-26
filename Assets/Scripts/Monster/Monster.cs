@@ -29,7 +29,7 @@ public class Monster : MonoBehaviour
     {
         Debug.Log("몬스터가 데미지를 받음: " + damage + ", 현재 HP: " + hp);
         hp -= damage;
-        
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.hitSound);
         EventManager.Instance.InvokeHitEffect(spriteRenderer, hitColor);
         
         if (hp <= 0)

@@ -74,6 +74,9 @@ public class SpaceShipController : MonoBehaviour
         {
             Upgradelevel++;
             Upgradelevel = Mathf.Clamp(Upgradelevel, 0, 1);
+            
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickup_machineGun);
+            
             Destroy(collision.gameObject);
         }
     }
