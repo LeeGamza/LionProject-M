@@ -5,6 +5,7 @@ public class Mini_UFO : Monster
 {
     public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
     public GameObject bullet;
+    public GameObject die;
     public float attackDuration = 0.8f;
     public float waitAfterAttack = 1.5f;
 
@@ -27,14 +28,18 @@ public class Mini_UFO : Monster
         StartCoroutine(StateLoop());
     }
 
+    private void OnDestroy()
+    {
+        GameObject go = Instantiate(die, gameObject.transform.position, Quaternion.identity);
+        Destroy(go, 1.833f);
+    }
+
     IEnumerator StateLoop()
     {
         while (true)
         {
             if (cuurentState == State.Move)
             {
-                //ani.SetBool("Move", true);
-                //ani.SetBool("Attack", false);
                 yield return MoveObject();
                 cuurentState = State.Attack;
             }
@@ -45,6 +50,8 @@ public class Mini_UFO : Monster
                 yield return HomingAttack();
                 cuurentState = State.Move;
             }
+
+            //Destroy(gameObject); Die test용
         }
     }
 

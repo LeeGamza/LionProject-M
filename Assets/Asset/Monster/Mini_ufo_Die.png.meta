@@ -1,0 +1,761 @@
+fileFormatVersion: 2
+guid: ec4f58ba52195c245b953d829b89d912
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8589548231328203066
+    second: Mini_ufo_Die_0
+  - first:
+      213: 8141381717203967624
+    second: Mini_ufo_Die_1
+  - first:
+      213: -7992087240453797900
+    second: Mini_ufo_Die_2
+  - first:
+      213: -752107591370031601
+    second: Mini_ufo_Die_3
+  - first:
+      213: -1718152224169540395
+    second: Mini_ufo_Die_4
+  - first:
+      213: -3244854218716850151
+    second: Mini_ufo_Die_5
+  - first:
+      213: -5805850890888174965
+    second: Mini_ufo_Die_6
+  - first:
+      213: -8196803996817192675
+    second: Mini_ufo_Die_7
+  - first:
+      213: -6557826430325392787
+    second: Mini_ufo_Die_8
+  - first:
+      213: -2962589143245441852
+    second: Mini_ufo_Die_9
+  - first:
+      213: -8112704926796805177
+    second: Mini_ufo_Die_10
+  - first:
+      213: 2920230094433654024
+    second: Mini_ufo_Die_11
+  - first:
+      213: 4388977797816232212
+    second: Mini_ufo_Die_12
+  - first:
+      213: 5986870445156258132
+    second: Mini_ufo_Die_13
+  - first:
+      213: 5400021246544363852
+    second: Mini_ufo_Die_14
+  - first:
+      213: 7521455875130012174
+    second: Mini_ufo_Die_15
+  - first:
+      213: -266353070048998568
+    second: Mini_ufo_Die_16
+  - first:
+      213: -9005607999526943679
+    second: Mini_ufo_Die_17
+  - first:
+      213: 8811554664314404532
+    second: Mini_ufo_Die_18
+  - first:
+      213: -3346771785146538781
+    second: Mini_ufo_Die_19
+  - first:
+      213: 264232485252451724
+    second: Mini_ufo_Die_20
+  - first:
+      213: -4230570465616629963
+    second: Mini_ufo_Die_21
+  - first:
+      213: -7611134517769901175
+    second: Mini_ufo_Die_22
+  - first:
+      213: -5927603126648600853
+    second: Mini_ufo_Die_23
+  - first:
+      213: 3409948041337010653
+    second: Mini_ufo_Die_24
+  - first:
+      213: -917133547129365139
+    second: Mini_ufo_Die_25
+  - first:
+      213: -1114853166099833794
+    second: Mini_ufo_Die_26
+  - first:
+      213: -384962970423022612
+    second: Mini_ufo_Die_27
+  - first:
+      213: 9062409501631564925
+    second: Mini_ufo_Die_28
+  - first:
+      213: 5250745982588781678
+    second: Mini_ufo_Die_29
+  - first:
+      213: -2206039463977837786
+    second: Mini_ufo_Die_30
+  - first:
+      213: -5861666795883961612
+    second: Mini_ufo_Die_31
+  - first:
+      213: 8552011557697331827
+    second: Mini_ufo_Die_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mini_ufo_Die_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 282
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3107656b94343770800000000000000
+      internalID: 8589548231328203066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 282
+        width: 51
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88e5dc2798ffbf070800000000000000
+      internalID: 8141381717203967624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 282
+        width: 56
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f7c1daaff6661190800000000000000
+      internalID: -7992087240453797900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_5
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 282
+        width: 57
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9185471b746f7f2d0800000000000000
+      internalID: -3244854218716850151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 282
+        width: 65
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d198534813a1f3e80800000000000000
+      internalID: -8196803996817192675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 282
+        width: 66
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6a79c14b9bedf4a0800000000000000
+      internalID: -6557826430325392787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 219
+        width: 63
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb07be1ad1e96f80800000000000000
+      internalID: -8112704926796805177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 219
+        width: 56
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8059f118ccdb68820800000000000000
+      internalID: 2920230094433654024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_13
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 219
+        width: 57
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 451d2d733f2a51350800000000000000
+      internalID: 5986870445156258132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_14
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 219
+        width: 48
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41c6d396bab0fa40800000000000000
+      internalID: 5400021246544363852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_15
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 219
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0236ee9444916860800000000000000
+      internalID: 7521455875130012174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_16
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 219
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b05e24b49bd4cf0800000000000000
+      internalID: -266353070048998568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_19
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 153
+        width: 51
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e46a0a1bc0ed81d0800000000000000
+      internalID: -3346771785146538781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_20
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 153
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8d479d9b0ebaa300800000000000000
+      internalID: 264232485252451724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_21
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 152
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f69a7739ef945c0800000000000000
+      internalID: -4230570465616629963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 152
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b6c9a4b71df5690800000000000000
+      internalID: -7611134517769901175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_23
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 152
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be68d92bc5cecbda0800000000000000
+      internalID: -5927603126648600853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_24
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 153
+        width: 37
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd97e6a4da1925f20800000000000000
+      internalID: 3409948041337010653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 88
+        width: 37
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5021627, y: 0.45673397}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c56e1c3fe3780f0800000000000000
+      internalID: -1114853166099833794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 94
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64830ac6a56ed840800000000000000
+      internalID: 5250745982588781678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_31
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 98
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f262a70b1d27aea0800000000000000
+      internalID: -5861666795883961612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mini_ufo_Die_32
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 96
+        width: 36
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 372a5938339dea670800000000000000
+      internalID: 8552011557697331827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 576e087c49d06ef4b806bc4799155b60
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mini_ufo_Die_0: 8589548231328203066
+      Mini_ufo_Die_1: 8141381717203967624
+      Mini_ufo_Die_10: -8112704926796805177
+      Mini_ufo_Die_11: 2920230094433654024
+      Mini_ufo_Die_13: 5986870445156258132
+      Mini_ufo_Die_14: 5400021246544363852
+      Mini_ufo_Die_15: 7521455875130012174
+      Mini_ufo_Die_16: -266353070048998568
+      Mini_ufo_Die_19: -3346771785146538781
+      Mini_ufo_Die_2: -7992087240453797900
+      Mini_ufo_Die_20: 264232485252451724
+      Mini_ufo_Die_21: -4230570465616629963
+      Mini_ufo_Die_22: -7611134517769901175
+      Mini_ufo_Die_23: -5927603126648600853
+      Mini_ufo_Die_24: 3409948041337010653
+      Mini_ufo_Die_26: -1114853166099833794
+      Mini_ufo_Die_29: 5250745982588781678
+      Mini_ufo_Die_31: -5861666795883961612
+      Mini_ufo_Die_32: 8552011557697331827
+      Mini_ufo_Die_5: -3244854218716850151
+      Mini_ufo_Die_7: -8196803996817192675
+      Mini_ufo_Die_8: -6557826430325392787
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
