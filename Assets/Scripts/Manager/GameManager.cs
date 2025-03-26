@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -32,7 +33,6 @@ public class GameManager : MonoBehaviour
     private void StartGame()
     {
         hitParticles = new HitParticles();
-        
-        SceneManager.Instance.LoadScene("SecondStage");
+        SceneManager.LoadScene("SecondStage");
     }
 }
