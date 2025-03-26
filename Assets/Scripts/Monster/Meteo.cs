@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Meteo : Monster
 {
+    public GameObject die;
+
     private Vector2 startPos;
     private Vector2 endPos;
     private Camera mainCamera;
@@ -26,6 +28,12 @@ public class Meteo : Monster
         {
             Destroy(gameObject);
         }
+    }
+
+    private void OnDestroy()
+    {
+        GameObject go = Instantiate(die, gameObject.transform.position, Quaternion.identity);
+        Destroy(go, 1f);
     }
 
     /*플레이어와 상호작용
