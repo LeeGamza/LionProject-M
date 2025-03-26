@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class P_Bullet : MonoBehaviour
 {
-    public float speed = 4.5f;
+    public float speed = 30f;
     private float _damage = 50;
 
     // Update is called once per frame

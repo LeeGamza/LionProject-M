@@ -1,9 +1,11 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
+    private HitParticles hitParticles;
 
     private void Awake()
     {
@@ -30,6 +32,7 @@ public class GameManager : MonoBehaviour
 
     private void StartGame()
     {
-        SceneManager.Instance.LoadScene("SecondStage");
+        hitParticles = new HitParticles();
+        SceneManager.LoadScene("SecondStage");
     }
 }

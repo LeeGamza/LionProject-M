@@ -1476,7 +1476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waves:
   - startTime: 1
-    enemyPrefab: {fileID: 8027858692817177415, guid: 8ca74e22ee3d9eb44813114b6afec914, type: 3}
+    enemyPrefab: {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
     enemyCount: 20
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 1}

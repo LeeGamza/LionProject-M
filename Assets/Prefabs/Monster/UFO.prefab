@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 6157844830615062325}
   - component: {fileID: 7555679104490310682}
   - component: {fileID: 6813229000200644518}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: UFO
-  m_TagString: Untagged
+  m_TagString: Monster
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1858008147
-  m_SortingLayer: 1
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 1124895524633003478, guid: 7541b9cb261ac564bb68193691bd2c82, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -125,8 +125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f9442da37a62124c8d95921da164f2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hitColor: {r: 1, g: 1, b: 1, a: 1}
   outsideOffset: 2
-  bullet: {fileID: 6061421375549690368, guid: a440cbeacb90f3e468e64a535f106652, type: 3}
 --- !u!61 &6813229000200644518
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -157,7 +157,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -183,7 +183,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 533442115646699973, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_SortingLayer
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 533442115646699973, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_SortingOrder
@@ -196,6 +196,10 @@ PrefabInstance:
     - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_Name
       value: UFO_Attack
+      objectReference: {fileID: 0}
+    - target: {fileID: 7015202882274896484, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7562418804124006685, guid: ee4f7dd3b38dbf24785c1e421e682b6b, type: 3}
       propertyPath: m_LocalPosition.x
