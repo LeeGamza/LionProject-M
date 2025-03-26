@@ -1,4 +1,4 @@
-using System;
+/*using System;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -57,4 +57,4 @@ public class PlayerController : MonoBehaviour
         upperAnimator.SetBool("Jump", isJumping);
         lowerAnimator.SetBool("Jump", isJumping);
     }
-}
+}*/

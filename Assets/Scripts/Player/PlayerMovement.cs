@@ -1,64 +1,30 @@
-using System;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+public class PlayerMovement
 {
-    private float movementSpeed = 5f;
-    private Rigidbody2D rb;
-    private float jumpForce = 5f;
-    public void Start()
+    private readonly float movementSpeed;
+    private readonly InputManager input;
+    private readonly Transform playerTransform;
+    private readonly Camera mainCamera;
+
+    public PlayerMovement(float movementSpeed, Transform playerTransform)
     {
-        rb = GetComponent<Rigidbody2D>();
+        this.movementSpeed = movementSpeed;
+        this.playerTransform = playerTransform;
+        input = InputManager.Instance;
+        mainCamera = Camera.main;
     }
 
-    private void OnEnable()
+    public Vector3 CalculateMovement()
     {
-        EventManager.Instance.OnPlayerMove+= PlayerMove;
-        EventManager.Instance.OnUpMove += UpMove;
-        EventManager.Instance.OnDownMove += DownMove;
-        EventManager.Instance.OnAttack += Attack;
-    }
-
-    private void OnDisable()
-    {
-        EventManager.Instance.OnPlayerMove -= PlayerMove;
-        EventManager.Instance.OnUpMove -= UpMove;
-        EventManager.Instance.OnDownMove -= DownMove;
-        EventManager.Instance.OnAttack -= Attack;
-    }
-     
-    
-    private void UpMove()
-    {
-        
+        return new Vector3(input.horizontal, input.vertical, 0f) * movementSpeed * Time.deltaTime;
     }
     
-    private void DownMove()
+    public Vector3 CantEscapeScreen()
     {
-        
-    }
-    
-    private void PlayerMove(float horizontal, float vertical)
-    {
-        Vector3 movement = new Vector3(horizontal, 0f, 0f);
-        transform.Translate(movement * movementSpeed * Time.deltaTime, Space.World);
-    }
-
-    private void JumpMove()
-    {
-        if (rb == null)
-        {
-            Debug.Log("없어용");
-        }
-        if (Mathf.Abs(rb.linearVelocity.y) < 0.01f)
-        {
-            rb.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-        }
-    }
-
-    private void Attack()
-    {
+        Vector3 viewPos = mainCamera.WorldToViewportPoint(playerTransform.position);
+        viewPos.x = Mathf.Clamp01(viewPos.x);
+        viewPos.y = Mathf.Clamp01(viewPos.y);
+        return mainCamera.ViewportToWorldPoint(viewPos);
     }
 }
-    
-
