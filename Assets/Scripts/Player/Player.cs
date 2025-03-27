@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 public class Player : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class Player : MonoBehaviour
     private FireManager fireManager;
     private PlayerStateMachine stateMachine;
     private PlayerMovement movement;
+    private Animator rightAnimator;
+    private Animator leftAnimator;
     
     [Header("Bullets")]
     [SerializeField] private GameObject[] bulletPrefabs;
@@ -78,5 +81,46 @@ public class Player : MonoBehaviour
             stateMachine.OnPickupItem();
             Destroy(other.gameObject);
         }
+    }
+
+    public void EquipMachingun()
+    {
+        Transform right = transform.Find("SpaceShip_Right_0");
+        Transform left = transform.Find("SpaceShip_Left_0");
+
+        if (right != null && left != null)
+        {
+            rightAnimator = right.GetComponent<Animator>();
+            leftAnimator = left.GetComponent<Animator>();
+
+            StartCoroutine(PlayUpgradeAnimation());
+        }
+        else
+        {
+            Debug.LogWarning("SpaceShip_Right_0 또는 SpaceShip_Left_0 자식 오브젝트를 찾을 수 없습니다.");
+        }
+    }
+
+    private IEnumerator PlayUpgradeAnimation()
+    {
+        rightAnimator.Play("SpaceShipMing_Right");
+        leftAnimator.Play("SpaceShipMing_Left");
+        yield return new WaitForSeconds(GetAnimationClipLength(rightAnimator, "SpaceShipMing_Right"));
+        yield return new WaitForSeconds(GetAnimationClipLength(leftAnimator, "SpaceShipMing_Left"));
+        rightAnimator.Play("SpaceShipM_Right");
+        leftAnimator.Play("SpaceShipM_Left");
+    }
+    
+    private float GetAnimationClipLength(Animator animator, string clipName)
+    {
+        foreach (AnimationClip clip in animator.runtimeAnimatorController.animationClips)
+        {
+            if (clip.name == clipName)
+            {
+                return clip.length;
+            }
+        }
+        Debug.LogWarning($"'{clipName}' 애니메이션 클립을 찾을 수 없습니다.");
+        return 0f;
     }
 }
