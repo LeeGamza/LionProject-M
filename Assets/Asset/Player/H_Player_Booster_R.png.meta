@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: eaa026a6d923ec94e963a880870df851
+guid: a630604c4951598408534536ffe4d187
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3632411321885358509
-    second: PlayerJump_Body_0
+      213: -1308794592760181405
+    second: H_Player_Booster_R_0
   - first:
-      213: -6630862213550700941
-    second: PlayerJump_Body_1
+      213: -3105803482113276095
+    second: H_Player_Booster_R_1
   - first:
-      213: -1286752003637539935
-    second: PlayerJump_Body_2
+      213: -4459903550948352498
+    second: H_Player_Booster_R_2
   - first:
-      213: 5582986872251542540
-    second: PlayerJump_Body_3
-  - first:
-      213: 1162604102121352362
-    second: PlayerJump_Body_4
-  - first:
-      213: 3177343688719302179
-    second: PlayerJump_Body_5
-  - first:
-      213: -2093936720779118569
-    second: PlayerJump_Body_6
+      213: -6951901223011323124
+    second: H_Player_Booster_R_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,9 +49,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -131,133 +122,89 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerJump_Body_0
+      name: H_Player_Booster_R_0
       rect:
         serializedVersion: 2
         x: 8
-        y: 1
-        width: 31
-        height: 28
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3568ae8e525179dc0800000000000000
-      internalID: -3632411321885358509
+      spriteID: 36dc39e804a36dde0800000000000000
+      internalID: -1308794592760181405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerJump_Body_1
+      name: H_Player_Booster_R_1
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 0
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14787723038f5e4d0800000000000000
+      internalID: -3105803482113276095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: H_Player_Booster_R_2
       rect:
         serializedVersion: 2
         x: 42
-        y: 1
-        width: 31
-        height: 27
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 37600c6d2f17af3a0800000000000000
-      internalID: -6630862213550700941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerJump_Body_2
-      rect:
-        serializedVersion: 2
-        x: 77
-        y: 1
-        width: 31
-        height: 26
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1ab8925ced9842ee0800000000000000
-      internalID: -1286752003637539935
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerJump_Body_3
-      rect:
-        serializedVersion: 2
-        x: 111
-        y: 2
-        width: 31
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c0ce83afaf0ca7d40800000000000000
-      internalID: 5582986872251542540
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerJump_Body_4
-      rect:
-        serializedVersion: 2
-        x: 145
-        y: 3
-        width: 31
+        y: 0
+        width: 17
         height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aacea596546622010800000000000000
-      internalID: 1162604102121352362
+      spriteID: e0e5839995d3b12c0800000000000000
+      internalID: -4459903550948352498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerJump_Body_5
+      name: H_Player_Booster_R_3
       rect:
         serializedVersion: 2
-        x: 179
-        y: 2
-        width: 31
-        height: 28
+        x: 59
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32e71772041381c20800000000000000
-      internalID: 3177343688719302179
+      spriteID: c037ec0aba2e58f90800000000000000
+      internalID: -6951901223011323124
       vertices: []
       indices: 
       edges: []
@@ -266,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 23f47c2c469ca0240a9862f3a952dfc5
+    spriteID: 8fd0fad725eb65b459e2894b1199e1d4
     internalID: 0
     vertices: []
     indices: 
@@ -276,13 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerJump_Body_0: -3632411321885358509
-      PlayerJump_Body_1: -6630862213550700941
-      PlayerJump_Body_2: -1286752003637539935
-      PlayerJump_Body_3: 5582986872251542540
-      PlayerJump_Body_4: 1162604102121352362
-      PlayerJump_Body_5: 3177343688719302179
-      PlayerJump_Body_6: -2093936720779118569
+      H_Player_Booster_R_0: -1308794592760181405
+      H_Player_Booster_R_1: -3105803482113276095
+      H_Player_Booster_R_2: -4459903550948352498
+      H_Player_Booster_R_3: -6951901223011323124
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

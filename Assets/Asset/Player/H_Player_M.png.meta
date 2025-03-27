@@ -1,34 +1,22 @@
 fileFormatVersion: 2
-guid: 93ee962763e55b248aef8e5aa84114fe
+guid: aa0b4a31da9c04f4585fbca487d15354
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7390362341181018131
-    second: PlayerSpawn_0
+      213: -7344282846903994757
+    second: H_Player_M_0
   - first:
-      213: -418359740730436933
-    second: PlayerSpawn_1
+      213: -1090017443807587603
+    second: H_Player_M_1
   - first:
-      213: -7951945673471093156
-    second: PlayerSpawn_2
+      213: 2186228034447340167
+    second: H_Player_M_2
   - first:
-      213: 1612009582740224259
-    second: PlayerSpawn_3
+      213: -4366680972934727080
+    second: H_Player_M_3
   - first:
-      213: 1954161200276627738
-    second: PlayerSpawn_4
-  - first:
-      213: 5854029864971647326
-    second: PlayerSpawn_5
-  - first:
-      213: 628985966998126704
-    second: PlayerSpawn_6
-  - first:
-      213: 7545231731809026526
-    second: PlayerSpawn_7
-  - first:
-      213: -7259906221947368683
-    second: PlayerSpawn_8
+      213: -6937188719469736608
+    second: H_Player_M_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -137,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerSpawn_0
+      name: H_Player_M_0
       rect:
         serializedVersion: 2
         x: 9
         y: 0
-        width: 31
-        height: 242
+        width: 30
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: def2b744b98207990800000000000000
-      internalID: -7390362341181018131
+      spriteID: b76fa4499add31a90800000000000000
+      internalID: -7344282846903994757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerSpawn_1
+      name: H_Player_M_1
       rect:
         serializedVersion: 2
-        x: 43
+        x: 42
         y: 0
-        width: 31
-        height: 220
+        width: 30
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -174,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb210794800b13af0800000000000000
-      internalID: -418359740730436933
+      spriteID: de29ed6f8ea7fd0f0800000000000000
+      internalID: -1090017443807587603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerSpawn_2
+      name: H_Player_M_2
       rect:
         serializedVersion: 2
-        x: 77
+        x: 73
         y: 0
-        width: 31
-        height: 175
+        width: 30
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c561d8b8a8305a190800000000000000
-      internalID: -7951945673471093156
+      spriteID: 782fb3f60da075e10800000000000000
+      internalID: 2186228034447340167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerSpawn_3
+      name: H_Player_M_3
       rect:
         serializedVersion: 2
-        x: 111
+        x: 104
         y: 0
-        width: 31
-        height: 128
+        width: 30
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 309b1c9bc220f5610800000000000000
-      internalID: 1612009582740224259
+      spriteID: 85ab4c07ace6663c0800000000000000
+      internalID: -4366680972934727080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerSpawn_4
+      name: H_Player_M_4
       rect:
         serializedVersion: 2
-        x: 145
+        x: 132
         y: 0
-        width: 31
-        height: 90
+        width: 30
+        height: 76
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,52 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a11e65012439e1b10800000000000000
-      internalID: 1954161200276627738
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSpawn_5
-      rect:
-        serializedVersion: 2
-        x: 179
-        y: 0
-        width: 31
-        height: 67
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e59b92e6521bd3150800000000000000
-      internalID: 5854029864971647326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: PlayerSpawn_6
-      rect:
-        serializedVersion: 2
-        x: 213
-        y: 0
-        width: 32
-        height: 38
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 07001ab876b9ab800800000000000000
-      internalID: 628985966998126704
+      spriteID: 06dc82c4d972abf90800000000000000
+      internalID: -6937188719469736608
       vertices: []
       indices: 
       edges: []
@@ -294,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 077b8993f7a1d974da9e0c73216bfbed
+    spriteID: a32e7945d9d43b848a66ea4a620c586c
     internalID: 0
     vertices: []
     indices: 
@@ -304,13 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerSpawn_0: -7390362341181018131
-      PlayerSpawn_1: -418359740730436933
-      PlayerSpawn_2: -7951945673471093156
-      PlayerSpawn_3: 1612009582740224259
-      PlayerSpawn_4: 1954161200276627738
-      PlayerSpawn_5: 5854029864971647326
-      PlayerSpawn_6: 628985966998126704
+      H_Player_M_0: -7344282846903994757
+      H_Player_M_1: -1090017443807587603
+      H_Player_M_2: 2186228034447340167
+      H_Player_M_3: -4366680972934727080
+      H_Player_M_4: -6937188719469736608
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

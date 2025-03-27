@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 087f4ebfb8c5de44ebdb45234dc08c61
+guid: 60322834063da1f43b8bee4520f4e694
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3166533520430183294
-    second: PlayerBody_0
+      213: -962073920612985601
+    second: H_Player_Booster_L_0
   - first:
-      213: 2811349681328607900
-    second: PlayerBody_1
+      213: 6875077269089795032
+    second: H_Player_Booster_L_1
   - first:
-      213: -5517175824548613372
-    second: PlayerBody_2
+      213: -7926892915339535663
+    second: H_Player_Booster_L_2
   - first:
-      213: -879216121860425213
-    second: PlayerBody_3
+      213: -151119018377567947
+    second: H_Player_Booster_L_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -49,9 +49,9 @@ TextureImporter:
     filterMode: 0
     aniso: 1
     mipBias: 0
-    wrapU: 1
-    wrapV: 1
-    wrapW: 1
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -122,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PlayerBody_0
+      name: H_Player_Booster_L_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 5
-        width: 31
-        height: 31
+        x: 8
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28c44694a863e04d0800000000000000
-      internalID: -3166533520430183294
+      spriteID: ff41232ddd606a2f0800000000000000
+      internalID: -962073920612985601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBody_1
+      name: H_Player_Booster_L_1
       rect:
         serializedVersion: 2
-        x: 43
-        y: 5
-        width: 31
-        height: 31
+        x: 25
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -159,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c92dff6d3abe30720800000000000000
-      internalID: 2811349681328607900
+      spriteID: 8dbb57bb95e296f50800000000000000
+      internalID: 6875077269089795032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBody_2
+      name: H_Player_Booster_L_2
       rect:
         serializedVersion: 2
-        x: 77
-        y: 6
-        width: 32
-        height: 30
+        x: 42
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,20 +181,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 403386e91dd0f63b0800000000000000
-      internalID: -5517175824548613372
+      spriteID: 1da50a854e40ef190800000000000000
+      internalID: -7926892915339535663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: PlayerBody_3
+      name: H_Player_Booster_L_3
       rect:
         serializedVersion: 2
-        x: 112
-        y: 7
-        width: 33
-        height: 29
+        x: 59
+        y: 0
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 30a76bf68956cc3f0800000000000000
-      internalID: -879216121860425213
+      spriteID: 531accead0e17edf0800000000000000
+      internalID: -151119018377567947
       vertices: []
       indices: 
       edges: []
@@ -213,7 +213,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ac1c1eb110de4dc489575bfd1e161716
     internalID: 0
     vertices: []
     indices: 
@@ -223,10 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      PlayerBody_0: -3166533520430183294
-      PlayerBody_1: 2811349681328607900
-      PlayerBody_2: -5517175824548613372
-      PlayerBody_3: -879216121860425213
+      H_Player_Booster_L_0: -962073920612985601
+      H_Player_Booster_L_1: 6875077269089795032
+      H_Player_Booster_L_2: -7926892915339535663
+      H_Player_Booster_L_3: -151119018377567947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
