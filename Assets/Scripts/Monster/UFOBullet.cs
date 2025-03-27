@@ -22,7 +22,11 @@ public class UFOBullet : MonoBehaviour
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
-            //player.Damaged(attack);
+            if (collision.GetComponentInParent<Player>() is { } player)
+            {
+                player.TakeDamage();
+            }
+            
             Destroy(gameObject);
         }
     }

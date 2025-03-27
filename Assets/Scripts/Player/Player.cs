@@ -5,7 +5,9 @@ public class Player : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject spaceShip;
-    //[SerializeField] private GameObject hPlayer;
+    [SerializeField] private GameObject humanPlayer;
+
+    private IPlayerState humanState;
     private FireManager fireManager;
     private PlayerStateMachine stateMachine;
     private PlayerMovement movement;
@@ -38,12 +40,15 @@ public class Player : MonoBehaviour
         BulletFactory.SetBullet(bulletPrefabs);
         fireManager.SetEffectPrefabs(effectPrefabs);
         
+        humanState = new HumanState(humanPlayer, fireManager, muzzleMiddle, this);
+        
         var spaceshipState = new SpaceShipState(
             spaceShip,
             fireManager,
             muzzleMiddle,
             new[] { muzzleLeft, muzzleRight },
-            this
+            this,
+            humanState
         );
 
         stateMachine.ChangeState(spaceshipState);
@@ -72,7 +77,23 @@ public class Player : MonoBehaviour
     private void HandleAttack()
     {
         stateMachine.CurrentState.Attack();
-        UnEquipMachingun();
+    }
+    
+    public void TakeDamage()
+    {
+        if (stateMachine.CurrentState is IDamageable damageable)
+        {
+            damageable.TakeHit();
+        }
+    }
+
+    public void SetState(IPlayerState state)
+    {
+        stateMachine.ChangeState(state);
+    }
+    public void KillPlayer()
+    {
+        gameObject.SetActive(false);
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -83,62 +104,5 @@ public class Player : MonoBehaviour
             stateMachine.OnPickupItem();
             Destroy(other.gameObject);
         }
-    }
-
-    public void EquipMachingun()
-    {
-        Transform right = spaceShip.transform.Find("SpaceShip_Right_0");
-        Transform left = spaceShip.transform.Find("SpaceShip_Left_0");
-        
-        if (right != null && left != null)
-        {
-            rightAnimator = right.GetComponent<Animator>();
-            leftAnimator = left.GetComponent<Animator>();
-
-            StartCoroutine(PlayUpgradeAnimation());
-        }
-        else
-        {
-            Debug.LogWarning("SpaceShip_Right_0 또는 SpaceShip_Left_0 자식 오브젝트를 찾을 수 없습니다.");
-        }
-    }
-
-    public void UnEquipMachingun()
-    {
-        int curruntammo = fireManager.Curruntammo();
-        if (curruntammo <= 0)
-        {
-            StartCoroutine(BacktothoBasic());
-        }
-    }
-
-    private IEnumerator PlayUpgradeAnimation()
-    {
-        rightAnimator.Play("SpaceShipMing_Right");
-        leftAnimator.Play("SpaceShipMing_Left");
-        yield return new WaitForSeconds(GetAnimationClipLength(rightAnimator, "SpaceShipMing_Right"));
-        yield return new WaitForSeconds(GetAnimationClipLength(leftAnimator, "SpaceShipMing_Left"));
-        rightAnimator.Play("SpaceShipM_Right");
-        leftAnimator.Play("SpaceShipM_Left");
-    }
-    
-    private float GetAnimationClipLength(Animator animator, string clipName)
-    {
-        foreach (AnimationClip clip in animator.runtimeAnimatorController.animationClips)
-        {
-            if (clip.name == clipName)
-            {
-                return clip.length;
-            }
-        }
-        Debug.LogWarning($"'{clipName}' 애니메이션 클립을 찾을 수 없습니다.");
-        return 0f;
-    }
-
-    private IEnumerator BacktothoBasic()
-    {
-        rightAnimator.SetBool("0",true);
-        leftAnimator.SetBool("0",true);
-        yield break;
     }
 }
