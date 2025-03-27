@@ -5,6 +5,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
 {
     private readonly GameObject spaceShip;
     private readonly FireManager fireManager;
+    private readonly Player player;
     
     private readonly Transform muzzleMiddle;
     private readonly Transform[] muzzleLeftRight;
@@ -24,8 +25,8 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
         this.muzzleMiddle = muzzleMiddle;
         this.muzzleLeftRight = muzzleLeftRight;
         
-        this.boosterL = spaceShip.transform.Find("BoosterL")?.gameObject;
-        this.boosterR = spaceShip.transform.Find("BoosterR")?.gameObject;
+        boosterL = spaceShip.transform.Find("Booster_L")?.gameObject;
+        boosterR = spaceShip.transform.Find("Booster_R")?.gameObject;
     }
     
     public void Enter()
@@ -70,5 +71,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     public void OnPickupItem()
     {
         fireManager.UpgradeMuzzles(muzzleLeftRight);
+        player.EquipMachingun();
     }
+    
 }
