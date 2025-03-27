@@ -36,8 +36,8 @@ public class Monster : MonoBehaviour
 
         if (hp <= 0)
         {
-            GameObject go = Instantiate(die, gameObject.transform.position, Quaternion.identity);
-            Destroy(go, 1f);
+            GameObject dieAnim = Instantiate(die, gameObject.transform.position, Quaternion.identity);
+            Destroy(dieAnim, 1f);
 
             Die();
         }

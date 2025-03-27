@@ -27,6 +27,11 @@ public class Mini_UFO : Monster
         StartCoroutine(StateLoop());
     }
 
+    private void OnDestroy()
+    {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+    }
+
     IEnumerator StateLoop()
     {
         while (true)
@@ -67,6 +72,7 @@ public class Mini_UFO : Monster
     IEnumerator HomingAttack()
     {
         yield return new WaitForSeconds(attackDuration);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.laserSound1);
         ani.SetBool("Move", true);
         ani.SetBool("Attack", false);
         yield return new WaitForSeconds(waitAfterAttack);
