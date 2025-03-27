@@ -41,7 +41,10 @@ public class Meteo : Monster
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
-            //player.Damaged(attack);
+            if (collision.GetComponentInParent<Player>() is { } player)
+            {
+                player.TakeDamage();
+            }
 
             GameObject dieAnim = Instantiate(die, gameObject.transform.position, Quaternion.identity);
             Destroy(dieAnim, 1f);
