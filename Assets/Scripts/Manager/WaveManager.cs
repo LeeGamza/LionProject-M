@@ -34,10 +34,11 @@ public class WaveManager : MonoBehaviour
 
         for (int i = 0; i < wave.enemyCount; i++)
         {
+            GameObject selectedPrefab = wave.enemyPrefabs[Random.Range(0, wave.enemyPrefabs.Length)];
             Vector2 spawnPos = wave.useRandomSpawn ?
                 spawnManager.GetRandomSpawnPosition() : wave.spawnPosition;
 
-            GameObject enemy = spawnManager.SpawnEnemy(wave.enemyPrefab, spawnPos);
+            GameObject enemy = spawnManager.SpawnEnemy(selectedPrefab, spawnPos);
             spawnedEnemies.Add(enemy);
 
             yield return new WaitForSeconds(wave.spawnInterval);
