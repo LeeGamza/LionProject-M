@@ -17,6 +17,11 @@ public class AudioManager : MonoBehaviour
     public AudioClip pickup_machineGun;
 
     public AudioClip hitSound;
+    public AudioClip laserSound1;
+    public AudioClip laserSound2;
+    public AudioClip meteoDestroySound;
+    public AudioClip UFODestroySound;
+
     private void Awake()
     {
         if (Instance == null)
