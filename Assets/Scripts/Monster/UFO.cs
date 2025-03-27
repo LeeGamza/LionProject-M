@@ -29,12 +29,21 @@ public class UFO : Monster
         Move();
     }
 
+    //private void OnDestroy()
+    //{
+    //    AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+    //}
+
+
+
     IEnumerator MoveObject(Vector2 MidPos, Vector2 EndPos)
     {
         yield return MoveObjectRoutine(MidPos);
 
         ToggleChildObject("UFO_Attack", true);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.laserSound2);
         yield return new WaitForSeconds(0.667f);
+        
 
         ToggleChildObject("UFO_Attack", false);        
 

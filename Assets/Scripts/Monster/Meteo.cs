@@ -28,15 +28,19 @@ public class Meteo : Monster
         }
     }
 
+
     /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
             //player.Damaged(attack);
+            //AudioManager.Instance.PlaySFX(AudioManager.Instance.meteoDestroySound);
+            //Die();
         }
     }
     */
+
 
     Vector2 GetPosStart()
     {

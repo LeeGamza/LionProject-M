@@ -973,6 +973,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   panelCanvasGroup: {fileID: 417569896}
   blinkInterval: 0.5
+  MAX_intervalCount: 0
 --- !u!1 &1968897413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1008,6 +1009,10 @@ MonoBehaviour:
   secondSceneBGM: {fileID: 8300000, guid: d8c01af62d1ff284fbc510ecf98dbc6b, type: 3}
   pickup_machineGun: {fileID: 8300000, guid: baafce772e19e1f46a73706434c987db, type: 3}
   hitSound: {fileID: 8300000, guid: 948ef0656d7522844a86d0bd70bf97d3, type: 3}
+  laserSound1: {fileID: 8300000, guid: 5a44d09000f3b044a81e39cf0d6eed17, type: 3}
+  laserSound2: {fileID: 8300000, guid: 834603a3e07a1ad4f9b8ceda13706cd0, type: 3}
+  meteoDestroySound: {fileID: 8300000, guid: 005169a9c711a1f42971a03158cbc61c, type: 3}
+  UFODestroySound: {fileID: 8300000, guid: e9a5f95f2442abc4091cda0eb343ecb4, type: 3}
 --- !u!4 &1968897416
 Transform:
   m_ObjectHideFlags: 0
