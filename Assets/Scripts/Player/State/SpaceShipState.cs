@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using Bullet;
 
@@ -12,8 +13,12 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     
     private readonly GameObject boosterL;
     private readonly GameObject boosterR;
+    
+    private Animator rightAnimator;
+    private Animator leftAnimator;
 
-    private bool EquipMachingun = false;
+    private bool isMachingunEquip = false;
+    private bool isReturnToBasic = false;
 
     public SpaceShipState(GameObject spaceShip, 
         FireManager fireManager, 
@@ -36,8 +41,9 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     {
         spaceShip.SetActive(true);
         fireManager.SetBulletType(BulletType.Basic);
-        
         fireManager.SetMuzzle(muzzleMiddle);
+        
+        SetAnimators();
     }
 
     public void Attack()
@@ -64,6 +70,19 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
             boosterL?.SetActive(false);
             boosterR?.SetActive(false);
         }
+
+        if (fireManager.Curruntammo() <= 0)
+        {
+            rightAnimator.SetBool("isSpaceAmmo", false);
+            leftAnimator.SetBool("isSpaceAmmo", false);
+            
+            isReturnToBasic = true;
+            isMachingunEquip = false;
+
+            fireManager.SetBulletType(BulletType.Basic);
+            fireManager.SetMuzzle(muzzleMiddle);
+        }
+        
     }
 
     public void Exit()
@@ -75,16 +94,42 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     {
         fireManager.UpgradeMuzzles(muzzleLeftRight);
         fireManager.SetBulletType(BulletType.MachinGun);
-        if (EquipMachingun == false)
+        if (!isMachingunEquip)
         {
-            player.EquipMachingun();
-            EquipMachingun = true;
+            rightAnimator.SetBool("isSpaceAmmo", true);
+            leftAnimator.SetBool("isSpaceAmmo", true);
+            isMachingunEquip = true;
         }
-        else if (EquipMachingun == true)
+    }
+    private void SetAnimators()
+    {
+        Transform right = spaceShip.transform.Find("SpaceShip_Right_0");
+        Transform left = spaceShip.transform.Find("SpaceShip_Left_0");
+
+        if (right != null && left != null)
         {
-            
+            if (!right.TryGetComponent(out rightAnimator))
+            {
+                Debug.LogWarning("Cannot Found SpaceShipRight Animator");
+            }
+
+            if (!left.TryGetComponent(out leftAnimator))
+            {
+                Debug.LogWarning("Cannot Found SpaceShipLeft Animator");
+            }
         }
-        
+    }
+    
+    
+    private IEnumerator BackToBasicAnimation()
+    {
+        if (rightAnimator == null || leftAnimator == null)
+            yield break;
+
+        rightAnimator.SetBool("isSpaceAmmo", false);
+        leftAnimator.SetBool("isSpaceAmmo", false);
+
+        yield return null;
     }
     
 }
