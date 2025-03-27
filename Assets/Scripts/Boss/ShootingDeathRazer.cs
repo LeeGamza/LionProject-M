@@ -12,19 +12,19 @@ public class ShootingDeathRazer : MonoBehaviour
 
     void ShootDeathRazer()
     {
-        // 1 ~ 3±îÁö ·£´ıÀ¸·Î Death·¹ÀÌÀú¸¦ ½ò È½¼ö ÁöÁ¤
-        //int count = Random.Range(1, 5); //DeathRazer ¹ß»ç È½¼ö
-        //Debug.Log("»ÌÀº ·¹ÀÌÀú È½¼ö : " + count);
+        // 1 ~ 3ê¹Œì§€ ëœë¤ìœ¼ë¡œ Deathë ˆì´ì €ë¥¼ ì  íšŸìˆ˜ ì§€ì •
+        //int count = Random.Range(1, 5); //DeathRazer ë°œì‚¬ íšŸìˆ˜
+        //Debug.Log("ë½‘ì€ ë ˆì´ì € íšŸìˆ˜ : " + count);
 
         //intervalTime = count * 5.5f + 3.5f;
 
         //while (count > 0)
         //{
             //yield return new WaitForSeconds(1.0f);
-            //Debug.Log("¹ß»ç " + count);
-            GameObject deathRazer = Instantiate(DeathRazerPrefab, new Vector3(bossTransform.position.x, bossTransform.position.y - 1.368f, 0), Quaternion.identity); //´ÙÀÌ¸¸Áö ±âÁØ À§Ä¡ ¼³Á¤
+            //Debug.Log("ë°œì‚¬ " + count);
+            GameObject deathRazer = Instantiate(DeathRazerPrefab, new Vector3(bossTransform.position.x, bossTransform.position.y - 3.06f, 0), Quaternion.identity); //ë‹¤ì´ë§Œì§€ ê¸°ì¤€ ìœ„ì¹˜ ì„¤ì •
             //count--;
-            //yield return new WaitForSeconds(4.0f); //DeathRazer lifeTime¸¸Å­ ±â´Ù¸®±â
+            //yield return new WaitForSeconds(4.0f); //DeathRazer lifeTimeë§Œí¼ ê¸°ë‹¤ë¦¬ê¸°
         //}
     }
 }

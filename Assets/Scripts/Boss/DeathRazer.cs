@@ -6,8 +6,8 @@ public class DeathRazer : MonoBehaviour
     Transform playerTransform;
     BoxCollider2D boxCollider;
 
-    private float duration = 2.0f; // Ȯ�忡 �ɸ��� �ð�
-    private float maxHeight = 5.0f; // box collider size �ִ� y ����
+    private float duration = 1.0f; // Ȯ�忡 �ɸ��� �ð�
+    private float maxHeight = 10.0f; // box collider size �ִ� y ����
     private float lifeTime = 4.0f; 
 
     private Vector2 originalSize; // ���� ũ�� ����
@@ -20,7 +20,9 @@ public class DeathRazer : MonoBehaviour
         originalSize = boxCollider.size;
         originalOffset = boxCollider.offset;
 
+        duration = 1.0f;
         lifeTime = 4.0f;
+        maxHeight = 10.0f;
 
         //�÷��̾� �������� ������ ȸ�� (0~50��, 310~360�� ���� ����) 
         InitRotating(); 
@@ -84,7 +86,7 @@ public class DeathRazer : MonoBehaviour
         if (other.gameObject.CompareTag("Player")) //�÷��̾�� �浹�ߴٸ�
         {
             //�÷��̾� ���� ó��
-            Destroy(other.gameObject); //�ӽ÷� ���� �׽�Ʈ
+            //Destroy(other.gameObject); //�ӽ÷� ���� �׽�Ʈ
         }
     }
 }
