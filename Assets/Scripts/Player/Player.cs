@@ -74,6 +74,19 @@ public class Player : MonoBehaviour
         stateMachine.CurrentState.Attack();
     }
     
+    public void TakeDamage()
+    {
+        if (stateMachine.CurrentState is IDamageable damageable)
+        {
+            damageable.TakeHit();
+        }
+    }
+
+    public void KillPlayer()
+    {
+        gameObject.SetActive(false);
+    }
+    
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Item"))

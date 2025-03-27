@@ -2,8 +2,14 @@ using System.Collections;
 using UnityEngine;
 using Bullet;
 
-public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
+public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 {
+    private int hp = 3;
+    
+    private SpriteRenderer rightRenderer;
+    private SpriteRenderer leftRenderer;
+    private readonly Color hitColor = Color.red;
+    
     private readonly GameObject spaceShip;
     private readonly FireManager fireManager;
     private readonly Player player;
@@ -43,7 +49,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
         fireManager.SetBulletType(BulletType.Basic);
         fireManager.SetMuzzle(muzzleMiddle);
         
-        SetAnimators();
+        GetComponents();
     }
 
     public void Attack()
@@ -90,6 +96,22 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
         
     }
 
+    public void TakeHit()
+    {
+        hp--;
+        Debug.Log($"[SpaceShip] 피격! 남은 체력: {hp}");
+        EventManager.Instance.InvokeHitEffect(rightRenderer, hitColor);
+        EventManager.Instance.InvokeHitEffect(leftRenderer, hitColor);
+        
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.hitSound);
+
+        if (hp <= 0)
+        {
+            player.KillPlayer();
+        }
+    }
+    
+    
     public void OnPickupItem()
     {
         fireManager.UpgradeMuzzles(muzzleLeftRight);
@@ -101,35 +123,19 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
             isMachingunEquip = true;
         }
     }
-    private void SetAnimators()
+    private void GetComponents()
     {
         Transform right = spaceShip.transform.Find("SpaceShip_Right_0");
         Transform left = spaceShip.transform.Find("SpaceShip_Left_0");
 
         if (right != null && left != null)
         {
-            if (!right.TryGetComponent(out rightAnimator))
-            {
-                Debug.LogWarning("Cannot Found SpaceShipRight Animator");
-            }
-
-            if (!left.TryGetComponent(out leftAnimator))
-            {
-                Debug.LogWarning("Cannot Found SpaceShipLeft Animator");
-            }
+            right.TryGetComponent(out rightAnimator);
+            left.TryGetComponent(out leftAnimator);
+            
+            right.TryGetComponent(out rightRenderer);
+            left.TryGetComponent(out leftRenderer);
         }
+        
     }
-    
-    
-    private IEnumerator BackToBasicAnimation()
-    {
-        if (rightAnimator == null || leftAnimator == null)
-            yield break;
-
-        rightAnimator.SetBool("isSpaceAmmo", false);
-        leftAnimator.SetBool("isSpaceAmmo", false);
-
-        yield return null;
-    }
-    
 }
