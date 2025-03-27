@@ -42,7 +42,8 @@ public class Player : MonoBehaviour
             spaceShip,
             fireManager,
             muzzleMiddle,
-            new[] { muzzleLeft, muzzleRight }
+            new[] { muzzleLeft, muzzleRight },
+            this
         );
 
         stateMachine.ChangeState(spaceshipState);
@@ -71,6 +72,7 @@ public class Player : MonoBehaviour
     private void HandleAttack()
     {
         stateMachine.CurrentState.Attack();
+        UnEquipMachingun();
     }
     
     private void OnTriggerEnter2D(Collider2D other)
@@ -85,9 +87,9 @@ public class Player : MonoBehaviour
 
     public void EquipMachingun()
     {
-        Transform right = transform.Find("SpaceShip_Right_0");
-        Transform left = transform.Find("SpaceShip_Left_0");
-
+        Transform right = spaceShip.transform.Find("SpaceShip_Right_0");
+        Transform left = spaceShip.transform.Find("SpaceShip_Left_0");
+        
         if (right != null && left != null)
         {
             rightAnimator = right.GetComponent<Animator>();
@@ -98,6 +100,15 @@ public class Player : MonoBehaviour
         else
         {
             Debug.LogWarning("SpaceShip_Right_0 또는 SpaceShip_Left_0 자식 오브젝트를 찾을 수 없습니다.");
+        }
+    }
+
+    public void UnEquipMachingun()
+    {
+        int curruntammo = fireManager.Curruntammo();
+        if (curruntammo <= 0)
+        {
+            StartCoroutine(BacktothoBasic());
         }
     }
 
@@ -122,5 +133,12 @@ public class Player : MonoBehaviour
         }
         Debug.LogWarning($"'{clipName}' 애니메이션 클립을 찾을 수 없습니다.");
         return 0f;
+    }
+
+    private IEnumerator BacktothoBasic()
+    {
+        rightAnimator.SetBool("0",true);
+        leftAnimator.SetBool("0",true);
+        yield break;
     }
 }
