@@ -8,6 +8,8 @@ public class Meteo : Monster
     private Vector2 endPos;
     private Camera mainCamera;
 
+    private bool preventOnDestroy = false;
+
     void Start()
     {
         moveSpeed = 4f;
@@ -24,22 +26,30 @@ public class Meteo : Monster
 
         if ((Vector2)transform.position == endPos)
         {
-            Destroy(gameObject);
+            CustomDestroy();
+            //Destroy(gameObject);
         }
     }
 
+    private void OnDestroy()
+    {
+        if (preventOnDestroy) return;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.meteoDestroySound);
+    }
 
-    /*
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
             //player.Damaged(attack);
-            //AudioManager.Instance.PlaySFX(AudioManager.Instance.meteoDestroySound);
-            //Die();
+
+            GameObject dieAnim = Instantiate(die, gameObject.transform.position, Quaternion.identity);
+            Destroy(dieAnim, 1f);
+
+            Destroy(gameObject);
         }
     }
-    */
+
 
 
     Vector2 GetPosStart()
@@ -62,5 +72,11 @@ public class Meteo : Monster
         float randomY = mainCamera.transform.position.y - camSize - 1f;
 
         return new Vector2(randomX, randomY);
+    }
+
+    public void CustomDestroy()
+    {
+        preventOnDestroy = true;
+        Destroy(gameObject);
     }
 }

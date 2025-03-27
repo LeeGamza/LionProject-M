@@ -27,10 +27,10 @@ public class Mini_UFO : Monster
         StartCoroutine(StateLoop());
     }
 
-    //private void OnDestroy()
-    //{
-    //    AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
-    //}
+    private void OnDestroy()
+    {
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+    }
 
     IEnumerator StateLoop()
     {

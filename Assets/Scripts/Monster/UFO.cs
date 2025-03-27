@@ -10,6 +10,8 @@ public class UFO : Monster
     private Vector2 endPos;
     private Camera mainCamera;
 
+    private bool preventOnDestroy = false;
+
     protected override void Move()
     {
         StartCoroutine(MoveObject(midPos, endPos));
@@ -29,10 +31,11 @@ public class UFO : Monster
         Move();
     }
 
-    //private void OnDestroy()
-    //{
-    //    AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
-    //}
+    private void OnDestroy()
+    {
+        if (preventOnDestroy) return;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+    }
 
 
 
@@ -49,7 +52,8 @@ public class UFO : Monster
 
         yield return MoveObjectRoutine(EndPos);
 
-        Destroy(gameObject);
+        CustomDestroy();
+        //Destroy(gameObject);
     }
 
     IEnumerator MoveObjectRoutine(Vector2 target)
@@ -109,5 +113,11 @@ public class UFO : Monster
             }
         }
         return null;
+    }
+
+    public void CustomDestroy()
+    {
+        preventOnDestroy = true;
+        Destroy(gameObject);
     }
 }

@@ -29,14 +29,15 @@ public class Mini_UFO_Bullet : MonoBehaviour
         Destroy(gameObject);
     }
 
-    /*
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
             //player.Damaged(attack);
+            Destroy(gameObject);
         }
     }
-    */
+
 }
 
