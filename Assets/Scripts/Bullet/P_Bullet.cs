@@ -1,30 +1,38 @@
+using System;
 using UnityEngine;
 
 public class P_Bullet : MonoBehaviour
 {
+    private bool canReturn = false;
+    
     public float speed = 30f;
     private float _damage = 50;
 
-    // Update is called once per frame
-    void Start()
+    private void OnEnable()
     {
-        transform.rotation = Quaternion.Euler(0f, 0f, 90f);
+        canReturn = false;
+        Invoke(nameof(CanReturn), 0.2f);
     }
+
     void Update()
     {
         transform.Translate(Vector2.up * speed * Time.deltaTime,Space.World);
     }
 
+    private void CanReturn()
+    {
+        canReturn = true;
+    }
     private void OnBecameInvisible()
     {
-        Destroy(gameObject);
+        if(canReturn)
+            PoolManager.Instance.Return(gameObject);
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (LayerMask.LayerToName(collision.gameObject.layer) == "Monster")
         {
-            Debug.Log("몬스터레이어 들어옴");
             Monster monster = collision.GetComponent<Monster>();
 
             if (monster != null)
@@ -33,8 +41,7 @@ public class P_Bullet : MonoBehaviour
                 monster.Damaged(_damage);
             }
             
-            Destroy(gameObject);
-
+            PoolManager.Instance.Return(gameObject);
         }
     }
 }
