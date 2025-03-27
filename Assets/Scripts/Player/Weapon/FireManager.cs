@@ -7,6 +7,7 @@ public class FireManager
     private Transform[] muzzles;
     private GameObject[] effectPrefabs;
     private BulletType bulletType = BulletType.Basic;
+    private int curruntammo;
 
     public void Fire()
     {
@@ -16,6 +17,8 @@ public class FireManager
             {
                 Quaternion bulletRotation = Quaternion.Euler(0f, 0f, 90f);
                 BulletFactory.CreateBullet(bulletType, muzzles[i].position, bulletRotation);
+                curruntammo--;
+                Debug.Log(curruntammo);
 
                 if (effectPrefabs != null && effectPrefabs.Length > 0)
                 {
@@ -35,6 +38,7 @@ public class FireManager
     public void SetBulletType(BulletType type)
     {
         bulletType = type;
+        curruntammo = type.GetBulletNum();
     }
     
     public void SetMuzzle(Transform singleMuzzle)
@@ -52,7 +56,6 @@ public class FireManager
             muzzles = addMuzzles;
             return;
         }
-
         var combined = new List<Transform>(muzzles);
         combined.AddRange(addMuzzles);
         muzzles = combined.ToArray();
@@ -61,5 +64,10 @@ public class FireManager
     public void SetEffectPrefabs(GameObject[] newEffectPrefabs)
     {
         effectPrefabs = newEffectPrefabs;
+    }
+
+    public int Curruntammo()
+    {
+        return curruntammo;
     }
 }

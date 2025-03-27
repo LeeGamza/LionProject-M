@@ -10,20 +10,23 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     private readonly Transform muzzleMiddle;
     private readonly Transform[] muzzleLeftRight;
     
-    
     private readonly GameObject boosterL;
     private readonly GameObject boosterR;
+
+    private bool EquipMachingun = false;
 
     public SpaceShipState(GameObject spaceShip, 
         FireManager fireManager, 
         Transform muzzleMiddle, 
-        Transform[] muzzleLeftRight)
+        Transform[] muzzleLeftRight,
+        Player player)
     {
         this.spaceShip = spaceShip;
         this.fireManager = fireManager;
     
         this.muzzleMiddle = muzzleMiddle;
         this.muzzleLeftRight = muzzleLeftRight;
+        this.player = player;
         
         boosterL = spaceShip.transform.Find("Booster_L")?.gameObject;
         boosterR = spaceShip.transform.Find("Booster_R")?.gameObject;
@@ -32,7 +35,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     public void Enter()
     {
         spaceShip.SetActive(true);
-        fireManager.SetBulletType(BulletType.MachinGun);
+        fireManager.SetBulletType(BulletType.Basic);
         
         fireManager.SetMuzzle(muzzleMiddle);
     }
@@ -71,7 +74,17 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver
     public void OnPickupItem()
     {
         fireManager.UpgradeMuzzles(muzzleLeftRight);
-        player.EquipMachingun();
+        fireManager.SetBulletType(BulletType.MachinGun);
+        if (EquipMachingun == false)
+        {
+            player.EquipMachingun();
+            EquipMachingun = true;
+        }
+        else if (EquipMachingun == true)
+        {
+            
+        }
+        
     }
     
 }

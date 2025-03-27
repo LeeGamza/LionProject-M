@@ -7,4 +7,16 @@ namespace Bullet
         Basic,
         MachinGun,
     }
+
+    public static class BulletNum
+    {
+        public static int GetBulletNum(this BulletType bulletType)
+        {
+            return bulletType switch
+            {
+                BulletType.Basic => -1,         
+                BulletType.MachinGun => 200
+            };
+        }
+    }
 }
