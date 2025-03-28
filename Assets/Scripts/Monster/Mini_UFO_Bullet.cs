@@ -10,6 +10,11 @@ public class Mini_UFO_Bullet : MonoBehaviour
     void Start()
     {
         target = GameObject.FindGameObjectWithTag("Player");
+        if (target == null)
+        {
+            Destroy(gameObject);
+            return;
+        }
         dir = target.transform.position - transform.position;
         dirNo = dir.normalized;
     }

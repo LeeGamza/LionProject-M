@@ -1,0 +1,1586 @@
+fileFormatVersion: 2
+guid: d75c89e60747a514a88f0a7f425fc548
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8408658221154998814
+    second: Big Eye Fighter_0
+  - first:
+      213: -6520281434381441237
+    second: Big Eye Fighter_1
+  - first:
+      213: 4321490206813676380
+    second: Big Eye Fighter_2
+  - first:
+      213: -3728207829862423129
+    second: Big Eye Fighter_3
+  - first:
+      213: 8073760776045406197
+    second: Big Eye Fighter_4
+  - first:
+      213: -6046570934663365221
+    second: Big Eye Fighter_5
+  - first:
+      213: 245054467836668505
+    second: Big Eye Fighter_6
+  - first:
+      213: 4902937200375596740
+    second: Big Eye Fighter_7
+  - first:
+      213: -4351586340586609972
+    second: Big Eye Fighter_8
+  - first:
+      213: -1504979165997278254
+    second: Big Eye Fighter_9
+  - first:
+      213: -5761007644562574780
+    second: Big Eye Fighter_10
+  - first:
+      213: -7999302214371146770
+    second: Big Eye Fighter_11
+  - first:
+      213: 6252521018013684172
+    second: Big Eye Fighter_12
+  - first:
+      213: 5467484108262597318
+    second: Big Eye Fighter_13
+  - first:
+      213: 1208347638953124915
+    second: Big Eye Fighter_14
+  - first:
+      213: 6448867281933210404
+    second: Big Eye Fighter_15
+  - first:
+      213: -6470566873826533242
+    second: Big Eye Fighter_16
+  - first:
+      213: 2604133305410440511
+    second: Big Eye Fighter_17
+  - first:
+      213: 2767014920223726446
+    second: Big Eye Fighter_18
+  - first:
+      213: -7601934081096397475
+    second: Big Eye Fighter_19
+  - first:
+      213: 4871914697607604434
+    second: Big Eye Fighter_20
+  - first:
+      213: -760603656623958690
+    second: Big Eye Fighter_21
+  - first:
+      213: -739387203663627280
+    second: Big Eye Fighter_22
+  - first:
+      213: -3910055156528545061
+    second: Big Eye Fighter_23
+  - first:
+      213: -2088963675406010313
+    second: Big Eye Fighter_24
+  - first:
+      213: 7123211066758961883
+    second: Big Eye Fighter_25
+  - first:
+      213: 3899814133587534202
+    second: Big Eye Fighter_26
+  - first:
+      213: 8192693522877181451
+    second: Big Eye Fighter_27
+  - first:
+      213: -8600097850650647625
+    second: Big Eye Fighter_28
+  - first:
+      213: -1517225811969319775
+    second: Big Eye Fighter_29
+  - first:
+      213: 4864724467194465681
+    second: Big Eye Fighter_30
+  - first:
+      213: 6645524867264407052
+    second: Big Eye Fighter_31
+  - first:
+      213: 5126561998839401518
+    second: Big Eye Fighter_32
+  - first:
+      213: -920769501340768413
+    second: Big Eye Fighter_33
+  - first:
+      213: -3673507242242620635
+    second: Big Eye Fighter_34
+  - first:
+      213: 2054282811458194354
+    second: Big Eye Fighter_35
+  - first:
+      213: -6974301295636686052
+    second: Big Eye Fighter_36
+  - first:
+      213: -1358203862799548562
+    second: Big Eye Fighter_37
+  - first:
+      213: 8652299616893553458
+    second: Big Eye Fighter_38
+  - first:
+      213: 6730316776539400743
+    second: Big Eye Fighter_39
+  - first:
+      213: 1085562736691510442
+    second: Big Eye Fighter_40
+  - first:
+      213: -1782536069530314491
+    second: Big Eye Fighter_41
+  - first:
+      213: -1268359902253097229
+    second: Big Eye Fighter_42
+  - first:
+      213: -3916030662266207326
+    second: Big Eye Fighter_43
+  - first:
+      213: -8029822164536423956
+    second: Big Eye Fighter_44
+  - first:
+      213: -66393184895739047
+    second: Big Eye Fighter_45
+  - first:
+      213: -468836080020492393
+    second: Big Eye Fighter_46
+  - first:
+      213: -7951421111138571222
+    second: Big Eye Fighter_47
+  - first:
+      213: 1094870064592505871
+    second: Big Eye Fighter_48
+  - first:
+      213: -3364650058085028441
+    second: Big Eye Fighter_49
+  - first:
+      213: 6638380122595901613
+    second: Big Eye Fighter_50
+  - first:
+      213: -4544274216343907947
+    second: Big Eye Fighter_51
+  - first:
+      213: -8261023636166300019
+    second: Big Eye Fighter_52
+  - first:
+      213: -7727988808952915778
+    second: Big Eye Fighter_53
+  - first:
+      213: 348372866435303648
+    second: Big Eye Fighter_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Big Eye Fighter_0
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 135
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5636a16e17e4b80800000000000000
+      internalID: -8408658221154998814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 135
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27ae14d49e4385a0800000000000000
+      internalID: -6520281434381441237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_2
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 135
+        width: 37
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c536575627409fb30800000000000000
+      internalID: 4321490206813676380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 134
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5683c4bbeb24cc0800000000000000
+      internalID: -3728207829862423129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_4
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 135
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f72ba136a2cb0070800000000000000
+      internalID: 8073760776045406197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 98
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d303265c3461ca0800000000000000
+      internalID: -6046570934663365221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_6
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 99
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ae60a7dbb966300800000000000000
+      internalID: 245054467836668505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 99
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c68f68286bba0440800000000000000
+      internalID: 4902937200375596740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_8
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 98
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2a4e7674f0c93c0800000000000000
+      internalID: -4351586340586609972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 98
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db5e581c6d3d1be0800000000000000
+      internalID: -1504979165997278254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_10
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 61
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442b985021acc00b0800000000000000
+      internalID: -5761007644562574780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_11
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 60
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee38965a405ccf090800000000000000
+      internalID: -7999302214371146770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_12
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 60
+        width: 37
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc19e551dba65c650800000000000000
+      internalID: 6252521018013684172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_13
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 60
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c2e51814d760eb40800000000000000
+      internalID: 5467484108262597318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_14
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 37
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334abf886c9e4c010800000000000000
+      internalID: 1208347638953124915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_15
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 37
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 423944710aafe7950800000000000000
+      internalID: 6448867281933210404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 37
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680e826f5bde336a0800000000000000
+      internalID: -6470566873826533242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 37
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3dc0c8a17db32420800000000000000
+      internalID: 2604133305410440511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_18
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 37
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6b1420e869666620800000000000000
+      internalID: 2767014920223726446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_19
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 37
+        width: 21
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d4052ea31808690800000000000000
+      internalID: -7601934081096397475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_20
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 37
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d8e7eeda948c9340800000000000000
+      internalID: 4871914697607604434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_21
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 37
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e55d010110bc175f0800000000000000
+      internalID: -760603656623958690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_22
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 37
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbf826714b2db5f0800000000000000
+      internalID: -739387203663627280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_23
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 34
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd28eee2d81bcb9c0800000000000000
+      internalID: -3910055156528545061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_24
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738fab2ea928203e0800000000000000
+      internalID: -2088963675406010313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 37
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bda9c4e89babad260800000000000000
+      internalID: 7123211066758961883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_26
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a71688ada4cee1630800000000000000
+      internalID: 3899814133587534202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_27
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 19
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0eecb03a5b42b170800000000000000
+      internalID: 8192693522877181451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_28
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 19
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b32e52f19056a880800000000000000
+      internalID: -8600097850650647625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 22
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1acd381a92bb1fae0800000000000000
+      internalID: -1517225811969319775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_30
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 22
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d0745e029f28340800000000000000
+      internalID: 4864724467194465681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_31
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 22
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06e15348a5a93c50800000000000000
+      internalID: 6645524867264407052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_32
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 19
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2cc6dbe9f4352740800000000000000
+      internalID: 5126561998839401518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_33
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 22
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367e1985405c833f0800000000000000
+      internalID: -920769501340768413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 22
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 523cd4250a4150dc0800000000000000
+      internalID: -3673507242242620635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_35
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 22
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb082d3557428c10800000000000000
+      internalID: 2054282811458194354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_36
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 22
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b570d4ced463f90800000000000000
+      internalID: -6974301295636686052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 22
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ff44968c0b62de0800000000000000
+      internalID: -1358203862799548562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_38
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 22
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b4033e8a4231870800000000000000
+      internalID: 8652299616893553458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_39
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 22
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72aab731373e66d50800000000000000
+      internalID: 6730316776539400743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_40
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 4
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacf5e5be81b01f00800000000000000
+      internalID: 1085562736691510442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_41
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 7
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509135893e82347e0800000000000000
+      internalID: -1782536069530314491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_42
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fedad29361e56ee0800000000000000
+      internalID: -1268359902253097229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_43
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a3c5165cd677a9c0800000000000000
+      internalID: -3916030662266207326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_44
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce98f310947509090800000000000000
+      internalID: -8029822164536423956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_45
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b58c600cf141ff0800000000000000
+      internalID: -66393184895739047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_46
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fed78b11c5e79f0800000000000000
+      internalID: -468836080020492393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_47
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2c2b0bb0a0e6a190800000000000000
+      internalID: -7951421111138571222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_48
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 7
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0cce3bd582c13f00800000000000000
+      internalID: 1094870064592505871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_49
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 7
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ad285e499c5e41d0800000000000000
+      internalID: -3364650058085028441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_50
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 7
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0c753cc83402c50800000000000000
+      internalID: 6638380122595901613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_51
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591dad44dae7fe0c0800000000000000
+      internalID: -4544274216343907947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_52
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 7
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ea33d85c2fa5d80800000000000000
+      internalID: -8261023636166300019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_53
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 7
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb8da267f1ba0c490800000000000000
+      internalID: -7727988808952915778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Big Eye Fighter_54
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 7
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e8c249b64ba5d400800000000000000
+      internalID: 348372866435303648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Big Eye Fighter_0: -8408658221154998814
+      Big Eye Fighter_1: -6520281434381441237
+      Big Eye Fighter_10: -5761007644562574780
+      Big Eye Fighter_11: -7999302214371146770
+      Big Eye Fighter_12: 6252521018013684172
+      Big Eye Fighter_13: 5467484108262597318
+      Big Eye Fighter_14: 1208347638953124915
+      Big Eye Fighter_15: 6448867281933210404
+      Big Eye Fighter_16: -6470566873826533242
+      Big Eye Fighter_17: 2604133305410440511
+      Big Eye Fighter_18: 2767014920223726446
+      Big Eye Fighter_19: -7601934081096397475
+      Big Eye Fighter_2: 4321490206813676380
+      Big Eye Fighter_20: 4871914697607604434
+      Big Eye Fighter_21: -760603656623958690
+      Big Eye Fighter_22: -739387203663627280
+      Big Eye Fighter_23: -3910055156528545061
+      Big Eye Fighter_24: -2088963675406010313
+      Big Eye Fighter_25: 7123211066758961883
+      Big Eye Fighter_26: 3899814133587534202
+      Big Eye Fighter_27: 8192693522877181451
+      Big Eye Fighter_28: -8600097850650647625
+      Big Eye Fighter_29: -1517225811969319775
+      Big Eye Fighter_3: -3728207829862423129
+      Big Eye Fighter_30: 4864724467194465681
+      Big Eye Fighter_31: 6645524867264407052
+      Big Eye Fighter_32: 5126561998839401518
+      Big Eye Fighter_33: -920769501340768413
+      Big Eye Fighter_34: -3673507242242620635
+      Big Eye Fighter_35: 2054282811458194354
+      Big Eye Fighter_36: -6974301295636686052
+      Big Eye Fighter_37: -1358203862799548562
+      Big Eye Fighter_38: 8652299616893553458
+      Big Eye Fighter_39: 6730316776539400743
+      Big Eye Fighter_4: 8073760776045406197
+      Big Eye Fighter_40: 1085562736691510442
+      Big Eye Fighter_41: -1782536069530314491
+      Big Eye Fighter_42: -1268359902253097229
+      Big Eye Fighter_43: -3916030662266207326
+      Big Eye Fighter_44: -8029822164536423956
+      Big Eye Fighter_45: -66393184895739047
+      Big Eye Fighter_46: -468836080020492393
+      Big Eye Fighter_47: -7951421111138571222
+      Big Eye Fighter_48: 1094870064592505871
+      Big Eye Fighter_49: -3364650058085028441
+      Big Eye Fighter_5: -6046570934663365221
+      Big Eye Fighter_50: 6638380122595901613
+      Big Eye Fighter_51: -4544274216343907947
+      Big Eye Fighter_52: -8261023636166300019
+      Big Eye Fighter_53: -7727988808952915778
+      Big Eye Fighter_54: 348372866435303648
+      Big Eye Fighter_6: 245054467836668505
+      Big Eye Fighter_7: 4902937200375596740
+      Big Eye Fighter_8: -4351586340586609972
+      Big Eye Fighter_9: -1504979165997278254
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
