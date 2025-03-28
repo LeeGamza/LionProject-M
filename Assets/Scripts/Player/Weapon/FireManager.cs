@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using Bullet;
 
-public class FireManager
+public class FireManager 
 {
     private Transform[] muzzles;
     private GameObject[] effectPrefabs;
