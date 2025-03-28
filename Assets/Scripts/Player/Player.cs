@@ -174,4 +174,9 @@ public class Player : MonoBehaviour
             });
         constrainToScreen = true;
     }
+
+    public FireManager GetFireManager()
+    {
+        return fireManager;
+    }
 }

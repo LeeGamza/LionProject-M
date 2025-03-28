@@ -18,8 +18,28 @@ public class FontRender_Bullet : MonoBehaviour
 
     void Start()
     {
+        Debug.Log("[FontRender_Bullet] Start");
+        Player player = FindObjectOfType<Player>();
+        if (player == null)
+        {
+            Debug.LogError("Player not Found!");
+            return;
+        }
+        if (player != null)
+        {
+            fireManager = player.GetFireManager();
+        }
 
-        if (isARMS)
+        if (fireManager == null)
+        {
+            Debug.LogError("FireManager not Found");
+            return;
+        }
+        Debug.Log("[FontRender_Bullet] FireManager 연결 성공");
+        int currentAmmo = fireManager.Curruntammo();
+        previousAmmo = currentAmmo;
+        RenderNumberImage(currentAmmo);
+        /*if (isARMS)
         {
             //int currentAmmo = fireManager.Curruntammo();
             int currentAmmo = 200; // 임시 출력 
@@ -32,24 +52,19 @@ public class FontRender_Bullet : MonoBehaviour
             int currentMissile = 10;  // 이 부분을 받아와서 적용
             previousMissile = currentMissile; 
             RenderNumberImage(currentMissile);
-        }
+        }*/
     }
 
     void Update()
     {
+        if (fireManager == null) return;
+
         int currentAmmo = fireManager.Curruntammo();
-        int currentMissile = 10; 
-
-        if (currentAmmo != previousAmmo) 
+        if (currentAmmo != previousAmmo)
         {
+            Debug.Log($"[FontRender_Bullet] Ammo changed: {previousAmmo} → {currentAmmo}");
             RenderNumberImage(currentAmmo);
-            previousAmmo = currentAmmo; 
-        }
-
-        if (currentMissile != previousMissile)
-        {
-            RenderNumberImage(currentMissile);
-            previousAmmo = currentMissile;
+            previousAmmo = currentAmmo;
         }
     }
 
