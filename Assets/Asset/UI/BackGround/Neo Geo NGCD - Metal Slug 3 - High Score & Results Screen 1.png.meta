@@ -1,0 +1,344 @@
+fileFormatVersion: 2
+guid: 6fd52e71d69bfa74384a55f4360a297d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6829128704132074787
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_0
+  - first:
+      213: -2604909823455348110
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_1
+  - first:
+      213: 2103056127538135905
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_2
+  - first:
+      213: 5464607399594620005
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_3
+  - first:
+      213: -1881493937355742712
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_4
+  - first:
+      213: 2241611487816721833
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_5
+  - first:
+      213: -7510837087840583764
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_6
+  - first:
+      213: 5411531826862178095
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_7
+  - first:
+      213: 1226431564685201304
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_8
+  - first:
+      213: 5508840196809305865
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_9
+  - first:
+      213: 4345383234209653933
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_10
+  - first:
+      213: -3336782115579816965
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_11
+  - first:
+      213: 5651810514078628751
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_12
+  - first:
+      213: -4900738882696942532
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_13
+  - first:
+      213: 2216242358901052829
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_14
+  - first:
+      213: 1035750660750867993
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_15
+  - first:
+      213: -7489871479816887989
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_16
+  - first:
+      213: -3773620322410369831
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_17
+  - first:
+      213: -4209274378946639694
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_18
+  - first:
+      213: -2012773161239876051
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_19
+  - first:
+      213: -5471564686908103378
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_20
+  - first:
+      213: -3980699499974509555
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_21
+  - first:
+      213: 1934086358514886672
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_22
+  - first:
+      213: 1442460891700958109
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_23
+  - first:
+      213: -1058797435596710122
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_24
+  - first:
+      213: 6717624315205064183
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_25
+  - first:
+      213: -7536316612012766237
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_26
+  - first:
+      213: 7089316742424808715
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_27
+  - first:
+      213: 4848692038759409220
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_28
+  - first:
+      213: -5283305398512031395
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_29
+  - first:
+      213: 8905209005169138405
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_30
+  - first:
+      213: -1438992460198111925
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_31
+  - first:
+      213: 6794094811808602986
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_32
+  - first:
+      213: 6807884702209739954
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_33
+  - first:
+      213: 1281770763279160316
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_34
+  - first:
+      213: 6798576478767054049
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_35
+  - first:
+      213: 8032411663765703071
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_36
+  - first:
+      213: 6780268894060883827
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_37
+  - first:
+      213: 2451494193348592187
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_38
+  - first:
+      213: -4735928550665596503
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_39
+  - first:
+      213: 7495543217482569103
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_40
+  - first:
+      213: -3191431649771467576
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_41
+  - first:
+      213: 4145423411473899742
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_42
+  - first:
+      213: -8761723846960582994
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_43
+  - first:
+      213: 6626411439025948729
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_44
+  - first:
+      213: -2738702297325642930
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_45
+  - first:
+      213: -466069388971184552
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_46
+  - first:
+      213: -5279235997600468692
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_47
+  - first:
+      213: -8813071732789510571
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_48
+  - first:
+      213: 8373795320489105740
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_49
+  - first:
+      213: 610091327983633260
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_50
+  - first:
+      213: -5556522057899049143
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_51
+  - first:
+      213: -3464853921414650433
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_52
+  - first:
+      213: 7812721038228057895
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_53
+  - first:
+      213: 8201570346361002253
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_54
+  - first:
+      213: 7671205473181305031
+    second: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 46
+        width: 300
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d4737cf50f5ce50800000000000000
+      internalID: 6829128704132074787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_1
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 47
+        width: 300
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ab405215089dbd0800000000000000
+      internalID: -2604909823455348110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: a14792c1f21f6a041a166786ea9db803
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_0: 6829128704132074787
+      Neo Geo NGCD - Metal Slug 3 - High Score & Results Screen 1_1: -2604909823455348110
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

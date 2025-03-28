@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class FontRender_time : MonoBehaviour
 {
-    public string NumberToDisplay; 
+    
     public Transform parentContainer; 
     public Sprite[] numberSprites; 
     public float spaceWidth = 50f;
@@ -14,19 +14,23 @@ public class FontRender_time : MonoBehaviour
 
     void Start()
     {
-        CurrentTime = int.Parse(NumberToDisplay);
-        RenderTextImage(NumberToDisplay);
-
         StartCoroutine(DecreaseTime());
     }
 
     IEnumerator DecreaseTime()
     {
+        while (GameManager.Instance == null)
+        {
+            yield return null; // GameManagerê°€ ì´ˆê¸°í™”ë  ë•Œê¹Œì§€ ëŒ€ê¸°
+        }
+
+        CurrentTime = GameManager.Instance.GetTimeLeft() / 4;
+
         while (CurrentTime > 0)
         {
+            RenderTextImage(CurrentTime.ToString());
             yield return new WaitForSeconds(4f);
             CurrentTime--;
-            RenderTextImage(CurrentTime.ToString());
         }
     }
 
@@ -38,15 +42,15 @@ public class FontRender_time : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // ¹®ÀÚ¿­À» ÇÑ ±ÛÀÚ¾¿ Ã³¸®
+        // ë¬¸ìžì—´ì„ í•œ ê¸€ìžì”© ì²˜ë¦¬
         foreach (char c in text.ToUpper()) 
         {
-            if (c == ' ') // °ø¹é Ã³¸®
+            if (c == ' ') // ê³µë°± ì²˜ë¦¬
             {
                 CreateSpace();
             }
 
-            else if (c >= '0' && c <= '9') // ¼ýÀÚ Ã³¸®
+            else if (c >= '0' && c <= '9') // ìˆ«ìž ì²˜ë¦¬
             {
                 int index = (c - '0');
                 CreateLetterImage(numberSprites, index , c.ToString());

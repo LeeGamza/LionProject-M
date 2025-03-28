@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 14027af75c061b24c98e263df20c7a5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8822226830578003107
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_0
+  - first:
+      213: -1687541507537219544
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_1
+  - first:
+      213: -8949127184426459486
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_2
+  - first:
+      213: -4815915631270741108
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_3
+  - first:
+      213: -7740106719092402403
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_4
+  - first:
+      213: 3087112666233703663
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_5
+  - first:
+      213: 9078574214882699567
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_6
+  - first:
+      213: -4294394104088699468
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_7
+  - first:
+      213: 7482667537002754319
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_8
+  - first:
+      213: -6000391076642568677
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_9
+  - first:
+      213: 4709349469628759510
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_10
+  - first:
+      213: -7939115246267729611
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_11
+  - first:
+      213: -4917038831747186498
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_12
+  - first:
+      213: 8661932339352420505
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_13
+  - first:
+      213: 5475128963199219493
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_14
+  - first:
+      213: 3590757318974648367
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_15
+  - first:
+      213: 8667346903187703374
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_16
+  - first:
+      213: -8033038963623764908
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_17
+  - first:
+      213: -1677496122142918905
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_18
+  - first:
+      213: -1000211072170653346
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_19
+  - first:
+      213: 7724045772664350870
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_20
+  - first:
+      213: 7599734108194939058
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_21
+  - first:
+      213: 5734274452007692144
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_22
+  - first:
+      213: -3674984582859591896
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_23
+  - first:
+      213: 59627194626164205
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_24
+  - first:
+      213: -3489411390582176504
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_25
+  - first:
+      213: 7287242517741474077
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_26
+  - first:
+      213: -1872656878904158588
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_27
+  - first:
+      213: 8742238012529184521
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_28
+  - first:
+      213: 892043810555135098
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_29
+  - first:
+      213: 9170783475584160902
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_30
+  - first:
+      213: 4208661448107358229
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_31
+  - first:
+      213: 7559378328471517685
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_32
+  - first:
+      213: 8704308457060532173
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_33
+  - first:
+      213: 2434174777493248283
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_34
+  - first:
+      213: -1465222527919295566
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_35
+  - first:
+      213: 2871821274287789051
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_36
+  - first:
+      213: -6419297907394538602
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_37
+  - first:
+      213: 7592453842688718611
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_38
+  - first:
+      213: -5355434895888640368
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_39
+  - first:
+      213: 4016175537453450407
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_40
+  - first:
+      213: -4484187887752710483
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_41
+  - first:
+      213: 3457941389631191923
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_42
+  - first:
+      213: -6307999794572415597
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_43
+  - first:
+      213: -3663388211271721862
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_44
+  - first:
+      213: -3958836511488868185
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_45
+  - first:
+      213: -9147481441667969983
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_46
+  - first:
+      213: -3118772159043455041
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_47
+  - first:
+      213: 3954998463451523211
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_48
+  - first:
+      213: 7020536079603918700
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_49
+  - first:
+      213: -2120405230177841524
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_50
+  - first:
+      213: -3610221239210906497
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_51
+  - first:
+      213: 692162269395905122
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_52
+  - first:
+      213: -2025219116972471040
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_53
+  - first:
+      213: -2697605300889449615
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_54
+  - first:
+      213: 4924161291199433473
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_55
+  - first:
+      213: 8231687610640488981
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_56
+  - first:
+      213: -1802923838734187911
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_57
+  - first:
+      213: 433997843662524119
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_58
+  - first:
+      213: -4212510949615428907
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_59
+  - first:
+      213: -8716593176678077461
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_60
+  - first:
+      213: -6636473315657003506
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_61
+  - first:
+      213: 4333048422490735225
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_62
+  - first:
+      213: 742972920134666205
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_63
+  - first:
+      213: -8086175223210900558
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_64
+  - first:
+      213: -7745879168414563271
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_65
+  - first:
+      213: 1345524419492839465
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_66
+  - first:
+      213: -499144989236102505
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_67
+  - first:
+      213: 8971518828805817464
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_68
+  - first:
+      213: -9197611246765354551
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_69
+  - first:
+      213: 1156235301182715106
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_70
+  - first:
+      213: 732857989065474757
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_71
+  - first:
+      213: -4608837766147749146
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_72
+  - first:
+      213: -7079377724559828209
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_73
+  - first:
+      213: -3665424042556102991
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_74
+  - first:
+      213: -560241444583789046
+    second: Neo Geo NGCD - Metal Slug - Game Over Screen_75
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Game Over Screen_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 16
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d535a739077219580800000000000000
+      internalID: -8822226830578003107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Neo Geo NGCD - Metal Slug - Game Over Screen_1
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 16
+        width: 304
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820548b90f5a498e0800000000000000
+      internalID: -1687541507537219544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 67ceebd8562a9b9459e9d04e6106cbfc
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Neo Geo NGCD - Metal Slug - Game Over Screen_0: -8822226830578003107
+      Neo Geo NGCD - Metal Slug - Game Over Screen_1: -1687541507537219544
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

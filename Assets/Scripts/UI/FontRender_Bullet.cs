@@ -4,20 +4,53 @@ using UnityEngine.UI;
 
 public class FontRender_Bullet : MonoBehaviour
 {
-    public string NumberToDisplay; 
     public Transform parentContainer; 
     public Sprite[] numberSprites; 
     public float spaceWidth = 50f;
     public float fontSizeX = 50f;
     public float fontSizeY = 50f;
+    public bool isARMS = true;
 
-    private int CurrentBullet;
+    private FireManager fireManager;
+
+    private int previousAmmo = -1; 
+    private int previousMissile = -1; 
 
     void Start()
     {
-        CurrentBullet = int.Parse(NumberToDisplay);
-        RenderNumberImage(CurrentBullet);
 
+        if (isARMS)
+        {
+            //int currentAmmo = fireManager.Curruntammo();
+            int currentAmmo = 200; // 임시 출력 
+            previousAmmo = currentAmmo; 
+            RenderNumberImage(currentAmmo);
+        }
+
+        else
+        {
+            int currentMissile = 10;  // 이 부분을 받아와서 적용
+            previousMissile = currentMissile; 
+            RenderNumberImage(currentMissile);
+        }
+    }
+
+    void Update()
+    {
+        int currentAmmo = fireManager.Curruntammo();
+        int currentMissile = 10; 
+
+        if (currentAmmo != previousAmmo) 
+        {
+            RenderNumberImage(currentAmmo);
+            previousAmmo = currentAmmo; 
+        }
+
+        if (currentMissile != previousMissile)
+        {
+            RenderNumberImage(currentMissile);
+            previousAmmo = currentMissile;
+        }
     }
 
 
