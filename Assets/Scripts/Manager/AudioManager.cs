@@ -59,6 +59,11 @@ public class AudioManager : MonoBehaviour
         if (sceneName == "SecondStage")
         {
             nextClip = secondSceneBGM;
+            bgmSource.volume = 0.4f;
+        }
+        else if (sceneName == "FirstStage")
+        {
+            bgmSource.volume = 0f;
         }
 
         if (bgmSource.clip != nextClip)
