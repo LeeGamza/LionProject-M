@@ -55,7 +55,7 @@ public class GameManager : MonoBehaviour
     private void StartGame()
     {
         hitParticles = new HitParticles();
-        SceneManager.LoadScene("FirstStage");
+        SceneManager.LoadScene("SecondStage");
     }
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
