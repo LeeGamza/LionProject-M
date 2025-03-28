@@ -6,7 +6,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
     private HitParticles hitParticles;
-
+    
+    private GameObject playerObj;
     private float timer;
     private bool isTimerRun = false;
     
@@ -26,12 +27,14 @@ public class GameManager : MonoBehaviour
     private void OnEnable()
     {
         EventManager.Instance.OnGameStart += StartGame;
+        EventManager.Instance.OnRevive += HandleOnRevive;
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
 
     private void OnDisable()
     {
         EventManager.Instance.OnGameStart -= StartGame;
+        EventManager.Instance.OnRevive -= HandleOnRevive;
         SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
@@ -59,12 +62,30 @@ public class GameManager : MonoBehaviour
     {
         if (scene.name == "SecondStage")
         {
+            SpawnManager spawnManager = FindObjectOfType<SpawnManager>();
+            playerObj = spawnManager.SpawnPlayer();
+            if (playerObj.TryGetComponent<Player>(out Player player))
+            {
+                player.GoPosition();
+            }
+            
             timer = 240f;
             isTimerRun = true;
         }
         else
         {
             isTimerRun = false;
+        }
+    }
+
+    private void HandleOnRevive()
+    {
+        if (playerObj.TryGetComponent<Player>(out Player player))
+        {
+            if (player.CanRevive())
+            {
+                player.Revive();
+            }
         }
     }
 

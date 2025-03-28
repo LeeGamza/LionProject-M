@@ -33,5 +33,10 @@ public class InputManager : MonoBehaviour
         {
             EventManager.Instance.InvokeStartGame();
         }
+
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            EventManager.Instance.InvokeRevive();
+        }
     }
 }
