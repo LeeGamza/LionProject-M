@@ -28,6 +28,9 @@ public class Player : MonoBehaviour
     [Header("Speed")]
     [SerializeField] private float movementSpeed = 5f;
     
+    private bool isDead = false;
+    public bool IsDead => isDead;
+    
     private void Awake()
     {
         movement = new PlayerMovement(movementSpeed, transform);
@@ -66,10 +69,12 @@ public class Player : MonoBehaviour
 
     private void Update()
     {
-        Vector3 movementVector = movement.CalculateMovement();
-        transform.Translate(movementVector, Space.World);
-        
-        transform.position = movement.CantEscapeScreen();
+        if (!isDead)
+        {
+            Vector3 movementVector = movement.CalculateMovement();
+            transform.Translate(movementVector, Space.World);
+            transform.position = movement.CantEscapeScreen();
+        }
         
         stateMachine.Update();
     }
@@ -99,6 +104,11 @@ public class Player : MonoBehaviour
     public void KillPlayer()
     {
         gameObject.SetActive(false);
+    }
+    
+    public void SetDead()
+    {
+        isDead = true;
     }
     
     private void OnTriggerEnter2D(Collider2D other)
