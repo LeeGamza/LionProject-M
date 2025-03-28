@@ -55,10 +55,7 @@ public class GameManager : MonoBehaviour
     private void StartGame()
     {
         hitParticles = new HitParticles();
-        if (VideoManager.Instance != null)
-        {
-            VideoManager.Instance.PlayCutscene();
-        }
+        SceneManager.LoadScene("FirstStage");
     }
     
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
