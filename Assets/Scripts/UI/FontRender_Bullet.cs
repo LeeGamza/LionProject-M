@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
@@ -13,13 +14,16 @@ public class FontRender_Bullet : MonoBehaviour
 
     private FireManager fireManager;
 
-    private int previousAmmo = -1; 
-    private int previousMissile = -1; 
+    private int currentAmmo;
+    private int currentMissile;
+
+    private int previousAmmo; 
+    private int previousMissile; 
 
     void Start()
     {
-        Debug.Log("[FontRender_Bullet] Start");
         Player player = FindObjectOfType<Player>();
+
         if (player == null)
         {
             Debug.LogError("Player not Found!");
@@ -30,41 +34,49 @@ public class FontRender_Bullet : MonoBehaviour
             fireManager = player.GetFireManager();
         }
 
-        if (fireManager == null)
-        {
-            Debug.LogError("FireManager not Found");
-            return;
-        }
-        Debug.Log("[FontRender_Bullet] FireManager 연결 성공");
-        int currentAmmo = fireManager.Curruntammo();
-        previousAmmo = currentAmmo;
-        RenderNumberImage(currentAmmo);
-        /*if (isARMS)
-        {
-            //int currentAmmo = fireManager.Curruntammo();
-            int currentAmmo = 200; // 임시 출력 
-            previousAmmo = currentAmmo; 
-            RenderNumberImage(currentAmmo);
-        }
+        currentAmmo = fireManager.Curruntammo();
+        // currentMissile = fireManager.Curruntmissile();
+        currentMissile = 10;
 
+        if (isARMS)
+        {
+            RenderInfinityImage();         
+        }
         else
         {
-            int currentMissile = 10;  // 이 부분을 받아와서 적용
             previousMissile = currentMissile; 
             RenderNumberImage(currentMissile);
-        }*/
+        }
     }
-
     void Update()
     {
         if (fireManager == null) return;
 
-        int currentAmmo = fireManager.Curruntammo();
-        if (currentAmmo != previousAmmo)
+        if (isARMS)
         {
-            Debug.Log($"[FontRender_Bullet] Ammo changed: {previousAmmo} → {currentAmmo}");
-            RenderNumberImage(currentAmmo);
-            previousAmmo = currentAmmo;
+            currentAmmo = fireManager.Curruntammo();
+            if (currentAmmo != previousAmmo)
+            {
+                if (currentAmmo > 0)
+                {
+                    RenderNumberImage(currentAmmo);
+                    previousAmmo = currentAmmo;
+                }
+                else
+                {
+                    RenderInfinityImage();
+                    previousAmmo = currentAmmo;
+                }
+            }
+        }
+        else
+        {
+            //currentMissile = fireManager.Curruntmissile();
+            if (currentMissile != previousMissile)
+            {
+                RenderNumberImage(currentMissile);
+                previousMissile = currentMissile;
+            }
         }
     }
 
@@ -93,6 +105,27 @@ public class FontRender_Bullet : MonoBehaviour
             }
         }
     }
+
+    public void RenderInfinityImage()
+    {
+        foreach (Transform child in parentContainer)
+        {
+            Destroy(child.gameObject);
+        }
+
+
+        GameObject letterObj = new GameObject("Infinity", typeof(Image));
+        letterObj.transform.SetParent(parentContainer, false);
+
+        Image img = letterObj.GetComponent<Image>();
+        img.sprite = numberSprites[10];
+
+        RectTransform rect = letterObj.GetComponent<RectTransform>();
+        rect.sizeDelta = new Vector2(35, 17);
+    }
+
+
+
 
     void CreateLetterImage(Sprite[] spriteArray, int index, string name)
     {
