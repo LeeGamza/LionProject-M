@@ -12,24 +12,37 @@ public class DeathRazer : MonoBehaviour
 
     private Vector2 originalSize; // ���� ũ�� ����
     private Vector2 originalOffset; // ���� ������ ����...�ڽ��ݸ����� �ø� �� �߾ӿ������� �� �Ʒ��� �÷����°� ���������� �Ʒ��θ� �÷����� �����ϵ���... 
+
     void Start()
     {
-        playerTransform = GameObject.FindWithTag("Player").GetComponent<Transform>();
+        StartCoroutine(LifeTime());
+        try
+        {
+            if (!GameObject.FindWithTag("Player").TryGetComponent<Transform>(out playerTransform))
+            {
+                Debug.LogError("Cannot find Player Object in DeathRazer Script : ", this);
+            }
+        }
+        catch
+        {
+            Debug.Log("DeathRazer 스크립트에서 Player 객체를 찾을 수 없음");
+        }
+
         boxCollider = GetComponent<BoxCollider2D>();
         // ���� ũ��, ��ġ ����
         originalSize = boxCollider.size;
         originalOffset = boxCollider.offset;
+        
 
-        duration = 1.0f;
-        lifeTime = 4.0f;
-        maxHeight = 10.0f;
-
-        //�÷��̾� �������� ������ ȸ�� (0~50��, 310~360�� ���� ����) 
-        InitRotating(); 
-        // ������ �ڿ������� �ݶ��̴��� �ø��� �ڷ�ƾ
-        StartCoroutine(IncreaseColliderY());
-        //���ӽð��� ������ �� ������Ʈ�� �������ִ� �ڷ�ƾ
-        StartCoroutine(LifeTime());
+        if (playerTransform != null)
+        {
+            //�÷��̾� �������� ������ ȸ�� (0~50��, 310~360�� ���� ����) 
+            InitRotating();
+            // ������ �ڿ������� �ݶ��̴��� �ø��� �ڷ�ƾ
+            StartCoroutine(IncreaseColliderY());
+            //���ӽð��� ������ �� ������Ʈ�� �������ִ� �ڷ�ƾ
+        }
+        
     }
     
     // ȣ�� �������� ���� �� collider�� �ڿ������� �÷������� ������ִ� �ڷ�ƾ
@@ -82,12 +95,14 @@ public class DeathRazer : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (other.gameObject.CompareTag("Player")) //�÷��̾�� �浹�ߴٸ�
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Player")
         {
-            //�÷��̾� ���� ó��
-            //Destroy(other.gameObject); //�ӽ÷� ���� �׽�Ʈ
+            if (collision.GetComponentInParent<Player>() is { } player)
+            {
+                player.TakeDamage();
+            }
         }
     }
 }

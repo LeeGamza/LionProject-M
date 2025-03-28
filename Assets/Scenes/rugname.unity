@@ -119,6 +119,50 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &384891831
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 384891832}
+  - component: {fileID: 384891833}
+  m_Layer: 0
+  m_Name: EventManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &384891832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384891831}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &384891833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 384891831}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bfb626f74b36ec45b109517394f6211, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &469305492
 GameObject:
   m_ObjectHideFlags: 0
@@ -377,6 +421,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2009809890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2009809891}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009809891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2009809890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.025696237, y: 2.3755562, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &887414613167185446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -388,6 +463,18 @@ PrefabInstance:
     - target: {fileID: 2934036859472714980, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_Name
       value: Boss_rugname
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121899847901542329, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
+      propertyPath: m_Color.b
+      value: 0.97962064
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121899847901542329, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9811321
+      objectReference: {fileID: 0}
+    - target: {fileID: 6121899847901542329, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
+      propertyPath: m_Color.r
+      value: 0.8284087
       objectReference: {fileID: 0}
     - target: {fileID: 8631208600471709068, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,3 +528,5 @@ SceneRoots:
   - {fileID: 884292650}
   - {fileID: 887414613167185446}
   - {fileID: 469305494}
+  - {fileID: 2009809891}
+  - {fileID: 384891832}
