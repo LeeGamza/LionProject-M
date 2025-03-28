@@ -1,4 +1,5 @@
 using UnityEngine;
+using DG.Tweening;
 using Bullet;
 
 public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
@@ -39,6 +40,7 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
         fireManager.SetMuzzle(muzzleMiddle);
         
         GetComponents();
+        pistolHumanAnimator.SetBool("isDead", false);
     }
 
     public void Exit()
@@ -92,7 +94,20 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
 
     public void TakeHit()
     {
-        player.KillPlayer();
+        pistolHumanAnimator.SetTrigger("isDead");
+        
+        player.SetDead();
+        
+        if (player.TryGetComponent<Rigidbody2D>(out var rb))
+        {
+            rb.gravityScale = 4f;
+        }
+
+        float deathTime = GetDeathAnimLength();
+        DOVirtual.DelayedCall(deathTime, () =>
+        {
+            player.KillPlayer();
+        });
     }
 
     public void OnPickupItem()
@@ -117,5 +132,20 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
         {
             booster.TryGetComponent(out humanBooster);
         }
+    }
+
+    private float GetDeathAnimLength()
+    {
+        RuntimeAnimatorController ac = pistolHumanAnimator.runtimeAnimatorController;
+
+        foreach (AnimationClip clip in ac.animationClips)
+        {
+            if (clip.name == "H_Dead")
+            {
+                return clip.length;
+            }
+        }
+
+        return 0.8f;
     }
 }
