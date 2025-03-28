@@ -30,7 +30,6 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
     private Animator leftAnimator;
 
     private bool isMachingunEquip = false;
-    private bool isReturnToBasic = false;
 
     public SpaceShipState(GameObject spaceShip, 
         FireManager fireManager, 
@@ -69,7 +68,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 
     public void Update()
     {
-        float horizontal = InputManager.Instance.horizontal; // 이건 바꿔야함 잠와서 아직안바꿈
+        float horizontal = player.GetInputValue();
         
         if (horizontal > 0f)
         {
@@ -98,7 +97,6 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
             rightAnimator.SetBool("isSpaceAmmo", false);
             leftAnimator.SetBool("isSpaceAmmo", false);
             
-            isReturnToBasic = true;
             isMachingunEquip = false;
 
             fireManager.SetBulletType(BulletType.Basic);

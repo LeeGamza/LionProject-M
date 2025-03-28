@@ -91,6 +91,11 @@ public class Player : MonoBehaviour
     {
         stateMachine.ChangeState(state);
     }
+
+    public float GetInputValue()
+    {
+        return movement.Horizontal;
+    }
     public void KillPlayer()
     {
         gameObject.SetActive(false);
