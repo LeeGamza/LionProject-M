@@ -6,6 +6,8 @@ namespace Bullet
     {
         Basic,
         MachinGun,
+        Shutgun,
+        Rocket
     }
 
     public static class BulletNum
@@ -15,7 +17,9 @@ namespace Bullet
             return bulletType switch
             {
                 BulletType.Basic => -1,         
-                BulletType.MachinGun => 200
+                BulletType.MachinGun => 200,
+                BulletType.Shutgun => 30,
+                BulletType.Rocket => 10,
             };
         }
     }

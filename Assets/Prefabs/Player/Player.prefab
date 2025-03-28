@@ -675,12 +675,14 @@ MonoBehaviour:
   bulletPrefabs:
   - {fileID: 4986283114238242753, guid: d63c4dd208054e247b8e5f313c81c54f, type: 3}
   - {fileID: 3342362638721069912, guid: 47c67269ef5b7b5459e371a61d449722, type: 3}
+  - {fileID: 2699555119029574208, guid: 3210ea669c41fbd4884c5941659b7955, type: 3}
   muzzleMiddle: {fileID: 6221894232170815840}
   muzzleLeft: {fileID: 7069247829011885911}
   muzzleRight: {fileID: 8640738815141135702}
   effectPrefabs:
   - {fileID: 1108106836075340442, guid: 739858ba88104c54ca432655f6375039, type: 3}
   - {fileID: 4891570899426469684, guid: f551bfd29d4180240a3f01f1100fd4fd, type: 3}
+  - {fileID: 8737008336462649969, guid: c5de72bd2d3b48e4681f17530c6c5301, type: 3}
   movementSpeed: 5
 --- !u!50 &3702849808929673844
 Rigidbody2D:
