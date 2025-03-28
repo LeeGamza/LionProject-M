@@ -5,7 +5,9 @@ public class Player : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private GameObject spaceShip;
-    //[SerializeField] private GameObject hPlayer;
+    [SerializeField] private GameObject humanPlayer;
+
+    private IPlayerState humanState;
     private FireManager fireManager;
     private PlayerStateMachine stateMachine;
     private PlayerMovement movement;
@@ -38,12 +40,15 @@ public class Player : MonoBehaviour
         BulletFactory.SetBullet(bulletPrefabs);
         fireManager.SetEffectPrefabs(effectPrefabs);
         
+        humanState = new HumanState(humanPlayer, fireManager, muzzleMiddle, this);
+        
         var spaceshipState = new SpaceShipState(
             spaceShip,
             fireManager,
             muzzleMiddle,
             new[] { muzzleLeft, muzzleRight },
-            this
+            this,
+            humanState
         );
 
         stateMachine.ChangeState(spaceshipState);
@@ -82,6 +87,15 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void SetState(IPlayerState state)
+    {
+        stateMachine.ChangeState(state);
+    }
+
+    public float GetInputValue()
+    {
+        return movement.Horizontal;
+    }
     public void KillPlayer()
     {
         gameObject.SetActive(false);

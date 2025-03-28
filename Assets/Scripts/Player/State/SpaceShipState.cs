@@ -1,10 +1,13 @@
 using System.Collections;
 using UnityEngine;
 using Bullet;
+using Unity.VisualScripting;
 
 public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 {
     private int hp = 3;
+    
+    private readonly IPlayerState humanState;
     
     private SpriteRenderer rightRenderer;
     private SpriteRenderer leftRenderer;
@@ -19,28 +22,34 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
     
     private readonly GameObject boosterL;
     private readonly GameObject boosterR;
+
+    private GameObject spaceShipHumanL;
+    private GameObject spaceShipHumanR;
     
     private Animator rightAnimator;
     private Animator leftAnimator;
 
     private bool isMachingunEquip = false;
-    private bool isReturnToBasic = false;
 
     public SpaceShipState(GameObject spaceShip, 
         FireManager fireManager, 
         Transform muzzleMiddle, 
         Transform[] muzzleLeftRight,
-        Player player)
+        Player player,
+        IPlayerState humanState)
     {
         this.spaceShip = spaceShip;
         this.fireManager = fireManager;
-    
+        this.humanState = humanState;
+        
         this.muzzleMiddle = muzzleMiddle;
         this.muzzleLeftRight = muzzleLeftRight;
         this.player = player;
         
         boosterL = spaceShip.transform.Find("Booster_L")?.gameObject;
         boosterR = spaceShip.transform.Find("Booster_R")?.gameObject;
+        spaceShipHumanL = spaceShip.transform.Find("SpaceShipPlayer_L")?.gameObject;
+        spaceShipHumanR = spaceShip.transform.Find("SpaceShipPlayer_R")?.gameObject;
     }
     
     public void Enter()
@@ -59,17 +68,23 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 
     public void Update()
     {
-        float horizontal = InputManager.Instance.horizontal; // 이건 바꿔야함 잠와서 아직안바꿈
+        float horizontal = player.GetInputValue();
         
         if (horizontal > 0f)
         {
             boosterL?.SetActive(true);
             boosterR?.SetActive(false);
+            
+            spaceShipHumanL?.SetActive(false);
+            spaceShipHumanR?.SetActive(true);
         }
         else if (horizontal < 0f)
         {
             boosterL?.SetActive(false);
             boosterR?.SetActive(true);
+            
+            spaceShipHumanL?.SetActive(true);
+            spaceShipHumanR?.SetActive(false);
         }
         else
         {
@@ -82,7 +97,6 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
             rightAnimator.SetBool("isSpaceAmmo", false);
             leftAnimator.SetBool("isSpaceAmmo", false);
             
-            isReturnToBasic = true;
             isMachingunEquip = false;
 
             fireManager.SetBulletType(BulletType.Basic);
@@ -93,7 +107,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 
     public void Exit()
     {
-        
+        spaceShip.SetActive(false);
     }
 
     public void TakeHit()
@@ -107,7 +121,7 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
 
         if (hp <= 0)
         {
-            player.KillPlayer();
+            player.SetState(humanState);
         }
     }
     

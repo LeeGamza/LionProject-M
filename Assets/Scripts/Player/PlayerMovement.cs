@@ -3,6 +3,7 @@ using UnityEngine;
 public class PlayerMovement
 {
     private readonly float movementSpeed;
+    private readonly float horizontal;
     private readonly InputManager input;
     private readonly Transform playerTransform;
     private readonly Camera mainCamera;
@@ -14,7 +15,9 @@ public class PlayerMovement
         input = InputManager.Instance;
         mainCamera = Camera.main;
     }
-
+    
+    public float Horizontal => input.horizontal;
+    
     public Vector3 CalculateMovement()
     {
         return new Vector3(input.horizontal, input.vertical, 0f) * movementSpeed * Time.deltaTime;

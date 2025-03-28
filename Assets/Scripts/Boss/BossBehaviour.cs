@@ -1,10 +1,11 @@
 using System.Collections;
 using UnityEngine;
 
-public class BossBehaviour : MonoBehaviour
+public class BossBehaviour : MonoBehaviour // ë³´ìŠ¤(ëŸ¬ê·¸ë„¤ì„ + ë‹¤ì´ë§Œì§€) í–‰ë™íŒ¨í„´ ìŠ¤í¬ë¦½íŠ¸
 {
     public GameObject DeployingDeathRazerObject;
     public GameObject HatchingUFOObject;
+    public GameObject RazerEffect;
 
     public Animator DDRAnimator;
     public Animator HUFOAnimator;
@@ -12,44 +13,54 @@ public class BossBehaviour : MonoBehaviour
     public float intervalTime = 4.0f;
     public int hp = 300;
     public bool isAlive = true;
+
+    private static int currentMiniUFOCount;
     void Start()
     {
 
-        //Debug.Log("DeployingDeathRazer ½Ã°£ : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
-        //Debug.Log("DeathRazerOn ½Ã°£ : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
-        //Debug.Log("DeathRazerAttacking ½Ã°£ : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
-        //Debug.Log("DeployingIdle ½Ã°£ : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
-        //Debug.Log("UndeployingDeathRazer ½Ã°£ : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
-        Debug.Log("HatchingUFO ½Ã°£ : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
+        //Debug.Log("DeployingDeathRazer ì‹œê°„ : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
+        //Debug.Log("DeathRazerOn ì‹œê°„ : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
+        //Debug.Log("DeathRazerAttacking ì‹œê°„ : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
+        //Debug.Log("DeployingIdle ì‹œê°„ : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
+        //Debug.Log("UndeployingDeathRazer ì‹œê°„ : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
+        Debug.Log("HatchingUFO ì‹œê°„ : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
 
         intervalTime = 2.0f;
         StartCoroutine(BossSkillBehavior());
         
     }
+    private void Update()
+    {
+        if (hp <= 0)
+        {
+            isAlive = false;
+            Die();
+        }
+    }
 
     IEnumerator BossSkillBehavior()
     {
-        while(isAlive) //»ì¾ÆÀÖ´Ù¸é ¹«ÇÑ¹İº¹
+        while(isAlive) //ì‚´ì•„ìˆë‹¤ë©´ ë¬´í•œë°˜ë³µ
         {
-            //°¢°¢ÀÇ ½ºÅ³ ½Ã°£¸¸Å­ ´ë±â
-            Debug.Log("½ºÅ³ ´ë±â½Ã°£ : " + intervalTime);
-            yield return new WaitForSeconds(intervalTime); //ÃÊ±â°ªÀº 2ÃÊ
+            //ê°ê°ì˜ ìŠ¤í‚¬ ì‹œê°„ë§Œí¼ ëŒ€ê¸°
+            Debug.Log("ìŠ¤í‚¬ ëŒ€ê¸°ì‹œê°„ : " + intervalTime);
+            yield return new WaitForSeconds(intervalTime); //ì´ˆê¸°ê°’ì€ 2ì´ˆ
 
-            //·£´ı ½ºÅ³ ¹ßµ¿
+            //ëœë¤ ìŠ¤í‚¬ ë°œë™
             UseRandomSkill();
         }
     }
 
     private void UseRandomSkill()
     {
-        int randomSkill = Random.Range(1, 11); //1 ~ 10¹ø±îÁö
-        if(randomSkill <= 7)
+        int randomSkill = Random.Range(1, 11); //1 ~ 10ë²ˆê¹Œì§€
+        if(randomSkill <= 6)
         {
-            StartCoroutine(DeployingDeathRazer()); //70% È®·ü·Î DeployingDeathRazer
+            StartCoroutine(DeployingDeathRazer()); //70% í™•ë¥ ë¡œ DeployingDeathRazer
         }
         else
         {
-            StartCoroutine(SpawnUFO()); //³ª¸ÓÁö È®·ê·Î UFO ¼ÒÈ¯
+            StartCoroutine(SpawnUFO()); //ë‚˜ë¨¸ì§€ í™•ë£°ë¡œ UFO ì†Œí™˜
         }
     }
 
@@ -57,47 +68,58 @@ public class BossBehaviour : MonoBehaviour
     {
         Debug.Log("DeployingDeathRazer!!");
 
-        int randomCount = Random.Range(1, 5); //DeathRazer ¹ß»ç È½¼ö
-        Debug.Log("»ÌÀº ·¹ÀÌÀú È½¼ö : " + randomCount);
+        int randomCount = Random.Range(1, 4); //DeathRazer ë°œì‚¬ íšŸìˆ˜
+        Debug.Log("ë½‘ì€ ë ˆì´ì € íšŸìˆ˜ : " + randomCount);
         intervalTime = randomCount * (GetAnimationLength(DDRAnimator, "DeathRazerOn") + GetAnimationLength(DDRAnimator, "DeathRazerAttacking") + GetAnimationLength(DDRAnimator, "DeployingIdle")) 
-            + GetAnimationLength(DDRAnimator, "DeployingDeathRazer") + GetAnimationLength(DDRAnimator, "DeployingIdle")+ GetAnimationLength(DDRAnimator, "UndeployingDeathRazer") + 2.0f;
+            + GetAnimationLength(DDRAnimator, "DeployingDeathRazer") + GetAnimationLength(DDRAnimator, "DeployingIdle") + GetAnimationLength(DDRAnimator, "DeployingIdle") + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer") + 2.0f;
         
-        //DeployingDeathRazer ¿ÀºêÁ§Æ® Å°±â
+        //DeployingDeathRazer ì˜¤ë¸Œì íŠ¸ í‚¤ê¸°
         DeployingDeathRazerObject.SetActive(true);
-        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingDeathRazer")); //DeployingDeathRazer ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà ½Ã°£ ¸¸Å­ ½ºÅ©¸³Æ® ´ë±â
+        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingDeathRazer")); //DeployingDeathRazer ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ ì‹œê°„ ë§Œí¼ ìŠ¤í¬ë¦½íŠ¸ ëŒ€ê¸°
+        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingIdle")); //DeployingIdle ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ ì‹œê°„ ë§Œí¼ ìŠ¤í¬ë¦½íŠ¸ ëŒ€ê¸°
         while (randomCount > 0)
         {
-            
-            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerOn")); //DeathRazerOn ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà ½Ã°£¸¸Å­ ´ë±â
-            Debug.Log("¹ß»ç " + randomCount);
+            DDRAnimator.SetBool("Attacking", true); //DeathRazerAttacking ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ ë° ShootingDeathRazer ì´ë²¤íŠ¸ ë°œìƒ(DeathRazer í”„ë¦¬íŒ¹ ìƒì„± í•¨ìˆ˜ ì‹¤í–‰)
+            RazerEffect.SetActive(true);
+            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerOn")); //DeathRazerOn ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ ì‹œê°„ë§Œí¼ ëŒ€ê¸°
+            Debug.Log("ë°œì‚¬ " + randomCount);
             randomCount--;
-            DDRAnimator.SetBool("Attacking", true); //DeathRazerAttacking ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà ¹× ShootingDeathRazer ÀÌº¥Æ® ¹ß»ı(DeathRazer ÇÁ¸®ÆÕ »ı¼º ÇÔ¼ö ½ÇÇà)
-            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerAttacking")); //DeathRazerAttacking ½ÇÇà ½Ã°£ ¸¸Å­ ´ë±â
-            DDRAnimator.SetBool("Attacking", false); //DeployingIdle ¾Ö´Ï¸ŞÀÌ¼Ç
-            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingIdle")); //DeployingIdle ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà½Ã°£ ¸¸Å­ ´ë±â
+            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerAttacking")); //DeathRazerAttacking ì‹¤í–‰ ì‹œê°„ ë§Œí¼ ëŒ€ê¸°
+            DDRAnimator.SetBool("Attacking", false); //DeployingIdle ì• ë‹ˆë©”ì´ì…˜
+            RazerEffect.SetActive(false);
+            yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingIdle")); //DeployingIdle ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ì‹œê°„ ë§Œí¼ ëŒ€ê¸°
         }
-        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingIdle")); //DeployingIdle ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà½Ã°£ ¸¸Å­ ´ë±â
+        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeployingIdle")); //DeployingIdle ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ì‹œê°„ ë§Œí¼ ëŒ€ê¸°
         DDRAnimator.SetTrigger("Undeploying");
         Debug.Log("Undeploying");
-        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "UndeployingDeathRazer")); //UndeployingDeathRazer ¾Ö´Ï¸ŞÀÌ¼Ç ½ÇÇà½Ã°£¸¸Å­ ´ë±â
+        yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "UndeployingDeathRazer")); //UndeployingDeathRazer ì• ë‹ˆë©”ì´ì…˜ ì‹¤í–‰ì‹œê°„ë§Œí¼ ëŒ€ê¸°
         DeployingDeathRazerObject.SetActive(false);
 
     }
 
-    // ¸Ê¿¡ miniUFO°¡ ¸î¸¶¸® ÀÖ´ÂÁö È®ÀÎÇÏ°í, ÃÖ´ë 3¸¶¸®°¡ µÉ ¶§ ±îÁö miniUFO ½ºÆù... Ãß°¡¿¹Á¤
-    // HatchingUFO ¿ÀºêÁ§Æ®¸¦ n¹ø ²¯´Ù Ä×´Ù => SetActive µÉ ¶§ ¸¶´Ù UFO ½ºÆùµÊ
-    // (À§¿Í ºñ½ÁÇÑ ±¸Á¶·Î DaimanjiBottom¿¡¼­ HatchingUFO ¾Ö´Ï¸ŞÀÌ¼ÇÀ» ±¸ÇöÇÒ ¼ö ÀÖÁö¸¸, ½ºÇÁ¶óÀÌÆ® ÇÈ¼¿ ¸ÂÃß±â°¡ ±î´Ù·Î¿ö¼­ ÀÌ·¸°Ô ÁøÇà... ³ôÀÌ¸¦ Ä§¹üÇØ¼­)
+    // ë§µì— miniUFOê°€ ëª‡ë§ˆë¦¬ ìˆëŠ”ì§€ í™•ì¸í•˜ê³ , ìµœëŒ€ 3ë§ˆë¦¬ê°€ ë  ë•Œ ê¹Œì§€ miniUFO ìŠ¤í°... ì¶”ê°€ì˜ˆì •
+    // HatchingUFO ì˜¤ë¸Œì íŠ¸ë¥¼ në²ˆ ê»ë‹¤ ì¼°ë‹¤ => SetActive ë  ë•Œ ë§ˆë‹¤ UFO ìŠ¤í°ë¨
+    // (ìœ„ì™€ ë¹„ìŠ·í•œ êµ¬ì¡°ë¡œ DaimanjiBottomì—ì„œ HatchingUFO ì• ë‹ˆë©”ì´ì…˜ì„ êµ¬í˜„í•  ìˆ˜ ìˆì§€ë§Œ, ìŠ¤í”„ë¼ì´íŠ¸ í”½ì…€ ë§ì¶”ê¸°ê°€ ê¹Œë‹¤ë¡œì›Œì„œ ì´ë ‡ê²Œ ì§„í–‰... ë†’ì´ë¥¼ ì¹¨ë²”í•´ì„œ)
     IEnumerator SpawnUFO()
     {
-        Debug.Log("UFO ½ºÆù");
-        intervalTime = GetAnimationLength(HUFOAnimator, "HatchingUFO") + 2.0f;
-        HatchingUFOObject.SetActive(true);
-        yield return new WaitForSeconds(GetAnimationLength(HUFOAnimator, "HatchingUFO"));
-        HatchingUFOObject.SetActive(false);
+        //ìŠ¤í‚¬ì´ ë°œë™í•˜ë©´ ë§µì— ë¯¸ë‹ˆ UFOê°€ ëª‡ë§ˆë¦¬ì¸ì§€ íƒì§€
+        GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster"); //ë‹¤ì´ë§Œì§€ ì”¬ì—ëŠ” ëª¬ìŠ¤í„°ê°€ miniufo ë¿ì´ë¼ì„œ tagë¥¼ ì´ìš©í•´ ì°¾ìŒ
+        currentMiniUFOCount = monsters.Length;
+        Debug.Log("---í˜„ì¬ ëª¬ìŠ¤í„° ìˆ˜ : " + currentMiniUFOCount);
+        intervalTime = (3 - currentMiniUFOCount) * GetAnimationLength(HUFOAnimator, "HatchingUFO") + 2.0f;
+        //3ë§ˆë¦¬ê°€ ë  ë•Œ ê¹Œì§€ ê³„ì† ìƒì‚°
+        while (currentMiniUFOCount < 3)
+        {
+            Debug.Log("UFO ìŠ¤í°");
+            currentMiniUFOCount++;
+            HatchingUFOObject.SetActive(true);
+            yield return new WaitForSeconds(GetAnimationLength(HUFOAnimator, "HatchingUFO"));
+            HatchingUFOObject.SetActive(false);
+        }
 
     }
 
-    //Æ¯Á¤ ¾Ö´Ï¸ŞÀÌÅÍ¿¡ Æ÷ÇÔµÈ ¾Ö´Ï¸ŞÀÌ¼Ç Å¬¸³ ½ÇÇà½Ã°£À» ¹İÈ¯ÇÏ´Â ÇÔ¼ö
+    //íŠ¹ì • ì• ë‹ˆë©”ì´í„°ì— í¬í•¨ëœ ì• ë‹ˆë©”ì´ì…˜ í´ë¦½ ì‹¤í–‰ì‹œê°„ì„ ë°˜í™˜í•˜ëŠ” í•¨ìˆ˜
     float GetAnimationLength(Animator animator, string animationName)
     {
         AnimationClip[] clips = animator.runtimeAnimatorController.animationClips;
@@ -111,33 +133,31 @@ public class BossBehaviour : MonoBehaviour
         return 0;
     }
 
-    void TakeDamage()
-    {
-
-    }
-
     void Die()
     {
-        //´ÙÀÌ¸¸Áö »èÁ¦
-        Destroy(this.gameObject.transform.GetChild(1).gameObject); //1¹ø ÀÎµ¦½º¿¡ ÀÖ´Â°Ô ´ÙÀÌ¸¸Áö ¿ÀºêÁ§Æ®
-        //·¯±×³×ÀÓ¿¡ Æø¹ßÀÌ ÀÏ¾î³ª´Â È¿°ú ºÙÀÌ±â
+        //í”Œë ˆì´ì–´ì˜ ë¶ˆë¦¿ê³¼ ì¶©ëŒí•˜ë©´ í”Œë ˆì´ì–´ ë¶ˆë¦¿ íŠ¸ë¦¬ê±°ì—”í„°í•¨ìˆ˜ì—ì„œ ë³´ìŠ¤ hp ê¹ê¸°
+        //ë‹¤ì´ë§Œì§€ ì‚­ì œ
+        this.gameObject.transform.GetChild(1).gameObject.SetActive(false); //1ë²ˆ ì¸ë±ìŠ¤ì— ìˆëŠ”ê²Œ ë‹¤ì´ë§Œì§€ ì˜¤ë¸Œì íŠ¸ ë¹„í™œì„±í™”
+        
+        //ëŸ¬ê·¸ë„¤ì„ì— í­ë°œì´ ì¼ì–´ë‚˜ëŠ” íš¨ê³¼ ë¶™ì´ê¸°
+
     }
 
     //void ShootDeathRazer()
     //{
-    //    // 1 ~ 3±îÁö ·£´ıÀ¸·Î Death·¹ÀÌÀú¸¦ ½ò È½¼ö ÁöÁ¤
-    //    int count = Random.Range(1, 5); //DeathRazer ¹ß»ç È½¼ö
-    //    Debug.Log("»ÌÀº ·¹ÀÌÀú È½¼ö : " + count);
+    //    // 1 ~ 3ê¹Œì§€ ëœë¤ìœ¼ë¡œ Deathë ˆì´ì €ë¥¼ ì  íšŸìˆ˜ ì§€ì •
+    //    int count = Random.Range(1, 5); //DeathRazer ë°œì‚¬ íšŸìˆ˜
+    //    Debug.Log("ë½‘ì€ ë ˆì´ì € íšŸìˆ˜ : " + count);
 
     //    intervalTime = count * 5.5f + 3.5f;
 
     //    while (count > 0)
     //    {
     //        //yield return new WaitForSeconds(1.0f);
-    //        Debug.Log("¹ß»ç " + count);
-    //        GameObject go = Instantiate(DeathRazerPrefab, new Vector3(this.transform.position.x - 0.1f, this.transform.position.y - 1.48f, 0), Quaternion.identity); //·¯±×³×ÀÓ ±âÁØ À§Ä¡ ¼³Á¤
+    //        Debug.Log("ë°œì‚¬ " + count);
+    //        GameObject go = Instantiate(DeathRazerPrefab, new Vector3(this.transform.position.x - 0.1f, this.transform.position.y - 1.48f, 0), Quaternion.identity); //ëŸ¬ê·¸ë„¤ì„ ê¸°ì¤€ ìœ„ì¹˜ ì„¤ì •
     //        count--;
-    //        //yield return new WaitForSeconds(4.0f); //DeathRazer lifeTime¸¸Å­ ±â´Ù¸®±â
+    //        //yield return new WaitForSeconds(4.0f); //DeathRazer lifeTimeë§Œí¼ ê¸°ë‹¤ë¦¬ê¸°
     //    }
     //}
 }

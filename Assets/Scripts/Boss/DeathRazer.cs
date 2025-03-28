@@ -77,7 +77,8 @@ public class DeathRazer : MonoBehaviour
         }
         //Debug.Log($"���� ���� : {angle}");
 
-        transform.Rotate(Vector3.forward, angle); //Z���� �������� angle��ŭ ȸ�� (�÷��̾ �ٶ󺸴� ����)
+        //transform.Rotate(Vector3.forward, angle); //Z���� �������� angle��ŭ ȸ�� (�÷��̾ �ٶ󺸴� ����)
+        transform.rotation = Quaternion.Euler(new Vector3(0, 0, angle));
     }
 
 
