@@ -22,6 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip meteoDestroySound;
     public AudioClip UFODestroySound;
 
+    [Header("Boss SFX")]
+    public AudioClip DeathRazerOnSound;
+    public AudioClip DeathRazerSound;
+
     private void Awake()
     {
         if (Instance == null)

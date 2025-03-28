@@ -11,31 +11,38 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     public Animator HUFOAnimator;
 
     public float intervalTime = 4.0f;
-    public int hp = 300;
+    public float hp = 300;
     public bool isAlive = true;
 
+    GameObject daimanji;
+    private SpriteRenderer daimanji_spriteRenderer;
+    private Color hitColor = Color.red;
+
+
     private static int currentMiniUFOCount;
+
+    private void Awake()
+    {
+        //daimanji = GameObject.FindObjectOfType
+        daimanji = transform.GetChild(1).gameObject; //1번 인덱스에있는 다이만지 가져옴
+        if (!daimanji.TryGetComponent<SpriteRenderer>(out daimanji_spriteRenderer))
+        {
+            Debug.LogError("Monster : UnFound SpriteRenderer", this);
+        }
+    }
     void Start()
     {
 
-        //Debug.Log("DeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
-        //Debug.Log("DeathRazerOn 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
-        //Debug.Log("DeathRazerAttacking 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
-        //Debug.Log("DeployingIdle 시간 : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
-        //Debug.Log("UndeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
+        Debug.Log("DeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
+        Debug.Log("DeathRazerOn 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
+        Debug.Log("DeathRazerAttacking 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
+        Debug.Log("DeployingIdle 시간 : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
+        Debug.Log("UndeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
         Debug.Log("HatchingUFO 시간 : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
 
         intervalTime = 2.0f;
         StartCoroutine(BossSkillBehavior());
         
-    }
-    private void Update()
-    {
-        if (hp <= 0)
-        {
-            isAlive = false;
-            Die();
-        }
     }
 
     IEnumerator BossSkillBehavior()
@@ -81,9 +88,11 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
         {
             DDRAnimator.SetBool("Attacking", true); //DeathRazerAttacking 애니메이션 실행 및 ShootingDeathRazer 이벤트 발생(DeathRazer 프리팹 생성 함수 실행)
             RazerEffect.SetActive(true);
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.DeathRazerOnSound);
             yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerOn")); //DeathRazerOn 애니메이션 실행 시간만큼 대기
             Debug.Log("발사 " + randomCount);
             randomCount--;
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.DeathRazerSound);
             yield return new WaitForSeconds(GetAnimationLength(DDRAnimator, "DeathRazerAttacking")); //DeathRazerAttacking 실행 시간 만큼 대기
             DDRAnimator.SetBool("Attacking", false); //DeployingIdle 애니메이션
             RazerEffect.SetActive(false);
@@ -133,9 +142,22 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
         return 0;
     }
 
+    public virtual void Damaged(float damage)
+    {
+        Debug.Log("보스가 데미지를 받음: " + damage + ", 현재 HP: " + hp);
+        hp -= damage;
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.hitSound);
+        EventManager.Instance.InvokeHitEffect(daimanji_spriteRenderer, hitColor);
+
+        if (hp <= 0)
+        {
+            Die();
+        }
+
+    }
+
     void Die()
     {
-        //플레이어의 불릿과 충돌하면 플레이어 불릿 트리거엔터함수에서 보스 hp 깎기
         //다이만지 삭제
         this.gameObject.transform.GetChild(1).gameObject.SetActive(false); //1번 인덱스에 있는게 다이만지 오브젝트 비활성화
         
