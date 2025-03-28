@@ -1,0 +1,558 @@
+fileFormatVersion: 2
+guid: ac5afa160b39efe4fa0a51fa44f53215
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1148506969000859605
+    second: Rocket_Effect_0
+  - first:
+      213: 5002718935976662949
+    second: Rocket_Effect_1
+  - first:
+      213: 5586779341831018640
+    second: Rocket_Effect_2
+  - first:
+      213: -3445361746083771552
+    second: Rocket_Effect_3
+  - first:
+      213: 4153998521860500385
+    second: Rocket_Effect_4
+  - first:
+      213: 3377717645627691426
+    second: Rocket_Effect_5
+  - first:
+      213: -9108764800740659849
+    second: Rocket_Effect_6
+  - first:
+      213: 2711783487937940725
+    second: Rocket_Effect_7
+  - first:
+      213: -1923689334266748816
+    second: Rocket_Effect_8
+  - first:
+      213: 8907515014039758614
+    second: Rocket_Effect_9
+  - first:
+      213: -4531864262975568724
+    second: Rocket_Effect_10
+  - first:
+      213: -4242801697451488757
+    second: Rocket_Effect_11
+  - first:
+      213: 1135649126364227558
+    second: Rocket_Effect_12
+  - first:
+      213: -2093584307165430758
+    second: Rocket_Effect_13
+  - first:
+      213: -4593411831028105441
+    second: Rocket_Effect_14
+  - first:
+      213: -3446178211801590961
+    second: Rocket_Effect_15
+  - first:
+      213: -6714308965384766583
+    second: Rocket_Effect_16
+  - first:
+      213: -758999595026720262
+    second: Rocket_Effect_17
+  - first:
+      213: 3983145739119015463
+    second: Rocket_Effect_18
+  - first:
+      213: 5564050212116370903
+    second: Rocket_Effect_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rocket_Effect_0
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 5
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28a4aa2ffeaf00f0800000000000000
+      internalID: -1148506969000859605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 5
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a75202ed5a3d6540800000000000000
+      internalID: 5002718935976662949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_2
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 6
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 098145c163a388d40800000000000000
+      internalID: 5586779341831018640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 6
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06b05f90fbd9f20d0800000000000000
+      internalID: -3445361746083771552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_4
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 6
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab2ef495a7f5a930800000000000000
+      internalID: 4153998521860500385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_6
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 7
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d654d8caa279180800000000000000
+      internalID: -9108764800740659849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_7
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 7
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fc8f42f6b032a520800000000000000
+      internalID: 2711783487937940725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_8
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 8
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a2dc1ebead45e0800000000000000
+      internalID: -1923689334266748816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_9
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 8
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6176c4316b9dd9b70800000000000000
+      internalID: 8907515014039758614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_11
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 9
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0acaf2e55a8e15c0800000000000000
+      internalID: -4242801697451488757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c72183a2812f2e0800000000000000
+      internalID: -2093584307165430758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_14
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 5
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f3e70d64ce040c0800000000000000
+      internalID: -4593411831028105441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_15
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4310eccc27bc20d0800000000000000
+      internalID: -3446178211801590961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_16
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 5
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b3506e19bf1d2a0800000000000000
+      internalID: -6714308965384766583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_17
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 5
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af954c1c3ed7775f0800000000000000
+      internalID: -758999595026720262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rocket_Effect_18
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 5
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 726bcc432f9f64730800000000000000
+      internalID: 3983145739119015463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3797d88542115d42af1f9b2e723514d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Rocket_Effect_0: -1148506969000859605
+      Rocket_Effect_1: 5002718935976662949
+      Rocket_Effect_11: -4242801697451488757
+      Rocket_Effect_13: -2093584307165430758
+      Rocket_Effect_14: -4593411831028105441
+      Rocket_Effect_15: -3446178211801590961
+      Rocket_Effect_16: -6714308965384766583
+      Rocket_Effect_17: -758999595026720262
+      Rocket_Effect_18: 3983145739119015463
+      Rocket_Effect_2: 5586779341831018640
+      Rocket_Effect_3: -3445361746083771552
+      Rocket_Effect_4: 4153998521860500385
+      Rocket_Effect_6: -9108764800740659849
+      Rocket_Effect_7: 2711783487937940725
+      Rocket_Effect_8: -1923689334266748816
+      Rocket_Effect_9: 8907515014039758614
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

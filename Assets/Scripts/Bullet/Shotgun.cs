@@ -1,33 +1,9 @@
-using System;
 using UnityEngine;
 
-public class P_Bullet : MonoBehaviour
+public class Shotgun : MonoBehaviour
 {
     private bool canReturn = false;
-    
-    public float speed = 30f;
     private float _damage = 50;
-
-    private void OnEnable()
-    {
-        canReturn = false;
-        Invoke(nameof(CanReturn), 0.2f);
-    }
-
-    void Update()
-    {
-        transform.Translate(Vector2.up * speed * Time.deltaTime,Space.World);
-    }
-
-    private void CanReturn()
-    {
-        canReturn = true;
-    }
-    private void OnBecameInvisible()
-    {
-        if(canReturn)
-            PoolManager.Instance.Return(gameObject);
-    }
     
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -40,9 +16,12 @@ public class P_Bullet : MonoBehaviour
                 Debug.Log("몬스터 컴포넌트 찾음, 데미지 적용: " + _damage);
                 monster.Damaged(_damage);
             }
-            
             PoolManager.Instance.Return(gameObject);
         }
     }
     
+    public void OnAnimationEnd()
+    {
+        PoolManager.Instance.Return(gameObject);
+    }
 }

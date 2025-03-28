@@ -6,7 +6,7 @@ using Random = UnityEngine.Random;
 public class DropItem : MonoBehaviour
 {
     [Header("아이템 드롭 설정")]
-    public GameObject itemPrefab;
+    public GameObject[] itemPrefab;
     public float dropChance = 100f;
     private Vector2 dropOffset = Vector2.zero;
 
@@ -26,8 +26,9 @@ public class DropItem : MonoBehaviour
         
         if (Random.Range(0f, 100f) <= dropChance)
         {
-            Vector3 spawnPosition = deathPosition + new Vector3(dropOffset.x, dropOffset.y, 0);
-            Instantiate(itemPrefab, spawnPosition, Quaternion.identity);
+                int index = Random.Range(0, itemPrefab.Length);
+                Vector3 spawnPosition = deathPosition + new Vector3(dropOffset.x, dropOffset.y, 0);
+                Instantiate(itemPrefab[index], spawnPosition, Quaternion.identity);
         }
     }
 }
