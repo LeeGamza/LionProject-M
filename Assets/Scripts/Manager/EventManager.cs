@@ -12,6 +12,7 @@ public class EventManager : MonoBehaviour
     public event Action OnAttack;
     public event Action<SpriteRenderer, Color> OnHitEffect;
     public event Action<Vector3> OnDrop;
+    public event Action OnRevive;
     
     private void Awake()
     {
@@ -56,5 +57,10 @@ public class EventManager : MonoBehaviour
     public void InvokeHitEffect(SpriteRenderer sr, Color hitColor)
     {
         OnHitEffect?.Invoke(sr, hitColor);
+    }
+
+    public void InvokeRevive()
+    {
+        OnRevive?.Invoke();
     }
 }

@@ -4,9 +4,14 @@ using Bullet;
 
 public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
 {
+    private float invincibleHitTimer = 0f;
+    private float invincibleHitInterval = 0.3f;
+    
     private readonly GameObject humanPlayer;
     private readonly FireManager fireManager;
     private readonly Player player;
+    private SpriteRenderer humanSprite;
+    private readonly Color hitColor = new Color32(179,179,179,255);
     
     private readonly Transform muzzleMiddle;
     
@@ -52,6 +57,21 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
     {
         float horizontal = player.GetInputValue();
         
+        if (player.IsInvincible)
+        {
+            invincibleHitTimer += Time.deltaTime;
+
+            if (invincibleHitTimer >= invincibleHitInterval)
+            {
+                invincibleHitTimer = 0f;
+                EventManager.Instance.InvokeHitEffect(humanSprite, hitColor);
+            }
+        }
+        else
+        {
+            invincibleHitTimer = 0f;
+        }
+        
         if (horizontal > 0f)
         {
             pistolHumanAnimator.SetBool("isRight",true);
@@ -96,8 +116,6 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
     {
         pistolHumanAnimator.SetTrigger("isDead");
         
-        player.SetDead();
-        
         if (player.TryGetComponent<Rigidbody2D>(out var rb))
         {
             rb.gravityScale = 4f;
@@ -106,6 +124,7 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
         float deathTime = GetDeathAnimLength();
         DOVirtual.DelayedCall(deathTime, () =>
         {
+            player.SetDead();
             player.KillPlayer();
         });
     }
@@ -126,6 +145,7 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
         if (pistolHuman != null)
         {
             pistolHuman.TryGetComponent(out pistolHumanAnimator);
+            pistolHuman.TryGetComponent(out humanSprite);
         }
 
         if (booster != null)

@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using UnityEngine;
@@ -29,6 +30,11 @@ public class Player : MonoBehaviour
     [SerializeField] private float movementSpeed = 5f;
     
     private bool isDead = false;
+    private bool constrainToScreen = false;
+    private bool isInvincible = false;
+    private bool canRevive = false;
+    private Tween invincibleTween;
+    public bool IsInvincible => isInvincible;
     public bool IsDead => isDead;
     
     private void Awake()
@@ -73,6 +79,9 @@ public class Player : MonoBehaviour
         {
             Vector3 movementVector = movement.CalculateMovement();
             transform.Translate(movementVector, Space.World);
+        }
+        if (constrainToScreen)
+        {
             transform.position = movement.CantEscapeScreen();
         }
         
@@ -86,6 +95,8 @@ public class Player : MonoBehaviour
     
     public void TakeDamage()
     {
+        if (isInvincible) return;
+        
         if (stateMachine.CurrentState is IDamageable damageable)
         {
             damageable.TakeHit();
@@ -119,5 +130,48 @@ public class Player : MonoBehaviour
             stateMachine.OnPickupItem();
             Destroy(other.gameObject);
         }
+    }
+
+    public void StartInvincibility(float duration = 1f)
+    {
+        isInvincible = true;
+        invincibleTween?.Kill();
+
+        invincibleTween = DOVirtual.DelayedCall(duration, () =>
+        {
+            isInvincible = false;
+            Debug.Log("Not Invincible Mode");
+        });
+    }
+    public bool CanRevive()
+    {
+        return isDead && !isInvincible;
+    }
+
+    public void Revive()
+    {
+        if (isDead)
+        {
+            gameObject.SetActive(true);
+            GoPosition();
+
+            if (TryGetComponent<Rigidbody2D>(out var rb))
+            {
+                rb.gravityScale = 0f;
+            }
+            StartInvincibility();
+        }
+        isDead = false;
+    }
+
+    public void GoPosition(float targetY = -3.2f, float duration = 1.2f)
+    {
+        constrainToScreen = false;
+        transform.DOMoveY(targetY, duration).SetEase(Ease.OutCubic).
+            OnComplete(() => 
+            {
+            constrainToScreen = true; 
+            });
+        constrainToScreen = true;
     }
 }
