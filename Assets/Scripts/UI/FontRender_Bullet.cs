@@ -20,6 +20,13 @@ public class FontRender_Bullet : MonoBehaviour
 
     }
 
+    public void SetBullet(int number)
+    {
+        CurrentBullet = number;
+        RenderNumberImage(CurrentBullet);
+    }
+
+
 
     public void RenderNumberImage(int number)
     {

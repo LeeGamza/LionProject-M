@@ -55,9 +55,9 @@ MonoBehaviour:
     m_Top: 0
     m_Bottom: 0
   m_ChildAlignment: 0
-  m_Spacing: -30
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 0
   m_ChildControlHeight: 0
   m_ChildScaleWidth: 0
@@ -117,4 +117,5 @@ MonoBehaviour:
   - {fileID: -5172182217284097228, guid: 38ed3a9e5874bb5488271c8bb8e884e3, type: 3}
   - {fileID: -5718644966324309718, guid: 38ed3a9e5874bb5488271c8bb8e884e3, type: 3}
   spaceWidth: 40
-  fontSize: 40
+  fontSizeX: 50
+  fontSizeY: 50
