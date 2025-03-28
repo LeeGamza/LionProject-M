@@ -43,6 +43,20 @@ public class P_Bullet : MonoBehaviour
             
             PoolManager.Instance.Return(gameObject);
         }
+
+
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Boss")
+        {
+            BossBehaviour boss = collision.GetComponent<BossBehaviour>();
+
+            if (boss != null)
+            {
+                Debug.Log("보스 컴포넌트 찾음, 데미지 적용: " + _damage);
+                boss.Damaged(_damage);
+            }
+
+            PoolManager.Instance.Return(gameObject);
+        }
     }
     
 }

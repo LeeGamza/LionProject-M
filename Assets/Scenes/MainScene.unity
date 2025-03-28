@@ -2076,6 +2076,8 @@ MonoBehaviour:
   laserSound2: {fileID: 8300000, guid: 834603a3e07a1ad4f9b8ceda13706cd0, type: 3}
   meteoDestroySound: {fileID: 8300000, guid: 005169a9c711a1f42971a03158cbc61c, type: 3}
   UFODestroySound: {fileID: 8300000, guid: e9a5f95f2442abc4091cda0eb343ecb4, type: 3}
+  DeathRazerOnSound: {fileID: 8300000, guid: efbd84c7d65664840a79b483ed1dd712, type: 3}
+  DeathRazerSound: {fileID: 8300000, guid: fb246fe154ea56e4f85fcf5f9413014b, type: 3}
 --- !u!4 &1968897416
 Transform:
   m_ObjectHideFlags: 0

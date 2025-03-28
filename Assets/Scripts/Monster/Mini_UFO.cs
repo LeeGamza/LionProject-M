@@ -7,6 +7,7 @@ public class Mini_UFO : Monster
     public GameObject bullet;
     public float attackDuration = 0.8f;
     public float waitAfterAttack = 1.5f;
+    public bool isSpawned = false;
 
     private Vector2 startPos;
     private Vector2 endPos;
@@ -53,7 +54,9 @@ public class Mini_UFO : Monster
 
     IEnumerator MoveObject()
     {
-        if (startPos == new Vector2(0, 0))
+        if (isSpawned)
+            startPos = this.transform.position;
+        else if (startPos == new Vector2(0, 0))
             startPos = GetPosOutside();
         else
             startPos = transform.position;

@@ -9,8 +9,9 @@ public class HatchingUFO : MonoBehaviour
         
     }
 
-    void SpawnUFO() //Hatching UFO ¾Ö´Ï¸ŞÀÌ¼Ç Ã¢ÀÇ ¸Ç ³¡ ÇÁ·¹ÀÓ¿¡¼­ È£ÃâÇÒ ÇÔ¼ö
+    void SpawnUFO() //Hatching UFO ì• ë‹ˆë©”ì´ì…˜ ì°½ì˜ ë§¨ ë í”„ë ˆì„ì—ì„œ í˜¸ì¶œí•  í•¨ìˆ˜
     {
-        GameObject miniUFO = Instantiate(MiniUFOPrefab, new Vector3(bossTransform.position.x - 0.177f, bossTransform.position.y - 3.531f, 0), Quaternion.identity); //´ÙÀÌ¸¸Áö ±âÁØ À§Ä¡ ¼³Á¤
+        GameObject miniUFO = Instantiate(MiniUFOPrefab, new Vector3(bossTransform.position.x - 0.177f, bossTransform.position.y - 3.531f, 0), Quaternion.identity); //ë‹¤ì´ë§Œì§€ ê¸°ì¤€ ìœ„ì¹˜ ì„¤ì •
+        miniUFO.GetComponent<Mini_UFO>().isSpawned = true;
     }
 }
