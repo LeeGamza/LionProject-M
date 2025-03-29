@@ -8,6 +8,7 @@ public class FireManager
     private GameObject[] effectPrefabs;
     private BulletType bulletType = BulletType.Basic;
     private int curruntammo;
+    public BulletType CurrentBulletType => bulletType;
 
     public void Fire()
     {
@@ -16,7 +17,14 @@ public class FireManager
             if (muzzles[i] != null && muzzles[i].gameObject.activeInHierarchy)
             {
                 Quaternion bulletRotation = Quaternion.Euler(0f, 0f, 90f);
-                BulletFactory.CreateBullet(bulletType, muzzles[i].position, bulletRotation);
+                if (bulletType == BulletType.Shotgun)
+                {
+                    BulletFactory.CreateBullet(bulletType, muzzles[i].position + Vector3.up * 2f, bulletRotation);
+                }
+                else
+                {
+                    BulletFactory.CreateBullet(bulletType, muzzles[i].position, bulletRotation);
+                }
                 curruntammo--;
                 Debug.Log(curruntammo);
 
@@ -24,11 +32,11 @@ public class FireManager
                 {
                     if (i == 0)
                     {
-                        Object.Instantiate(effectPrefabs[0], muzzles[i].position, Quaternion.identity);
+                        Object.Instantiate(effectPrefabs[0], muzzles[i].position + Vector3.up * 0.5f, Quaternion.identity);
                     }
                     else
                     {
-                        Object.Instantiate(effectPrefabs[1], muzzles[i].position, Quaternion.identity);
+                        Object.Instantiate(effectPrefabs[1], muzzles[i].position + Vector3.up * 0.5f, Quaternion.identity);
                     }
                 }
             }
