@@ -6,6 +6,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     public GameObject DeployingDeathRazerObject;
     public GameObject HatchingUFOObject;
     public GameObject RazerEffect;
+    public GameObject Explosion;
 
     public Animator DDRAnimator;
     public Animator HUFOAnimator;
@@ -23,7 +24,6 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
     private void Awake()
     {
-        //daimanji = GameObject.FindObjectOfType
         daimanji = transform.GetChild(1).gameObject; //1번 인덱스에있는 다이만지 가져옴
         if (!daimanji.TryGetComponent<SpriteRenderer>(out daimanji_spriteRenderer))
         {
@@ -33,12 +33,12 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     void Start()
     {
 
-        Debug.Log("DeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
-        Debug.Log("DeathRazerOn 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
-        Debug.Log("DeathRazerAttacking 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
-        Debug.Log("DeployingIdle 시간 : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
-        Debug.Log("UndeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
-        Debug.Log("HatchingUFO 시간 : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
+        //Debug.Log("DeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
+        //Debug.Log("DeathRazerOn 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
+        //Debug.Log("DeathRazerAttacking 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
+        //Debug.Log("DeployingIdle 시간 : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
+        //Debug.Log("UndeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
+        //Debug.Log("HatchingUFO 시간 : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
 
         intervalTime = 2.0f;
         StartCoroutine(BossSkillBehavior());
@@ -151,18 +151,20 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
         if (hp <= 0)
         {
-            Die();
+            //러그네임에 폭발이 일어나는 효과 붙이기
+            isAlive = false;
+            Explosion.SetActive(true);
+            Invoke("Die", 3.0f);
         }
 
     }
 
     void Die()
     {
-        //다이만지 삭제
+        //다이만지 비활성화
         this.gameObject.transform.GetChild(1).gameObject.SetActive(false); //1번 인덱스에 있는게 다이만지 오브젝트 비활성화
-        
-        //러그네임에 폭발이 일어나는 효과 붙이기
-
+        Destroy(this); // 이 스크립트 삭제
+       
     }
 
     //void ShootDeathRazer()
