@@ -15,7 +15,10 @@ public class AudioManager : MonoBehaviour
 
     [Header("SFX Clips")] 
     public AudioClip pickup_machineGun;
+    public AudioClip pickup_ShotGun;
 
+    public AudioClip insertCoin;
+    public AudioClip deathSound;
     public AudioClip hitSound;
     public AudioClip laserSound1;
     public AudioClip laserSound2;

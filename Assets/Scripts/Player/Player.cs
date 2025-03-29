@@ -1,3 +1,4 @@
+using Bullet;
 using DG.Tweening;
 using System;
 using System.Collections;
@@ -127,9 +128,16 @@ public class Player : MonoBehaviour
         if (other.CompareTag("Item"))
         {
             AudioManager.Instance.PlaySFX(AudioManager.Instance.pickup_machineGun);
-            stateMachine.OnPickupItem();
+            fireManager.SetBulletType(BulletType.MachinGun);
             Destroy(other.gameObject);
         }
+        else if (other.CompareTag("ShotGun"))
+        {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.pickup_ShotGun);
+            fireManager.SetBulletType(BulletType.Shotgun);
+            Destroy(other.gameObject);
+        }
+        stateMachine.OnPickupItem();
     }
 
     public void StartInvincibility(float duration = 1f)

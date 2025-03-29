@@ -31,6 +31,7 @@ public class InputManager : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.A))
         {
+            AudioManager.Instance.PlaySFX(AudioManager.Instance.insertCoin);
             EventManager.Instance.InvokeStartGame();
         }
 

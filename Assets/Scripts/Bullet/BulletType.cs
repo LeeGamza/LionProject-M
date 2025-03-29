@@ -6,7 +6,7 @@ namespace Bullet
     {
         Basic,
         MachinGun,
-        Shutgun,
+        Shotgun,
         Rocket
     }
 
@@ -18,7 +18,7 @@ namespace Bullet
             {
                 BulletType.Basic => -1,         
                 BulletType.MachinGun => 200,
-                BulletType.Shutgun => 30,
+                BulletType.Shotgun => 30,
                 BulletType.Rocket => 10,
             };
         }

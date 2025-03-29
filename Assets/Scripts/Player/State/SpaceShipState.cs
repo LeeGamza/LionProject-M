@@ -129,7 +129,6 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
     public void OnPickupItem()
     {
         fireManager.UpgradeMuzzles(muzzleLeftRight);
-        fireManager.SetBulletType(BulletType.MachinGun);
         if (!isMachingunEquip)
         {
             rightAnimator.SetBool("isSpaceAmmo", true);
