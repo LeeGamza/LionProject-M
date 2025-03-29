@@ -1424,6 +1424,14 @@ PrefabInstance:
       propertyPath: NumberToDisplay
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 1107788972531040248, guid: ffbf096cffd024447948b193ab245cc4, type: 3}
+      propertyPath: numberSprites.Array.size
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1107788972531040248, guid: ffbf096cffd024447948b193ab245cc4, type: 3}
+      propertyPath: 'numberSprites.Array.data[10]'
+      value: 
+      objectReference: {fileID: 1347148140177722984, guid: c6a44ebb133cffa4485e77ce44444661, type: 3}
     - target: {fileID: 3052382699600661612, guid: ffbf096cffd024447948b193ab245cc4, type: 3}
       propertyPath: m_Spacing
       value: 0
