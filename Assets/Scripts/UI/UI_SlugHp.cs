@@ -12,12 +12,19 @@ public class UI_SlugHp : MonoBehaviour
 
     public float fontSize = 50f;
 
-    private const int totalSlots = 7;  // HP ¹Ù ³»ºÎ Ä­ °³¼ö
-    private const int spriteSteps = 9; // ÇÑ Ä­´ç 9°³ÀÇ ½ºÇÁ¶óÀÌÆ®
+    private const int totalSlots = 7;  // HP ë°” ë‚´ë¶€ ì¹¸ ê°œìˆ˜
+    private const int spriteSteps = 9; // í•œ ì¹¸ë‹¹ 9ê°œì˜ ìŠ¤í”„ë¼ì´íŠ¸
     private const int totalSteps = totalSlots * spriteSteps; 
 
     void Start()
     {   
+        UpdateHPBar(SlugHp, MaxHp);
+    }
+
+
+    void SetHP(int Hp)
+    {
+        SlugHp = Hp;
         UpdateHPBar(SlugHp, MaxHp);
     }
 
@@ -34,7 +41,7 @@ public class UI_SlugHp : MonoBehaviour
 
         if (maxHP <= 0) return; 
 
-        int filledSteps = Mathf.RoundToInt((currentHP / (float)maxHP) * totalSteps); // ÇöÀç HP ºñÀ² °è»ê
+        int filledSteps = Mathf.RoundToInt((currentHP / (float)maxHP) * totalSteps); // í˜„ì¬ HP ë¹„ìœ¨ ê³„ì‚°
 
        
         CreateLetterImage(HpSprites, 0, "HP_Left");
