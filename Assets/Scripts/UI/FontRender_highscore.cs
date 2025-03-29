@@ -8,6 +8,7 @@ public class FontRender_highscore : MonoBehaviour
     public Transform parentContainer; 
     public Sprite[] letterSprites; // "High_Score_0" ~ "High_Score_25" (A-Z)
     public Sprite[] numberSprites; // "High_Score_26" ~ "High_Score_36" (0-10)
+    public Sprite[] symbolSprites; // 
     public float spaceWidth = 50f;
     public float fontSizeX = 50f;
     public float fontSizeY = 50f;
@@ -15,6 +16,11 @@ public class FontRender_highscore : MonoBehaviour
     void Start()
     {
         RenderTextImage(textToDisplay);
+    }
+
+    public void SetText(string text)
+    {
+        RenderTextImage(text);
     }
 
     public void RenderTextImage(string text)
@@ -25,26 +31,34 @@ public class FontRender_highscore : MonoBehaviour
             Destroy(child.gameObject);
         }
 
-        // ¹®ÀÚ¿­À» ÇÑ ±ÛÀÚ¾¿ Ã³¸®
+        // ë¬¸ìžì—´ì„ í•œ ê¸€ìžì”© ì²˜ë¦¬
         foreach (char c in text.ToUpper()) 
         {
-            if (c == ' ') // °ø¹é Ã³¸®
+            if (c == ' ') // ê³µë°± ì²˜ë¦¬
             {
                 CreateSpace();
             }
-            else if (c >= 'A' && c <= 'Z') // ¾ËÆÄºª Ã³¸®
+            else if (c >= 'A' && c <= 'Z') // ì•ŒíŒŒë²³ ì²˜ë¦¬
             {
                 int index = c - 'A';
                 CreateLetterImage(letterSprites, index, c.ToString());
             }
-            else if (c >= '0' && c <= '9') // ¼ýÀÚ Ã³¸®
+            else if (c >= '0' && c <= '9') // ìˆ«ìž ì²˜ë¦¬
             {
                 int index = (c - '0') + 26;
                 CreateLetterImage(numberSprites, index - 26, c.ToString());
             }
             else if (c == '!')
             {
-                CreateLetterImage(numberSprites, 10, c.ToString());
+                CreateLetterImage(symbolSprites, 0, c.ToString());
+            }
+            else if (c == '?')
+            {
+                CreateLetterImage(symbolSprites, 1, c.ToString());
+            }
+            else if (c == '.')
+            {
+                CreateLetterImage(symbolSprites, 2, c.ToString());
             }
         }
     }
