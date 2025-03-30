@@ -15,7 +15,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3149438417560014222
 RectTransform:
   m_ObjectHideFlags: 0
@@ -198,6 +198,18 @@ PrefabInstance:
       propertyPath: textToDisplay
       value: MISSION 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: symbolSprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: 'symbolSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -863802333627521256, guid: c69d9ae5ae6db73459047c86a0a1fb8a, type: 3}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: 'symbolSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 7524634140998543608, guid: c69d9ae5ae6db73459047c86a0a1fb8a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -227,7 +239,7 @@ MonoBehaviour:
   targetPoint: {fileID: 3149438417560014222}
   moveDistance: 500
   moveDuration: 1
-  delayBeforeStart: 2
+  delay: 2
 --- !u!224 &3829486146233779733 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 563368450272045639, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
@@ -349,6 +361,18 @@ PrefabInstance:
       propertyPath: textToDisplay
       value: start !
       objectReference: {fileID: 0}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: symbolSprites.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: 'symbolSprites.Array.data[0]'
+      value: 
+      objectReference: {fileID: -863802333627521256, guid: c69d9ae5ae6db73459047c86a0a1fb8a, type: 3}
+    - target: {fileID: 5111101917165891605, guid: 4c3255093ef749840bd02bd94f739616, type: 3}
+      propertyPath: 'symbolSprites.Array.data[1]'
+      value: 
+      objectReference: {fileID: 7524634140998543608, guid: c69d9ae5ae6db73459047c86a0a1fb8a, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -396,7 +420,7 @@ MonoBehaviour:
   targetPoint: {fileID: 1872243229033360307}
   moveDistance: 500
   moveDuration: 1
-  delayBeforeStart: 2
+  delay: 2
 --- !u!224 &7191356803591197732 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 563368450272045639, guid: 4c3255093ef749840bd02bd94f739616, type: 3}

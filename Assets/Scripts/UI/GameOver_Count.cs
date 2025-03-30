@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class GameOver_Count : MonoBehaviour
 {
     public FontRender_highscore Count;
-    public GameOver_dead gameOverDead;
+    private GameObject player;
 
     private int countNum = 9;
     private bool isPlayerLive = true;
@@ -14,14 +14,22 @@ public class GameOver_Count : MonoBehaviour
 
     void Start()
     {
-        isPlayerLive = gameOverDead.Getisplayerlive();
+        player = GameObject.FindWithTag("Player");
         Count = GetComponent<FontRender_highscore>();
     }
 
     void Update()
     {
-        // 플레이어 생존 상태 업데이트
-        isPlayerLive = gameOverDead.Getisplayerlive();
+        player = GameObject.FindWithTag("Player");
+
+        if (player != null)
+        {
+            isPlayerLive = true;
+        }
+        else
+        {
+            isPlayerLive = false;
+        }
 
         // Q 키를 눌렀을 때 카운트다운 초기화
         if (Input.GetKeyDown(KeyCode.Q))
@@ -43,10 +51,6 @@ public class GameOver_Count : MonoBehaviour
 
         while (countNum > 0)
         {
-            if (countNum == 10)
-            {
-                Count.SetText("9".ToString());
-            }
 
             yield return new WaitForSeconds(1f);
 
@@ -88,17 +92,12 @@ public class GameOver_Count : MonoBehaviour
 
     private void ResetCountdown()
     {
-        Debug.Log("ResetCountdown called."); // 디버깅: 함수 호출 확인
-
-        // 모든 코루틴 중지
         StopAllCoroutines();
 
-        // 상태 초기화
         isCountingDown = false;
-        countNum = 10;
+        countNum = 9;
         isGameOver = false;
 
-        // UI 즉시 업데이트
         Count.SetText(countNum.ToString());
     }
 }

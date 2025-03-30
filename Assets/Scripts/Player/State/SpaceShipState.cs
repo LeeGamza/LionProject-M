@@ -151,4 +151,6 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
         }
         
     }
+
+
 }
