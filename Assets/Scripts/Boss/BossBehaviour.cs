@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System.Collections;
 using UnityEngine;
 
@@ -32,7 +33,9 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     }
     void Start()
     {
+        transform.DOMoveY(transform.position.y - 4, 2.0f);
 
+        //transform.position = transform.position - new Vector3(0, 2f, 0);
         //Debug.Log("DeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "DeployingDeathRazer"));
         //Debug.Log("DeathRazerOn 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerOn"));
         //Debug.Log("DeathRazerAttacking 시간 : " + GetAnimationLength(DDRAnimator, "DeathRazerAttacking"));
