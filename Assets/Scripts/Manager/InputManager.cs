@@ -29,11 +29,11 @@ public class InputManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.S)) EventManager.Instance?.InvokeDownMove();
         if (Input.GetKeyDown(KeyCode.Space)) EventManager.Instance?.InvokeAttack();
 
-        if (Input.GetKeyDown(KeyCode.A))
+        /*if (Input.GetKeyDown(KeyCode.A))
         {
             AudioManager.Instance.PlaySFX(AudioManager.Instance.insertCoin);
             EventManager.Instance.InvokeStartGame();
-        }
+        }*/
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
