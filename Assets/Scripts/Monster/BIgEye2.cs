@@ -5,19 +5,22 @@ public class BIgEye2 : MonoBehaviour
 {
     public Transform target;
     public Ease Ease1;
-    public float followDelay = 0.5f;
-
+    public float followDelay = 0.0f;
 
     private Vector3 startPos;
     private Vector3 midPos;
     private Vector3 endPos;
+    private Vector3 addPos1;
+    private Vector3 addPos2;
 
     void Start()
     {
-        // 몬스터1의 경로 따라감
+        addPos1 = new Vector3(12f, -1f, 0);
+        addPos2 = new Vector3(0, -2f, 0);
+
         startPos = target.position;
-        midPos = target.position + new Vector3(12f, -1f, 0);
-        endPos = target.position + new Vector3(0, -2f, 0);
+        midPos = target.position + addPos1;
+        endPos = target.position + addPos2;
         Vector3[] path = { startPos, midPos, endPos };
 
         transform.DOPath(path, 3f, PathType.CatmullRom)
