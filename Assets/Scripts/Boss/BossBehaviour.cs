@@ -159,6 +159,11 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
     public virtual void Damaged(float damage)
     {
+        if (this.hp < 0) //피가 0이하가 되고 나서 총알이 계속 들어오면 함수 밖으로 리턴시켜버림
+        {
+            return;
+        }
+
         Debug.Log("보스가 데미지를 받음: " + damage + ", 현재 HP: " + hp);
         hp -= damage;
         AudioManager.Instance.PlaySFX(AudioManager.Instance.hitSound);
@@ -169,6 +174,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
             //러그네임에 폭발이 일어나는 효과 붙이기
             isAlive = false;
             Explosion.SetActive(true);
+            StopAllCoroutines();
             Invoke("Die", 3.0f);
         }
 
