@@ -86,7 +86,13 @@ public class VideoManager : MonoBehaviour
         string currentScene = SceneManager.GetActiveScene().name;
 
         if (currentScene == "EndingScene")
-            SceneManager.LoadScene("MainScene");
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+    Application.Quit();
+#endif
+        }
         else if(currentScene == "FirstScene")
             SceneManager.LoadScene("SecondStage");
     }

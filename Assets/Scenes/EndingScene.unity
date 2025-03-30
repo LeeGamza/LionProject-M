@@ -368,7 +368,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -458,8 +458,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0, y: -18.4842}
-  m_SizeDelta: {x: 1077.2644, y: 871.1029}
+  m_AnchoredPosition: {x: -0.00028988, y: -3.5985}
+  m_SizeDelta: {x: 800, y: 814.2669}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680150676
 MonoBehaviour:
@@ -858,5 +858,5 @@ SceneRoots:
   - {fileID: 608446986}
   - {fileID: 1280902239}
   - {fileID: 343698276}
-  - {fileID: 491164872}
   - {fileID: 1916247807}
+  - {fileID: 491164872}
