@@ -31,7 +31,7 @@ public class GameOver : MonoBehaviour
 
         scoreCanvas.alpha = 1;
         yield return StartCoroutine(ChangeWidthOverTime(scoreCavasSize, 804f, 1f));
-        //yield return StartCoroutine(scoreDisplay);
+        yield return StartCoroutine(scoreDisplay());
 
 
         isScoreDisplayed = true;
@@ -86,9 +86,22 @@ public class GameOver : MonoBehaviour
         rectTransform.sizeDelta = new Vector2(targetWidth, rectTransform.sizeDelta.y);
     }
 
-    private IEnumerator scoreDisplay ()
+    private IEnumerator scoreDisplay()
     {
-        yield return null;
+  
+        for (int i = 0; i < scoreCanvas.transform.childCount; i++)
+        {
+            Transform child = scoreCanvas.transform.GetChild(i);
+            child.gameObject.SetActive(false);
+        }
+
+   
+        for (int i = 0; i < scoreCanvas.transform.childCount; i++)
+        {
+            Transform child = scoreCanvas.transform.GetChild(i);
+            child.gameObject.SetActive(true);
+            yield return new WaitForSeconds(0.1f); 
+        }
     }
 
 }
