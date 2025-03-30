@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class CompleteMission : MonoBehaviour
@@ -38,9 +39,13 @@ public class CompleteMission : MonoBehaviour
 
         isGameEnded = true;
         endingPanel.SetActive(true);
-        AudioManager.Instance.StopBGM();
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.missionComplete);
-
+        StartCoroutine(LoadEndingScene());
+    }
+    
+    private IEnumerator LoadEndingScene()
+    {
+        yield return new WaitForSeconds(3f); // 3초 대기
+        UnityEngine.SceneManagement.SceneManager.LoadScene("EndingScene");
     }
 
 
