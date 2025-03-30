@@ -5,8 +5,8 @@ public class P_Bullet : MonoBehaviour
 {
     private bool canReturn = false;
     
-    public float speed = 30f;
-    private float _damage = 50;
+    public float speed = 30f; 
+    [SerializeField] private float _damage = 25;
 
     private void OnEnable()
     {

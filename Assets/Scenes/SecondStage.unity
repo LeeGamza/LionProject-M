@@ -894,7 +894,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameOver: {fileID: 4255810295530324270}
-  timeGameOver: {fileID: 1966814567}
   fadeCanvasGroup: {fileID: 649087407}
   fadeDuration: 2.5
   gameOverSceneName: GameOver
@@ -1966,7 +1965,7 @@ MonoBehaviour:
   itemPrefab:
   - {fileID: 5404594527763005723, guid: 52f246fa3b8d9784a84d4ee48b008306, type: 3}
   - {fileID: 7532821926061755775, guid: 242d3411830b34e44aecf6e96f5106aa, type: 3}
-  dropChance: 10
+  dropChance: 5
 --- !u!1 &1634234087
 GameObject:
   m_ObjectHideFlags: 0
@@ -2404,17 +2403,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e813b096a522b224d8ead98e59e90748, type: 3}
---- !u!114 &1966814567 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7754736896197271126, guid: e813b096a522b224d8ead98e59e90748, type: 3}
-  m_PrefabInstance: {fileID: 1966814566}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b274a4660c776054da388d6d10432659, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2059228255
 GameObject:
   m_ObjectHideFlags: 0
@@ -2447,42 +2435,42 @@ MonoBehaviour:
   waves:
   - enemyPrefabs:
     - {fileID: 4648627136364222824, guid: 6162b8f6e814ef5469d7f0c8d4603688, type: 3}
-    enemyCount: 2
+    enemyCount: 40
     spawnInterval: 0.5
     useRandomSpawn: 1
-    spawnPosition: {x: 0, y: 6}
+    spawnPosition: {x: 0, y: 10}
   - enemyPrefabs:
     - {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
-    enemyCount: 2
-    spawnInterval: 0.5
+    enemyCount: 30
+    spawnInterval: 1
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
     - {fileID: 5901543284200072010, guid: 0d9eeaca8d71f1d4aa5c2bd17b42fc48, type: 3}
-    enemyCount: 2
-    spawnInterval: 0.5
+    enemyCount: 40
+    spawnInterval: 1
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
     - {fileID: 4648627136364222824, guid: 6162b8f6e814ef5469d7f0c8d4603688, type: 3}
     - {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
-    enemyCount: 2
-    spawnInterval: 0.5
+    enemyCount: 50
+    spawnInterval: 0.8
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
     - {fileID: 4648627136364222824, guid: 6162b8f6e814ef5469d7f0c8d4603688, type: 3}
     - {fileID: 5901543284200072010, guid: 0d9eeaca8d71f1d4aa5c2bd17b42fc48, type: 3}
-    enemyCount: 2
-    spawnInterval: 0.5
+    enemyCount: 40
+    spawnInterval: 1
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
     - {fileID: 5901543284200072010, guid: 0d9eeaca8d71f1d4aa5c2bd17b42fc48, type: 3}
     - {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
     - {fileID: 4648627136364222824, guid: 6162b8f6e814ef5469d7f0c8d4603688, type: 3}
-    enemyCount: 2
-    spawnInterval: 0.5
+    enemyCount: 70
+    spawnInterval: 0.8
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
@@ -2492,12 +2480,18 @@ MonoBehaviour:
     spawnInterval: 0.5
     useRandomSpawn: 1
     spawnPosition: {x: 0, y: 6}
+  - enemyPrefabs:
+    - {fileID: 6942345022410355480, guid: bcefba930f01d374488835f23057874f, type: 3}
+    enemyCount: 1
+    spawnInterval: 0.5
+    useRandomSpawn: 0
+    spawnPosition: {x: 0, y: 10}
   - enemyPrefabs:
     - {fileID: 2934036859472714980, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
     enemyCount: 1
     spawnInterval: 0.5
     useRandomSpawn: 0
-    spawnPosition: {x: 0, y: 6}
+    spawnPosition: {x: 0, y: 8}
 --- !u!4 &2059228257
 Transform:
   m_ObjectHideFlags: 0

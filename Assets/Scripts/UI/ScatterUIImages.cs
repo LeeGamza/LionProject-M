@@ -18,7 +18,7 @@ public class ScatterUIImages : MonoBehaviour
     IEnumerator StartScatter()
     {
         yield return new WaitForSeconds(delay); 
-
+        
         HorizontalLayoutGroup layoutGroup = parentContainer.GetComponent<HorizontalLayoutGroup>();
         if (layoutGroup != null) layoutGroup.enabled = false; 
 

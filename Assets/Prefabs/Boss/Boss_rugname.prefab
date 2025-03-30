@@ -464,7 +464,7 @@ MonoBehaviour:
   DDRAnimator: {fileID: 5402312913299029675}
   HUFOAnimator: {fileID: 6615776457695794818}
   intervalTime: 4
-  hp: 1000
+  hp: 5000
   isAlive: 1
 --- !u!61 &2463280146961380931
 BoxCollider2D:

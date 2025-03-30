@@ -23,7 +23,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip laserSound1;
     public AudioClip laserSound2;
     public AudioClip meteoDestroySound;
-    public AudioClip UFODestroySound;
+    public AudioClip uFODestroySound;
+    public AudioClip missionStart;
+    public AudioClip missionComplete;
 
     [Header("Boss SFX")]
     public AudioClip DeathRazerOnSound;
@@ -83,5 +85,9 @@ public class AudioManager : MonoBehaviour
     public void PlaySFX(AudioClip clip)
     {
         sfxSource.PlayOneShot(clip);
+    }
+    public void StopBGM()
+    {
+        bgmSource.Stop();
     }
 }

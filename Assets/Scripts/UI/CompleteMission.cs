@@ -38,7 +38,8 @@ public class CompleteMission : MonoBehaviour
 
         isGameEnded = true;
         endingPanel.SetActive(true);
-
+        AudioManager.Instance.StopBGM();
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.missionComplete);
 
     }
 

@@ -30,7 +30,7 @@ public class Mini_UFO : Monster
 
     private void OnDestroy()
     {
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.uFODestroySound);
     }
 
     IEnumerator StateLoop()
