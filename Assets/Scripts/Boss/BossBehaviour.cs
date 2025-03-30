@@ -39,15 +39,30 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
         //Debug.Log("DeployingIdle 시간 : " + GetAnimationLength(DDRAnimator, "DeployingIdle"));
         //Debug.Log("UndeployingDeathRazer 시간 : " + GetAnimationLength(DDRAnimator, "UndeployingDeathRazer"));
         //Debug.Log("HatchingUFO 시간 : " + GetAnimationLength(HUFOAnimator, "HatchingUFO"));
-
+        StartCoroutine(Entrance());
         intervalTime = 2.0f;
         StartCoroutine(BossSkillBehavior());
+    }
+
+    IEnumerator Entrance()
+    {
+        Debug.Log("등장");
+        float moveSpeed = 3.0f;
+        float time = 0;
+        while (time < 3) // y값 3정도 내려오게 설정
+        {
+            time += Time.deltaTime * moveSpeed;
+            this.transform.position += Vector3.down * moveSpeed * Time.deltaTime;
+            yield return null;
+        }
         
     }
 
     IEnumerator BossSkillBehavior()
     {
-        while(isAlive) //살아있다면 무한반복
+        yield return new WaitForSeconds(3.0f); // 등장 시간동안 대기
+
+        while (isAlive) //살아있다면 무한반복
         {
             //각각의 스킬 시간만큼 대기
             Debug.Log("스킬 대기시간 : " + intervalTime);
@@ -117,7 +132,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
         Debug.Log("---현재 몬스터 수 : " + currentMiniUFOCount);
         intervalTime = (3 - currentMiniUFOCount) * GetAnimationLength(HUFOAnimator, "HatchingUFO") + 2.0f;
         //3마리가 될 때 까지 계속 생산
-        while (currentMiniUFOCount < 3)
+        while (currentMiniUFOCount < 5)
         {
             Debug.Log("UFO 스폰");
             currentMiniUFOCount++;

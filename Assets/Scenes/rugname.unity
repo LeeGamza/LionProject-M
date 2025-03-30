@@ -391,7 +391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2934036859472714980, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8631208600471709068, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8631208600471709068, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5
+      value: 8.2
       objectReference: {fileID: 0}
     - target: {fileID: 8631208600471709068, guid: 3258f780d7988384f99a4cbea38091b1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -497,6 +497,10 @@ PrefabInstance:
     - target: {fileID: 6942345022410355480, guid: bcefba930f01d374488835f23057874f, type: 3}
       propertyPath: m_Name
       value: DaiManji
+      objectReference: {fileID: 0}
+    - target: {fileID: 6942345022410355480, guid: bcefba930f01d374488835f23057874f, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

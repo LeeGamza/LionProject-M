@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Daimanji : Monster
 {
-    public float outsideOffset = 2f; // 카메라 밖 위치 오프셋
+    public float outsideOffset = 5f; // 카메라 밖 위치 오프셋
     private Vector2 startPos;
     private Vector2 endPos;
     private Camera mainCamera;
@@ -29,8 +29,6 @@ public class Daimanji : Monster
     {
         moveSpeed = 1f;
         mainCamera = Camera.main;
-        this.hp = 1000f;
-
         StartCoroutine(SkillLoop());
         StartCoroutine(MoveLoop());
 
@@ -136,6 +134,11 @@ public class Daimanji : Monster
 
         public override void Damaged(float damage)
         {
+        if(this.hp < 0) //피가 0이하가 되고 나서 총알이 계속 들어오면 함수 밖으로 리턴시켜버림
+        {
+            Destroy(this.GetComponent<BoxCollider2D>());
+            return;
+        }
         Debug.Log("몬스터가 데미지를 받음: " + damage + ", 현재 HP: " + this.hp);
         this.hp -= damage;
         AudioManager.Instance.PlaySFX(AudioManager.Instance.hitSound);
