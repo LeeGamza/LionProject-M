@@ -83,7 +83,18 @@ public class VideoManager : MonoBehaviour
         if (cutsceneRawImage != null)
             cutsceneRawImage.enabled = false;
 
-        SceneManager.LoadScene("SecondStage");
+        string currentScene = SceneManager.GetActiveScene().name;
+
+        if (currentScene == "EndingScene")
+        {
+#if UNITY_EDITOR
+            UnityEditor.EditorApplication.isPlaying = false;
+#else
+    Application.Quit();
+#endif
+        }
+        else if(currentScene == "FirstScene")
+            SceneManager.LoadScene("SecondStage");
     }
 
     private IEnumerator CheckVideoEnd()
