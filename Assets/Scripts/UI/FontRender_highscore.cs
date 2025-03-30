@@ -60,6 +60,10 @@ public class FontRender_highscore : MonoBehaviour
             {
                 CreateLetterImage(symbolSprites, 2, c.ToString());
             }
+            else if (c == '@')
+            {
+                CreateLetterImage(symbolSprites, 3, c.ToString());
+            }
         }
     }
 

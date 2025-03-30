@@ -12,6 +12,7 @@ public class FontRender_time : MonoBehaviour
 
     private int CurrentTime;
 
+
     void Start()
     {
         StartCoroutine(DecreaseTime());
@@ -26,13 +27,17 @@ public class FontRender_time : MonoBehaviour
 
         CurrentTime = GameManager.Instance.GetTimeLeft() / 4;
 
-        while (CurrentTime > 0)
+        while (CurrentTime >= 0)
         {
             RenderTextImage(CurrentTime.ToString());
             yield return new WaitForSeconds(4f);
             CurrentTime--;
         }
+
+
+
     }
+
 
     public void RenderTextImage(string text)
     {
