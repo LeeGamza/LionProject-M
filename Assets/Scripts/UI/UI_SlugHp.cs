@@ -4,32 +4,50 @@ using System.Collections;
 
 public class UI_SlugHp : MonoBehaviour
 {
+
+    public static UI_SlugHp Instance { get; private set; }
+
     public Transform parentContainer;
     public Sprite[] HpSprites; 
 
-    public int SlugHp;        
-    public int MaxHp = 3;    
-
+    public int SlugHp;       
+    public int MaxHp = 300;    
     public float fontSize = 50f;
 
     private const int totalSlots = 7;  // HP 바 내부 칸 개수
     private const int spriteSteps = 9; // 한 칸당 9개의 스프라이트
-    private const int totalSteps = totalSlots * spriteSteps; 
+    private const int totalSteps = totalSlots * spriteSteps;
+
+    void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject); 
+            return;
+        }
+        Instance = this;
+        DontDestroyOnLoad(gameObject); 
+    }
+
 
     void Start()
-    {   
+    {
         UpdateHPBar(SlugHp, MaxHp);
     }
 
 
-    void SetHP(int Hp)
+    public void SetHP(int Hp)
     {
-        SlugHp = Hp;
-        UpdateHPBar(SlugHp, MaxHp);
+        int currentHp = Hp * 10;
+        Debug.Log($"UI 체력 : {currentHp}");
+        UpdateHPBar(currentHp, MaxHp);
+
     }
 
     void Update()
     {
+     
+
 
     }
 
@@ -38,29 +56,33 @@ public class UI_SlugHp : MonoBehaviour
 
     public void UpdateHPBar(int currentHP, int maxHP)
     {
-        
+
         foreach (Transform child in parentContainer)
         {
             Destroy(child.gameObject);
         }
 
-        if (maxHP <= 0) return; 
+        if (maxHP <= 0) return;
 
         int filledSteps = Mathf.RoundToInt((currentHP / (float)maxHP) * totalSteps); // 현재 HP 비율 계산
 
-       
+
         CreateLetterImage(HpSprites, 0, "HP_Left");
 
 
         for (int i = 0; i < totalSlots; i++)
         {
-            int step = Mathf.Clamp(filledSteps - (i * spriteSteps), 1, 9); 
+            int step = Mathf.Clamp(filledSteps - (i * spriteSteps), 1, 9);
             CreateLetterImage(HpSprites, step, "HP_Sprite_" + i);
         }
 
-       
+
         CreateLetterImage(HpSprites, 10, "HP_Right");
     }
+
+
+
+
 
     void CreateLetterImage(Sprite[] spriteArray, int index, string name)
     {

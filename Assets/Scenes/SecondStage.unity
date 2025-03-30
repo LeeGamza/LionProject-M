@@ -3288,8 +3288,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5925722644102126211, guid: 60035cfb697e8254d82e3c530958d49b, type: 3}
+      propertyPath: MaxHp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5925722644102126211, guid: 60035cfb697e8254d82e3c530958d49b, type: 3}
+      propertyPath: SlugHp
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 5925722644102126211, guid: 60035cfb697e8254d82e3c530958d49b, type: 3}
       propertyPath: fontSize
       value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 6099253815673153996, guid: 60035cfb697e8254d82e3c530958d49b, type: 3}
+      propertyPath: m_Spacing
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7007339112285188542, guid: 60035cfb697e8254d82e3c530958d49b, type: 3}
       propertyPath: m_Name
