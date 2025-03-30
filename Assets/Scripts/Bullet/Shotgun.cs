@@ -13,6 +13,19 @@ public class Shotgun : MonoBehaviour
                 monster.Damaged(_damage);
             }
         }
+
+        if (LayerMask.LayerToName(collision.gameObject.layer) == "Boss")
+        {
+            BossBehaviour boss = collision.GetComponent<BossBehaviour>();
+
+            if (boss != null)
+            {
+                boss.Damaged(_damage);
+            }
+
+            PoolManager.Instance.Return(gameObject);
+        }
+
     }
 
     public void OnAnimationEnd()
