@@ -115,6 +115,8 @@ public class HumanState : IPlayerState, IPlayerPickupReceiver, IDamageable
     public void TakeHit()
     {
         pistolHumanAnimator.SetTrigger("isDead");
+        pistolHumanAnimator.SetBool("isEquip", false);
+        fireManager.SetBulletType(BulletType.Basic);
         AudioManager.Instance.PlaySFX(AudioManager.Instance.deathSound);
         
         if (player.TryGetComponent<Rigidbody2D>(out var rb))

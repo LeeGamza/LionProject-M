@@ -29,6 +29,7 @@ public class Daimanji : Monster
     {
         moveSpeed = 1f;
         mainCamera = Camera.main;
+        hp = 2500f;
         StartCoroutine(SkillLoop());
         StartCoroutine(MoveLoop());
 

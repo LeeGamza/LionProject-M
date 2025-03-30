@@ -12,7 +12,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     public Animator HUFOAnimator;
 
     public float intervalTime = 4.0f;
-    public float hp = 300;
+    public float hp = 5000f;
     public bool isAlive = true;
 
     GameObject daimanji;
@@ -159,6 +159,8 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
     public virtual void Damaged(float damage)
     {
+        EventManager.Instance.InvokeDrop(transform.position + new Vector3(0, -2f, 0f));
+        
         if (this.hp < 0) //피가 0이하가 되고 나서 총알이 계속 들어오면 함수 밖으로 리턴시켜버림
         {
             return;

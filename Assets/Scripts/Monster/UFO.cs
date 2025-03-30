@@ -34,7 +34,7 @@ public class UFO : Monster
     private void OnDestroy()
     {
         if (preventOnDestroy) return;
-        AudioManager.Instance.PlaySFX(AudioManager.Instance.UFODestroySound);
+        AudioManager.Instance.PlaySFX(AudioManager.Instance.uFODestroySound);
     }
 
 
