@@ -114,6 +114,8 @@ public class SpaceShipState : IPlayerState, IPlayerPickupReceiver, IDamageable
     {
         hp--;
         Debug.Log($"[SpaceShip] 피격! 남은 체력: {hp}");
+        UI_SlugHp.Instance.SetHP(hp); // UI 추가
+
         EventManager.Instance.InvokeHitEffect(rightRenderer, hitColor);
         EventManager.Instance.InvokeHitEffect(leftRenderer, hitColor);
         
