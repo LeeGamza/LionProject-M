@@ -8,7 +8,7 @@ public class UI_SlugHp : MonoBehaviour
     public Sprite[] HpSprites; 
 
     public int SlugHp;        
-    public int MaxHp = 100;    
+    public int MaxHp = 3;    
 
     public float fontSize = 50f;
 
@@ -28,8 +28,13 @@ public class UI_SlugHp : MonoBehaviour
         UpdateHPBar(SlugHp, MaxHp);
     }
 
- 
- 
+    void Update()
+    {
+
+    }
+
+
+
 
     public void UpdateHPBar(int currentHP, int maxHP)
     {
