@@ -47,7 +47,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
     IEnumerator Entrance()
     {
         Debug.Log("등장");
-        float moveSpeed = 3.0f;
+        float moveSpeed = 1.0f;
         float time = 0;
         while (time < 3) // y값 3정도 내려오게 설정
         {
@@ -60,7 +60,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
     IEnumerator BossSkillBehavior()
     {
-        yield return new WaitForSeconds(3.0f); // 등장 시간동안 대기
+        yield return new WaitForSeconds(4.0f); // 등장 시간동안 대기
 
         while (isAlive) //살아있다면 무한반복
         {
