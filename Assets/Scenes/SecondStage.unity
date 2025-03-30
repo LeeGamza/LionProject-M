@@ -2438,7 +2438,7 @@ MonoBehaviour:
     enemyCount: 40
     spawnInterval: 0.5
     useRandomSpawn: 1
-    spawnPosition: {x: 0, y: 10}
+    spawnPosition: {x: 0, y: 6}
   - enemyPrefabs:
     - {fileID: 1313343644581240366, guid: 41262e1fbaf006a49aa20a7d377535c7, type: 3}
     enemyCount: 30
