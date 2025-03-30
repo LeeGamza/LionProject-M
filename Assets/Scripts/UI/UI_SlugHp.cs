@@ -11,7 +11,7 @@ public class UI_SlugHp : MonoBehaviour
     public Sprite[] HpSprites; 
 
     public int SlugHp;       
-    public int MaxHp = 300;    
+    public int MaxHp = 30;    
     public float fontSize = 50f;
 
     private const int totalSlots = 7;  // HP 바 내부 칸 개수

@@ -5,12 +5,28 @@ using System.Collections;
 
 public class stageGameOver : MonoBehaviour
 {
-    public GameOver_Count GameOver; // Unity 에디터에서 직접 연결
+    public GameOver_Count GameOver;
     public CanvasGroup fadeCanvasGroup;
     public float fadeDuration = 1f;
     public string gameOverSceneName = "GameOver";
 
     private bool isFading = false; // 코루틴 중복 실행 방지
+
+    public static stageGameOver Instance { get; private set; }
+
+    void Awake()
+    {
+
+        if (Instance == null)
+        {
+            Instance = this;
+            DontDestroyOnLoad(gameObject); 
+        }
+        else
+        {
+            Destroy(gameObject); 
+        }
+    }
 
     void Start()
     {
@@ -20,14 +36,20 @@ public class stageGameOver : MonoBehaviour
         }
     }
 
-    private void Update()
+    void Update()
     {
         if (GameOver != null && GameOver.GetisGameOver() && !isFading)
         {
-            Debug.Log("GameOver 상태 감지. 페이드 아웃 시작.");
             StartCoroutine(FadeOutAndLoadScene());
         }
+
     }
+
+    public void TimeGameOver()
+    {
+        StartCoroutine(FadeOutAndLoadScene());
+    }
+
 
     private IEnumerator FadeOutAndLoadScene()
     {
@@ -44,7 +66,6 @@ public class stageGameOver : MonoBehaviour
             yield return null;
         }
 
-        Debug.Log("씬 전환 중...");
         SceneManager.LoadScene(gameOverSceneName);
     }
 }

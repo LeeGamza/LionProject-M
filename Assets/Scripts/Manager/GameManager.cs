@@ -48,6 +48,7 @@ public class GameManager : MonoBehaviour
         {
             timer = 0f;
             isTimerRun = false;
+            stageGameOver.Instance.TimeGameOver(); 
             Debug.Log("GameOver");
         }
     }
@@ -69,7 +70,7 @@ public class GameManager : MonoBehaviour
                 player.GoPosition();
             }
             
-            timer = 240f;
+            timer = 360f;
             isTimerRun = true;
         }
         else
