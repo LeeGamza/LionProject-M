@@ -1965,7 +1965,7 @@ MonoBehaviour:
   itemPrefab:
   - {fileID: 5404594527763005723, guid: 52f246fa3b8d9784a84d4ee48b008306, type: 3}
   - {fileID: 7532821926061755775, guid: 242d3411830b34e44aecf6e96f5106aa, type: 3}
-  dropChance: 5
+  dropChance: 10
 --- !u!1 &1634234087
 GameObject:
   m_ObjectHideFlags: 0
