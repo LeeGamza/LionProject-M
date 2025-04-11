@@ -21,6 +21,7 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
 
 
     private static int currentMiniUFOCount;
+    private int maxMiniUFO = 5;
 
     private void Awake()
     {
@@ -130,9 +131,9 @@ public class BossBehaviour : MonoBehaviour // 보스(러그네임 + 다이만지
         GameObject[] monsters = GameObject.FindGameObjectsWithTag("Monster"); //다이만지 씬에는 몬스터가 miniufo 뿐이라서 tag를 이용해 찾음
         currentMiniUFOCount = monsters.Length;
         Debug.Log("---현재 몬스터 수 : " + currentMiniUFOCount);
-        intervalTime = (3 - currentMiniUFOCount) * GetAnimationLength(HUFOAnimator, "HatchingUFO") + 2.0f;
+        intervalTime = (maxMiniUFO - currentMiniUFOCount) * GetAnimationLength(HUFOAnimator, "HatchingUFO") + 2.0f;
         //3마리가 될 때 까지 계속 생산
-        while (currentMiniUFOCount < 5)
+        while (currentMiniUFOCount < maxMiniUFO)
         {
             Debug.Log("UFO 스폰");
             currentMiniUFOCount++;
